@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans
+END
+M_PDT_ALIAS_CON.class
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans/M_PDT_ALIAS_CON.class
+END
+M_PRODUCT_WEBPOS.class
+K 25
+svn:wc:ra_dav:version-url
+V 156
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans/M_PRODUCT_WEBPOS.class
+END
+M_PDTALIAS_WEBPOS.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans/M_PDTALIAS_WEBPOS.class
+END
+C_VIP.class
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans/C_VIP.class
+END
+M_DIM_WEBPOS.class
+K 25
+svn:wc:ra_dav:version-url
+V 152
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans/M_DIM_WEBPOS.class
+END
+B_V_RTPADJITEM.class
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/jackrain/portal/!svn/ver/927/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/tasks/webpos/dbBeans/B_V_RTPADJITEM.class
+END

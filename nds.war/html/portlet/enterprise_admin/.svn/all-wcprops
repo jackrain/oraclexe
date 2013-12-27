@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin
+END
+role_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/role_search.jsp
+END
+edit_user_comments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_comments.jsp
+END
+edit_organization_profile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_organization_profile.jsp
+END
+edit_address.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_address.jsp
+END
+website_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/website_action.jsp
+END
+edit_email_address.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_email_address.jsp
+END
+edit_role_permissions.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_role_permissions.jsp
+END
+organization_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/organization_action.jsp
+END
+edit_user_profile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_profile.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/init.jsp
+END
+edit_user_sms.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_sms.jsp
+END
+email_address_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/email_address_iterator.jsp
+END
+edit_role.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_role.jsp
+END
+phone_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/phone_action.jsp
+END
+edit_user_portrait.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_portrait.jsp
+END
+select_location.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/select_location.jsp
+END
+edit_user_display.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_display.jsp
+END
+user_role_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/user_role_iterator.jsp
+END
+edit_organization.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_organization.jsp
+END
+edit_org_labor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_org_labor.jsp
+END
+user_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/user_action.jsp
+END
+edit_phone.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_phone.jsp
+END
+org_labor_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/org_labor_iterator.jsp
+END
+edit_organization_common.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_organization_common.jsp
+END
+edit_role_assignments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_role_assignments.jsp
+END
+edit_user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user.jsp
+END
+user_group_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/user_group_action.jsp
+END
+email_address_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/email_address_action.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/error.jsp
+END
+organization_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/organization_search.jsp
+END
+user_role_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/user_role_action.jsp
+END
+address_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/address_iterator.jsp
+END
+role_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/role_action.jsp
+END
+edit_user_group.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_group.jsp
+END
+org_labor_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/org_labor_action.jsp
+END
+select_organization.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/select_organization.jsp
+END
+user_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/user_search.jsp
+END
+edit_user_password.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_password.jsp
+END
+edit_website.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_website.jsp
+END
+edit_user_im.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_im.jsp
+END
+edit_user_group_assignments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_user_group_assignments.jsp
+END
+tabs1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/tabs1.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/view.jsp
+END
+select_organization_common.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/select_organization_common.jsp
+END
+website_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/website_iterator.jsp
+END
+edit_location.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_location.jsp
+END
+edit_organization_comments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/edit_organization_comments.jsp
+END
+user_group_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/user_group_search.jsp
+END
+group_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/group_search.jsp
+END
+address_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/address_action.jsp
+END
+phone_iterator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/enterprise_admin/phone_iterator.jsp
+END

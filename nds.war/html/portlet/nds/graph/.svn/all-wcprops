@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/nds/graph
+END
+view_page.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/nds/graph/view_page.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/nds/graph/view.jsp
+END
+setup.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/nds/graph/setup.jsp
+END
+view_page_content.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/nds/graph/view_page_content.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/nds/graph/init.jsp
+END

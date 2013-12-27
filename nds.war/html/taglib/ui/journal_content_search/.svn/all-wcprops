@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/taglib/ui/journal_content_search
+END
+end.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/taglib/ui/journal_content_search/end.jsp
+END
+start.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/taglib/ui/journal_content_search/start.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/taglib/ui/journal_content_search/init.jsp
+END

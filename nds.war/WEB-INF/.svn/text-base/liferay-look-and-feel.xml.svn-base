@@ -1,0 +1,535 @@
+<?xml version="1.0"?>
+<!DOCTYPE look-and-feel PUBLIC "-//Liferay//DTD Look and Feel 4.0.0//EN" "http://www.liferay.com/dtd/liferay-look-and-feel_4_0_0.dtd">
+
+<look-and-feel>
+	<compatibility>
+		<version>4.2.0</version>
+	</compatibility>
+	<company-limit>
+		<company-includes />
+		<company-excludes />
+	</company-limit>
+	<theme id="brochure" name="Brochure">
+		<root-path>/html/themes/brochure</root-path>
+		<templates-path>/html/themes/brochure/templates</templates-path>
+		<images-path>/html/themes/brochure/images</images-path>
+		<template-extension>jsp</template-extension>
+		<color-scheme id="01" name="Default">
+			<![CDATA[
+				body-bg=#FFFFFF
+				
+				layout-bg=#F2F2F2
+				layout-text=#000000
+
+				layout-tab-bg=#E0E0E0
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#6699CC
+				layout-tab-selected-text=#4A517D
+
+				portlet-title-bg=#132b47
+				portlet-title-text=#FFFFFF
+
+				portlet-menu-bg=#B6CBEB
+				portlet-menu-text=#000000
+
+				portlet-bg=#F2F2F2
+
+				portlet-font=#000000
+				portlet-font-dim=#C4C4C4
+
+				portlet-msg-status=#000000
+				portlet-msg-info=#000000
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#596171
+				portlet-section-header-bg=#AFBEDA
+
+				portlet-section-subheader=#405278
+				portlet-section-subheader-bg=#91AEE8
+
+				portlet-section-body=#3F3F3F
+				portlet-section-body-bg=#EAF2FF
+
+				portlet-section-body-hover=#FFFFFF
+				portlet-section-body-hover-bg=#5274AE
+
+				portlet-section-alternate=#3F3F3F
+				portlet-section-alternate-bg=#DBE1ED
+
+				portlet-section-alternate-hover=#FFFFFF
+				portlet-section-alternate-hover-bg=#5274AE
+
+				portlet-section-selected=#7AA0EC
+				portlet-section-selected-bg=#FAFCFE
+
+				portlet-section-selected-hover=#00329A
+				portlet-section-selected-hover-bg=#C0D2F7
+			]]>
+		</color-scheme>
+	</theme>
+	<theme id="classic" name="Classic">
+		<root-path>/html/themes/classic</root-path>
+		<templates-path>/html/themes/classic/templates</templates-path>
+		<images-path>/html/themes/classic/images</images-path>
+		<template-extension>jsp</template-extension>
+		<settings>
+			<setting key="hello" value="world" />
+			<setting key="hi" value="mom" />
+		</settings>
+		<color-scheme id="01" name="Blue">
+			<![CDATA[
+				body-bg=#e9eff5
+				
+				layout-bg=#ffffff
+				layout-text=#000000
+
+				layout-tab-bg=#c9d6e6
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#5890d2
+				layout-tab-selected-text=#ffffff
+
+				portlet-title-bg=#9fb7d3
+				portlet-title-text=#000000
+
+				portlet-menu-bg=#90abcc
+				portlet-menu-text=#000000
+
+				portlet-bg=#ffffff
+
+				portlet-font=#000000
+				portlet-font-dim=#000080
+
+				portlet-msg-status=#000000
+				portlet-msg-info=#000000
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#acb5d1
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#e0e1ed
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#e7edf4
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#e0f0fc
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#d3deeb
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#e0f0fc
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#e0f0fc
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#e0f0fc
+			]]>
+		</color-scheme>
+		<color-scheme id="02" name="Green">
+			<![CDATA[
+				body-bg=#C9D3AF
+
+				layout-bg=#FFFFFF
+				layout-text=#000000
+
+				layout-tab-bg=#8ACA2E
+				layout-tab-text=#ffffff
+
+				layout-tab-selected-bg=#669423
+				layout-tab-selected-text=#FFFF00
+
+				portlet-title-bg=#e3e3e3
+				portlet-title-text=#FFFFFF
+
+				portlet-menu-bg=#abccab
+				portlet-menu-text=#000000
+
+				portlet-bg=#FFFFFF
+
+				portlet-font=#000000
+				portlet-font-dim=#213200
+
+				portlet-msg-status=#00135A
+				portlet-msg-info=#00135A
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#86CD23
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#85CD23
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#85CD23
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#85CD23
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#85CD23
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#85CD23
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#85CD23
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#85CD23
+			]]>
+		</color-scheme>		
+		<color-scheme id="06" name="LightGreen">
+			<![CDATA[
+				body-bg=#eff5ef
+
+				layout-bg=#FFFFFF
+				layout-text=#000000
+
+				layout-tab-bg=#d6e6d6
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#8db838
+				layout-tab-selected-text=#ffffff
+
+				portlet-title-bg=#b7d3b7
+				portlet-title-text=#000000
+
+				portlet-menu-bg=#abccab
+				portlet-menu-text=#000000
+
+				portlet-bg=#FFFFFF
+
+				portlet-font=#000000
+				portlet-font-dim=#213200
+
+				portlet-msg-status=#00135A
+				portlet-msg-info=#00135A
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#c0d2b3
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#e8ede1
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#edf4ed
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#e8f6fa
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#deebde
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#e8f6fa
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#e8f6fa
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#e8f6fa
+			]]>
+		</color-scheme>
+		<color-scheme id="03" name="Orange">
+			<![CDATA[
+				body-bg=#fff4e1
+				
+				layout-bg=#FFFFFF
+				layout-text=#000000
+
+				layout-tab-bg=#ffe7b0
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#ff8300
+				layout-tab-selected-text=#ffffff
+
+				portlet-title-bg=#ffbe6b
+				portlet-title-text=#000000
+
+				portlet-menu-bg=#ffcb9e
+				portlet-menu-text=#000000
+
+				portlet-bg=#FFFFFF
+
+				portlet-font=#000000
+				portlet-font-dim=#4e2400
+
+				portlet-msg-status=#000000
+				portlet-msg-info=#000000
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#ffbc62
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#fff7cc
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#ffffe9
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#fff9f9
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#fff3c6
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#fff9f9
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#fff9f9
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#fff9f9
+			]]>
+		</color-scheme>
+		<color-scheme id="04" name="Red">
+			<![CDATA[
+				body-bg=#ffedf2
+				
+				layout-bg=#ffffff
+				layout-text=#000000
+
+				layout-tab-bg=#ffb0bc
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#eb4400
+				layout-tab-selected-text=#ffffff
+
+				portlet-title-bg=#ff7e89
+				portlet-title-text=#000000
+
+				portlet-menu-bg=#ff6d75
+				portlet-menu-text=#000000
+
+				portlet-bg=#FFFFFF
+
+				portlet-font=#000000
+				portlet-font-dim=#4c0b01
+
+				portlet-msg-status=#000000
+				portlet-msg-info=#000000
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#ff7b82
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#ffc5ce
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#ffdae1
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#ffe0f7
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#ffbec9
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#ffe0f7
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#ffe0f7
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#ffe0f7
+			]]>
+		</color-scheme>
+		<color-scheme id="05" name="Silver">
+			<![CDATA[
+				body-bg=#f5f5f5
+				
+				layout-bg=#ffffff
+				layout-text=#000000
+
+				layout-tab-bg=#e6e6e6
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#a0a0a0
+				layout-tab-selected-text=#ffffff
+
+				portlet-title-bg=#d3d3d3
+				portlet-title-text=#000000
+
+				portlet-menu-bg=#cccccc
+				portlet-menu-text=#000000
+
+				portlet-bg=#FFFFFF
+
+				portlet-font=#000000
+				portlet-font-dim=#404040
+
+				portlet-msg-status=#000000
+				portlet-msg-info=#000000
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#d5d5d5
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#efefef
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#f4f4f4
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#f6f6f6
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#ebebeb
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#f6f6f6
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#f6f6f6
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#f6f6f6
+			]]>
+		</color-scheme>
+	</theme>
+	<theme id="genesis" name="Genesis">
+		<root-path>/html/themes/genesis</root-path>
+		<templates-path>/html/themes/genesis/templates</templates-path>
+		<images-path>/html/themes/genesis/images</images-path>
+		<template-extension>jsp</template-extension>
+		<color-scheme id="01" name="Default">
+			<![CDATA[
+				body-bg=#666666
+
+				layout-bg=#666666
+				layout-text=#FFFFFF
+
+				layout-tab-bg=#666666
+				layout-tab-text=#FFFFFF
+
+				layout-tab-selected-bg=#666666
+				layout-tab-selected-text=#FFFFFF
+
+				portlet-title-bg=#666666
+				portlet-title-text=#FFFFFF
+
+				portlet-menu-bg=#666666
+				portlet-menu-text=#FFFFFF
+
+				portlet-bg=#666666
+
+				portlet-font=#FFFFFF
+				portlet-font-dim=#FFFFFF
+
+				portlet-msg-status=#FFFFFF
+				portlet-msg-info=#FFFFFF
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#FFFFFF
+				portlet-section-header-bg=#666666
+
+				portlet-section-subheader=#FFFFFF
+				portlet-section-subheader-bg=#666666
+
+				portlet-section-body=#FFFFFF
+				portlet-section-body-bg=#666666
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#F4F4F4
+
+				portlet-section-alternate=#FFFFFF
+				portlet-section-alternate-bg=#333333
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#F4F4F4
+
+				portlet-section-selected=#FFFFFF
+				portlet-section-selected-bg=#666666
+
+				portlet-section-selected-hover=#FFFFFF
+				portlet-section-selected-hover-bg=#666666
+			]]>
+		</color-scheme>
+	</theme>
+	<theme id="velocity" name="Velocity">
+		<root-path>/html/themes/velocity</root-path>
+		<templates-path>/html/themes/velocity/templates</templates-path>
+		<images-path>/html/themes/velocity/images</images-path>
+		<template-extension>vm</template-extension>
+		<color-scheme id="01" name="Crimson">
+			<![CDATA[
+				body-bg=#FFAFB0
+				
+				layout-bg=#FFDFD0
+				layout-text=#000000
+
+				layout-tab-bg=#FFAFB0
+				layout-tab-text=#000000
+
+				layout-tab-selected-bg=#FFAFB0
+				layout-tab-selected-text=#000000
+
+				portlet-title-bg=#FFAFB0
+				portlet-title-text=#000000
+
+				portlet-menu-bg=#FFAFB0
+				portlet-menu-text=#000000
+
+				portlet-bg=#FFAFB0
+
+				portlet-font=#000000
+				portlet-font-dim=#C4C4C4
+
+				portlet-msg-status=#000000
+				portlet-msg-info=#000000
+				portlet-msg-error=#FF0000
+				portlet-msg-alert=#FF0000
+				portlet-msg-success=#007F00
+
+				portlet-section-header=#000000
+				portlet-section-header-bg=#FFAFB0
+
+				portlet-section-subheader=#000000
+				portlet-section-subheader-bg=#FFAFB0
+
+				portlet-section-body=#000000
+				portlet-section-body-bg=#FFAFB0
+
+				portlet-section-body-hover=#000000
+				portlet-section-body-hover-bg=#FFAFB0
+
+				portlet-section-alternate=#000000
+				portlet-section-alternate-bg=#FFAFB0
+
+				portlet-section-alternate-hover=#000000
+				portlet-section-alternate-hover-bg=#FFAFB0
+
+				portlet-section-selected=#000000
+				portlet-section-selected-bg=#FFAFB0
+
+				portlet-section-selected-hover=#000000
+				portlet-section-selected-hover-bg=#FFAFB0
+			]]>
+		</color-scheme>
+	</theme>
+</look-and-feel>

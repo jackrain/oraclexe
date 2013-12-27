@@ -1,0 +1,2 @@
+lportal 如何支持中文条件:
+1 讲web.xml 中的CompressionFilter 去掉

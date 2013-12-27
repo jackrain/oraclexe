@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities
+END
+edit_community_assignments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/edit_community_assignments.jsp
+END
+edit_pages.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/edit_pages.jsp
+END
+edit_community.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/edit_community.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/error.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/view.jsp
+END
+tree_js.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/tree_js.jsp
+END
+edit_user_permissions.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/edit_user_permissions.jsp
+END
+community_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/community_action.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/communities/init.jsp
+END

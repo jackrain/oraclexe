@@ -1,0 +1,1806 @@
+<VisioDocument xmlns="urn:schemas-microsoft-com:office:visio">
+	<DocumentProperties>
+		<Title>forever_com</Title>
+		<HyperlinkBase href=""></HyperlinkBase>
+	</DocumentProperties>
+	<Pages>
+		<Page ID="0" Name="标准订货流程" NameU="标准订货流程">
+			<Shapes>
+				<Shape ID="121" UniqueID="{C987F61D-A719-4FFC-90B1-9DA221A7FDC3}" Name="Sheet.121" NameU="Sheet.121">
+					<XForm>
+						<PinX Unit="MM">5.551181102362205</PinX>
+						<PinY Unit="MM">7.677165354330708</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="116" UniqueID="{BC1E55F2-A24F-4801-A865-648B593D74E7}" Name="Sheet.116" NameU="Sheet.116">
+					<XForm>
+						<PinX Unit="MM">6.831418219948247</PinX>
+						<PinY Unit="MM">2.303961908461528</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="55" UniqueID="{C1178865-DA2E-4BAE-80DB-C4F9CBD58B15}" Name="Sheet.55" NameU="Sheet.55">
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">0.688976377952756</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="1" UniqueID="{24414E93-8A9C-480E-9EE6-7F2AC20F836A}" Name="Sheet.1" NameU="Sheet.1">
+					<XForm>
+						<PinX Unit="MM">2.500000000000000</PinX>
+						<PinY Unit="MM">2.125984251968504</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="2" UniqueID="{2AA9C784-26D0-404D-9C1A-349704DAA314}" Name="Sheet.2" NameU="Sheet.2">
+					<XForm>
+						<PinX Unit="MM">5.295275590551182</PinX>
+						<PinY Unit="MM">1.638799861931323</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="3" UniqueID="{C038B317-76FB-4B7A-89F8-48054B92100B}" Name="Sheet.3" NameU="Sheet.3">
+					<XForm>
+						<PinX Unit="MM">5.423819877483673</PinX>
+						<PinY Unit="MM">3.891709112532808</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="4" UniqueID="{294A4161-12FB-467A-AFD1-1D698C9DA11D}" Name="Sheet.4" NameU="Sheet.4">
+					<XForm>
+						<PinX Unit="MM">2.870078740157481</PinX>
+						<PinY Unit="MM">4.810027784612863</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="5" UniqueID="{D3E5E39D-2C5B-456A-B6BE-77CD890045C3}" Name="Sheet.5" NameU="Sheet.5">
+					<XForm>
+						<PinX Unit="MM">6.616141732283465</PinX>
+						<PinY Unit="MM">6.040342745242783</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="6" UniqueID="{DF6C5665-AEA3-47D1-90DF-24E01FABC19C}" Name="Sheet.6" NameU="Sheet.6">
+					<XForm>
+						<PinX Unit="MM">2.031496062992129</PinX>
+						<PinY Unit="MM">8.937007874015746</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="7" UniqueID="{93806327-4BB3-40B7-906D-5E9A93F3D5AB}" Name="Sheet.7" NameU="Sheet.7">
+					<XForm>
+						<PinX Unit="MM">4.588049607581918</PinX>
+						<PinY Unit="MM">8.468863599081363</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="8" UniqueID="{3977A123-B085-467C-90B7-DA82F746629D}" Name="Sheet.8" NameU="Sheet.8">
+					<XForm>
+						<PinX Unit="MM">4.602362204724407</PinX>
+						<PinY Unit="MM">10.034929017661856</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="9" UniqueID="{8EDB1987-8F20-4FAE-A2DC-6E86EC07AA56}" Name="Document" NameU="Document" Master="0">
+					<Text>购销申请单</Text>
+					<XForm>
+						<PinX Unit="MM">7.023622047244099</PinX>
+						<PinY Unit="MM">10.437007874015748</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销申请单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_A_CROSSORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_A_CROSSORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="10" UniqueID="{C844025E-4318-4119-B3E8-E3C04CC7240F}" Name="Document.2" NameU="Document.2" Master="0">
+					<Text>购销订货单</Text>
+					<XForm>
+						<PinX Unit="MM">2.289370078740164</PinX>
+						<PinY Unit="MM">10.020165238134297</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销订货单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_B_CROSSORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>1</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_B_CROSSORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="11" UniqueID="{09184794-184C-45A7-8C3A-2A6008D8D8C2}" Name="Document.3" NameU="Document.3" Master="0">
+					<Text>购销初步确认单</Text>
+					<XForm>
+						<PinX Unit="MM">4.464566929133858</PinX>
+						<PinY Unit="MM">9.616141732283467</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销初步确认单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_C_CROSSORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_C_CROSSORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="12" UniqueID="{36C5AE27-F74C-41F6-9A1E-5C05A5AC4912}" Name="Person 1" NameU="Person 1" Master="2">
+					<Text>代理商</Text>
+					<XForm>
+						<PinX Unit="MM">6.917076600776472</PinX>
+						<PinY Unit="MM">11.241165586723534</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="16" UniqueID="{74059B19-238A-4CD6-90D9-C2AAFE34B3D1}" Name="Person 1.8" NameU="Person 1.8" Master="2">
+					<Text>OEM工厂</Text>
+					<XForm>
+						<PinX Unit="MM">1.968503937007874</PinX>
+						<PinY Unit="MM">11.210173235181530</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="20" UniqueID="{FDB75028-44C2-4896-8E64-1EAFF8F0768D}" Name="Person 1.12" NameU="Person 1.12" Master="2">
+					<Text>营销中心</Text>
+					<XForm>
+						<PinX Unit="MM">4.494094488188974</PinX>
+						<PinY Unit="MM">10.944881889763780</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="24" UniqueID="{CB2195A6-D344-4824-BC76-AC68169DF24E}" Name="Document.16" NameU="Document.16" Master="0">
+					<Text>购销发货单</Text>
+					<XForm>
+						<PinX Unit="MM">2.079396325459316</PinX>
+						<PinY Unit="MM">8.937007874015750</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销发货单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_D_CROSSORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_D_CROSSORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="26" UniqueID="{17A79FD3-BCB2-4E03-A18D-828F6F93EFE7}" Name="Document.18" NameU="Document.18" Master="0">
+					<Text>销售付款确认单</Text>
+					<XForm>
+						<PinX Unit="MM">5.842519685039373</PinX>
+						<PinY Unit="MM">5.275590551181102</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>销售付款确认单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_IM_PAYMENT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_IM_PAYMENT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="27" UniqueID="{E56A07A6-5CCB-40D6-A21E-8C637366A482}" Name="Document.19" NameU="Document.19" Master="0">
+					<Text>采购入库计划单</Text>
+					<XForm>
+						<PinX Unit="MM">2.302821522309711</PinX>
+						<PinY Unit="MM">5.436984703083991</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>采购入库计划单</HLURL:Description>
+										<HLURL:Address>mytable_M_V_IVP_INOUT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_V_IVP_INOUT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="28" UniqueID="{81AF6D4C-EFCD-4870-B4EE-22B2B89A0313}" Name="Sheet.28" NameU="Sheet.28">
+					<XForm>
+						<PinX Unit="MM">2.845137146318248</PinX>
+						<PinY Unit="MM">5.679133858267716</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="29" UniqueID="{16CC104A-F7D5-4FAB-9FB1-C7998A1240E8}" Name="Sheet.29" NameU="Sheet.29">
+					<XForm>
+						<PinX Unit="MM">6.574821182895668</PinX>
+						<PinY Unit="MM">5.688976377952756</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="30" UniqueID="{70BC0AEB-4BF8-47E3-A57D-127F61F2E814}" Name="On-page reference" NameU="On-page reference" Master="3">
+					<XForm>
+						<PinX Unit="MM">7.712598425196851</PinX>
+						<PinY Unit="MM">11.299212598425200</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="31" UniqueID="{431C35F7-46FD-4F64-8A11-AAB5683FF790}" Name="Sheet.31" NameU="Sheet.31">
+					<Text>开始</Text>
+					<XForm>
+						<PinX Unit="MM">7.712598425196855</PinX>
+						<PinY Unit="MM">11.437007874015752</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="32" UniqueID="{149F45C4-9A63-4FE6-BD23-59A6D75A30C3}" Name="Terminator" NameU="Terminator" Master="4">
+					<Text>正常结束</Text>
+					<XForm>
+						<PinX Unit="MM">4.456692913385826</PinX>
+						<PinY Unit="MM">0.226377952755905</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销工作流总览</HLURL:Description>
+										<HLURL:Address>mytable_C_ORDERFLOW</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_ORDERFLOW</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="35" UniqueID="{8AAF0D6E-3F9C-4A18-A51A-AA00FA00C1F7}" Name="Document.72" NameU="Document.72" Master="0">
+					<Text>采购订单</Text>
+					<XForm>
+						<PinX Unit="MM">3.362860892388449</PinX>
+						<PinY Unit="MM">6.112204724409447</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>采购订单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_PO_ORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_PO_ORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="36" UniqueID="{E1C545D7-F739-4935-9337-20448E166E36}" Name="Sheet.36" NameU="Sheet.36">
+					<Text>订货</Text>
+					<XForm>
+						<PinX Unit="MM">7.177165354330714</PinX>
+						<PinY Unit="MM">9.409448818897637</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="37" UniqueID="{A90FDC0D-F7C5-48E9-BAE1-0E91597929F9}" Name="Sheet.37" NameU="Sheet.37">
+					<Text>生产</Text>
+					<XForm>
+						<PinX Unit="MM">1.354330708661418</PinX>
+						<PinY Unit="MM">8.751954234147583</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="38" UniqueID="{617143A9-6226-46ED-94D7-46FD5829071C}" Name="Sheet.38" NameU="Sheet.38">
+					<Text>预收款</Text>
+					<XForm>
+						<PinX Unit="MM">7.716535433070866</PinX>
+						<PinY Unit="MM">5.508826347878388</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="39" UniqueID="{EA4B618A-B133-4DCD-9E94-184BD6B6864A}" Name="Sheet.39" NameU="Sheet.39">
+					<Text>最终确认</Text>
+					<XForm>
+						<PinX Unit="MM">5.214459804705530</PinX>
+						<PinY Unit="MM">8.247399011646980</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="40" UniqueID="{5873F34F-A122-4699-89A8-B6274C8D8750}" Name="Sheet.40" NameU="Sheet.40">
+					<Text>发货(工厂)</Text>
+					<XForm>
+						<PinX Unit="MM">2.023622047244095</PinX>
+						<PinY Unit="MM">3.973433945756782</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="41" UniqueID="{E9DCF560-BD41-48C4-BFAE-14BF93C62AB3}" Name="Sheet.41" NameU="Sheet.41">
+					<Text>采购开票</Text>
+					<XForm>
+						<PinX Unit="MM">1.535433070866142</PinX>
+						<PinY Unit="MM">1.374968080161853</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="42" UniqueID="{C55072C4-8CAC-4879-9F01-4F2554C03DC1}" Name="Sheet.42" NameU="Sheet.42">
+					<Text>销售开票</Text>
+					<XForm>
+						<PinX Unit="MM">5.855212467832952</PinX>
+						<PinY Unit="MM">1.093448846237970</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="43" UniqueID="{1C246265-3831-4743-BE1C-E34F2007691D}" Name="Document.20" NameU="Document.20" Master="0">
+					<XForm>
+						<PinX Unit="MM">2.220472440944882</PinX>
+						<PinY Unit="MM">4.600370529855646</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="44" UniqueID="{13450621-AFDA-4A37-97B5-AF724E90C093}" Name="Document.49" NameU="Document.49" Master="0">
+					<Text>采购入库通知单</Text>
+					<XForm>
+						<PinX Unit="MM">2.298884514435700</PinX>
+						<PinY Unit="MM">4.679110687335959</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>采购入库通知单</HLURL:Description>
+										<HLURL:Address>mytable_M_V_IVN_INOUT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_V_IVN_INOUT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="45" UniqueID="{385C5CA2-628F-4439-A94A-CE4994A244A9}" Name="Document.23" NameU="Document.23" Master="0">
+					<Text>销售出库确认单</Text>
+					<XForm>
+						<PinX Unit="MM">5.040553140794112</PinX>
+						<PinY Unit="MM">3.291315411745409</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>销售出库确认单</HLURL:Description>
+										<HLURL:Address>mytable_M_V_OSM_INOUT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_V_OSM_INOUT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="46" UniqueID="{C4B4BBDB-CB3E-4315-A148-D5B4C88DD04A}" Name="Dynamic connector" NameU="Dynamic connector" Master="5">
+					<XForm>
+						<PinX Unit="MM">7.545275590551183</PinX>
+						<PinY Unit="MM">10.818897637795276</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="47" UniqueID="{7991B8A3-06DF-4263-8907-7CFE5E390CDC}" Name="Dynamic connector.3" NameU="Dynamic connector.3" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.651574803149615</PinX>
+						<PinY Unit="MM">10.228586556075022</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="48" UniqueID="{4D701705-AA93-4DCC-8F8B-B074380AAC00}" Name="Dynamic connector.4" NameU="Dynamic connector.4" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.160433070866145</PinX>
+						<PinY Unit="MM">9.740643642689197</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="49" UniqueID="{F0F44266-E697-47A5-A3AC-EABF70A1A592}" Name="Dynamic connector.6" NameU="Dynamic connector.6" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.460629921259843</PinX>
+						<PinY Unit="MM">9.191683070866143</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="50" UniqueID="{31AC7E0D-C745-4AF3-B921-BA4FEDFD7C1C}" Name="Dynamic connector.7" NameU="Dynamic connector.7" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.963254593175854</PinX>
+						<PinY Unit="MM">8.618044004265091</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="51" UniqueID="{703BC284-4C2A-47CE-84CB-0CA4D024220C}" Name="Sheet.51" NameU="Sheet.51">
+					<XForm>
+						<PinX Unit="MM">4.456692913385828</PinX>
+						<PinY Unit="MM">8.006889763779526</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="52" UniqueID="{DC039CE6-2CB3-4843-9BA6-844616BB8989}" Name="Dynamic connector.65" NameU="Dynamic connector.65" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.412729658792653</PinX>
+						<PinY Unit="MM">8.119352136646977</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="53" UniqueID="{FD37BCE4-2962-4A39-B01C-AD883BAB67D9}" Name="Dynamic connector.71" NameU="Dynamic connector.71" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.067257217847769</PinX>
+						<PinY Unit="MM">5.689702981463254</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="54" UniqueID="{B2422C20-2D93-45E2-9DE8-CF40A09C5DC8}" Name="Sheet.54" NameU="Sheet.54">
+					<XForm>
+						<PinX Unit="MM">3.562828083989502</PinX>
+						<PinY Unit="MM">3.734228797572180</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="56" UniqueID="{130843E8-727B-474E-9DE0-DB11B26730B9}" Name="Dynamic connector.56" NameU="Dynamic connector.56" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.272836605361042</PinX>
+						<PinY Unit="MM">3.502929584973755</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="57" UniqueID="{BE72FC72-BD22-4931-BEE5-8A2005CE887E}" Name="Dynamic connector.81" NameU="Dynamic connector.81" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.793307086614173</PinX>
+						<PinY Unit="MM">0.367864173228344</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="59" UniqueID="{8BB790AD-9548-46EB-98CD-B598DF71FE77}" Name="Dynamic connector.66" NameU="Dynamic connector.66" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.362860892388449</PinX>
+						<PinY Unit="MM">7.162893700787402</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="60" UniqueID="{85DD0CE6-D0D9-4037-8A16-C1C2048D87A8}" Name="Sheet.60" NameU="Sheet.60">
+					<Text>只有销售价格</Text>
+					<XForm>
+						<PinX Unit="MM">7.437007874015751</PinX>
+						<PinY Unit="MM">10.172724293252404</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="61" UniqueID="{7ED1BFF5-F338-4893-856B-E40F09F77A46}" Name="Sheet.61" NameU="Sheet.61">
+					<Text>可分批次,可调整进项价、销项价、型号和数量等，可随时中止</Text>
+					<XForm>
+						<PinX Unit="MM">1.039370078740155</PinX>
+						<PinY Unit="MM">9.252472215387130</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="62" UniqueID="{7249ED32-3183-4560-9198-5CA8F48CEDC3}" Name="Sheet.62" NameU="Sheet.62">
+					<Text>有条件的代理商可以填写付款通知单</Text>
+					<XForm>
+						<PinX Unit="MM">7.206692913385827</PinX>
+						<PinY Unit="MM">5.118110236220472</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="63" UniqueID="{4C7DCD63-8A70-41BE-84B8-1C084A223F82}" Name="Sheet.63" NameU="Sheet.63">
+					<Text>在购销确认单提交时生成，销售付款后自动提交</Text>
+					<XForm>
+						<PinX Unit="MM">2.747703412073490</PinX>
+						<PinY Unit="MM">6.712598425196850</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="64" UniqueID="{6CA82B48-67B5-40FA-933B-9C5584390A02}" Name="Sheet.64" NameU="Sheet.64">
+					<Text>可分多次发货</Text>
+					<XForm>
+						<PinX Unit="MM">1.606955380577428</PinX>
+						<PinY Unit="MM">5.043283915682419</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="65" UniqueID="{E202611B-29BA-4EC6-B64E-F483F7C4078A}" Name="Sheet.65" NameU="Sheet.65">
+					<Text>图例 系统标准订货流程</Text>
+					<XForm>
+						<PinX Unit="MM">4.370078740157480</PinX>
+						<PinY Unit="MM">11.417322834645669</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="66" UniqueID="{EB7E9742-3780-401F-92CF-D15759D45F8A}" Name="Document.102" NameU="Document.102" Master="0">
+					<XForm>
+						<PinX Unit="MM">4.283464566929140</PinX>
+						<PinY Unit="MM">8.468863599081363</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="67" UniqueID="{A0F727D5-B4C3-4BE9-8E71-24F062AF836D}" Name="Document.67" NameU="Document.67" Master="0">
+					<Text>购销确认单</Text>
+					<XForm>
+						<PinX Unit="MM">4.412729658792653</PinX>
+						<PinY Unit="MM">8.381912934711282</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销确认单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_E_CROSSORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_E_CROSSORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="68" UniqueID="{6E4CDB00-6494-456A-A460-40698E6F9D2B}" Name="Sheet.68" NameU="Sheet.68">
+					<Text>相对于发货单的批次，可有多张价格确认单产生</Text>
+					<XForm>
+						<PinX Unit="MM">6.720472440944883</PinX>
+						<PinY Unit="MM">8.740157480314959</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="69" UniqueID="{095042B1-2E70-40F3-82EB-80D1F7E15B08}" Name="Document.69" NameU="Document.69" Master="0">
+					<XForm>
+						<PinX Unit="MM">2.322506561679792</PinX>
+						<PinY Unit="MM">1.889763779527559</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="70" UniqueID="{28AEBAB1-D7B3-41EF-8B39-81CD59841ED9}" Name="Dynamic connector.50" NameU="Dynamic connector.50" Master="5">
+					<XForm>
+						<PinX Unit="MM">3.622047244094488</PinX>
+						<PinY Unit="MM">1.101131889763778</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="71" UniqueID="{5C62844E-C8D9-4BBA-9F3A-28FF2E37295A}" Name="Document.52" NameU="Document.52" Master="0">
+					<Text>采购付款确认单</Text>
+					<XForm>
+						<PinX Unit="MM">3.622047244094488</PinX>
+						<PinY Unit="MM">0.679133858267715</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>采购付款确认单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_OM_PAYMENT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_OM_PAYMENT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="72" UniqueID="{ADB3C21F-CB0A-49D1-8B6C-0F3FCF617BE6}" Name="Sheet.72" NameU="Sheet.72">
+					<Text>将部分未开票货运单合在一张发票中</Text>
+					<XForm>
+						<PinX Unit="MM">1.712598425196850</PinX>
+						<PinY Unit="MM">3.596433521981629</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="73" UniqueID="{1C214DEE-31BB-46EF-AE7F-703885F99976}" Name="Document.58" NameU="Document.58" Master="0">
+					<XForm>
+						<PinX Unit="MM">4.954068241469811</PinX>
+						<PinY Unit="MM">1.230314960629920</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="74" UniqueID="{570F0E10-8D85-4A35-972A-5845F97EA0E2}" Name="Sheet.74" NameU="Sheet.74">
+					<Text>订货单上包括进销价格</Text>
+					<XForm>
+						<PinX Unit="MM">1.393700787401575</PinX>
+						<PinY Unit="MM">10.157960513724849</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="75" UniqueID="{C3F4BEB4-A996-4336-A8FE-15DFC96AB951}" Name="Document.126" NameU="Document.126" Master="0">
+					<Text>销售订单</Text>
+					<XForm>
+						<PinX Unit="MM">5.288713910761157</PinX>
+						<PinY Unit="MM">7.559055118110234</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>销售订单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_SO_ORDER</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_SO_ORDER</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="76" UniqueID="{B5FBE216-9541-4D3A-8EE5-A44A4EA1FE6E}" Name="Dynamic connector.123" NameU="Dynamic connector.123" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.004593175853023</PinX>
+						<PinY Unit="MM">7.886318897637794</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="77" UniqueID="{B778A9ED-4C65-429B-A12F-2484A577EFD8}" Name="Dynamic connector.127" NameU="Dynamic connector.127" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.946850393700787</PinX>
+						<PinY Unit="MM">6.988188976377952</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="78" UniqueID="{9FBA106E-911F-4D91-B4DC-09BC1FBE9CC7}" Name="Document.129" NameU="Document.129" Master="0">
+					<Text>销售出库计划单</Text>
+					<XForm>
+						<PinX Unit="MM">5.040553140794116</PinX>
+						<PinY Unit="MM">4.231276041666669</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="79" UniqueID="{C78C9B0A-734A-4A0F-A4DF-E992E12C260C}" Name="Dynamic connector.130" NameU="Dynamic connector.130" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.040553140794114</PinX>
+						<PinY Unit="MM">3.789592970800527</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="80" UniqueID="{D1CCE034-CCE0-4D98-9D46-E08716005BF7}" Name="Dynamic connector.133" NameU="Dynamic connector.133" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.300853018372705</PinX>
+						<PinY Unit="MM">5.093726829068243</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="81" UniqueID="{7A358104-0959-436B-8D75-A4A6D8DB9D15}" Name="Document.64" NameU="Document.64" Master="0">
+					<Text>采购入库确认单</Text>
+					<XForm>
+						<PinX Unit="MM">3.638123359580052</PinX>
+						<PinY Unit="MM">4.231276041666669</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>采购入库确认单</HLURL:Description>
+										<HLURL:Address>mytable_M_V_IVM_INOUT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_V_IVM_INOUT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="82" UniqueID="{B14FB115-E542-4908-B096-27DBDE103F01}" Name="Dynamic connector.110" NameU="Dynamic connector.110" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.751804461942260</PinX>
+						<PinY Unit="MM">4.364765214895014</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="83" UniqueID="{B70B0E48-EB65-4365-92FB-F3942305FC20}" Name="Document.112" NameU="Document.112" Master="0">
+					<Text>进项发票确认单</Text>
+					<XForm>
+						<PinX Unit="MM">3.622047244094488</PinX>
+						<PinY Unit="MM">1.466535433070865</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>进项发票确认单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_IM_INVOICE</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_IM_INVOICE</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="84" UniqueID="{D7597ADE-88AB-49E9-AE77-7785415A1DB0}" Name="Dynamic connector.28" NameU="Dynamic connector.28" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.736384514435694</PinX>
+						<PinY Unit="MM">1.616382002542651</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="85" UniqueID="{98629220-4BF1-4AAC-AB6F-0ACE9CFC03F0}" Name="Sheet.85" NameU="Sheet.85">
+					<XForm>
+						<PinX Unit="MM">5.488188976377955</PinX>
+						<PinY Unit="MM">7.185039370078740</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="86" UniqueID="{ECC4E211-0C11-4027-8364-62381B38E7F9}" Name="Sheet.86" NameU="Sheet.86">
+					<XForm>
+						<PinX Unit="MM">5.290026246719161</PinX>
+						<PinY Unit="MM">7.296998031496062</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="89" UniqueID="{2B8B028B-6743-467F-982E-ABC0893BA424}" Name="Dynamic connector.113" NameU="Dynamic connector.113" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.040553140794116</PinX>
+						<PinY Unit="MM">5.811504162565619</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="90" UniqueID="{786C96BD-BF35-48E5-A31F-8E3A871E5225}" Name="Sheet.90" NameU="Sheet.90">
+					<XForm>
+						<PinX Unit="MM">3.638123359580052</PinX>
+						<PinY Unit="MM">3.917545726706037</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="91" UniqueID="{B4A23230-3C98-45AC-8E3F-C1754FDA1A34}" Name="Sheet.91" NameU="Sheet.91">
+					<Text>发货(代理商)</Text>
+					<XForm>
+						<PinX Unit="MM">6.161417322834645</PinX>
+						<PinY Unit="MM">3.146662292213475</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="92" UniqueID="{67C141AD-9843-4525-9F95-658D3A589924}" Name="Dynamic connector.34" NameU="Dynamic connector.34" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.951443569553803</PinX>
+						<PinY Unit="MM">0.643454724409447</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="93" UniqueID="{DCCAC41C-CE3B-494A-9960-EDD6A3531039}" Name="On-page reference.33" NameU="On-page reference.33" Master="3">
+					<XForm>
+						<PinX Unit="MM">5.311023622047244</PinX>
+						<PinY Unit="MM">9.936503820811456</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="94" UniqueID="{4D15CA10-1791-476E-92E0-6CFC53B8823D}" Name="Dynamic connector.35" NameU="Dynamic connector.35" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.104330708661417</PinX>
+						<PinY Unit="MM">9.727110178122263</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="95" UniqueID="{6467C337-8DAD-4138-ADC6-0F05CF85843C}" Name="On-page reference.36" NameU="On-page reference.36" Master="3">
+					<XForm>
+						<PinX Unit="MM">2.289370078740162</PinX>
+						<PinY Unit="MM">10.570866141732282</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="96" UniqueID="{2F6BB5ED-11C8-48C0-BB9F-C2BD65CCA443}" Name="Dynamic connector.37" NameU="Dynamic connector.37" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.289370078740163</PinX>
+						<PinY Unit="MM">10.349649548201008</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="97" UniqueID="{A3FFAF88-B7D7-46C1-9BFF-9E24746450FE}" Name="Sheet.97" NameU="Sheet.97">
+					<Text>开始</Text>
+					<XForm>
+						<PinX Unit="MM">5.606299212598429</PinX>
+						<PinY Unit="MM">10.000000000000000</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="98" UniqueID="{4B659BDF-0793-4ACF-9B60-0B719C57A9D5}" Name="Sheet.98" NameU="Sheet.98">
+					<Text>开始</Text>
+					<XForm>
+						<PinX Unit="MM">2.496062992125986</PinX>
+						<PinY Unit="MM">10.570866141732282</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="100" UniqueID="{2566F5EC-4F38-4A6D-BC0D-AC04F4EE4D2C}" Name="Document.47" NameU="Document.47" Master="0">
+					<Text>进项发票通知单</Text>
+					<XForm>
+						<PinX Unit="MM">2.362204724409448</PinX>
+						<PinY Unit="MM">1.936012036581367</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>进项发票通知单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_IN_INVOICE</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_IN_INVOICE</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="101" UniqueID="{CD52944C-818A-489D-AEAE-FB2A5A1F3D68}" Name="Document.48" NameU="Document.48" Master="0">
+					<Text>销项发票确认单</Text>
+					<XForm>
+						<PinX Unit="MM">5.016404199475063</PinX>
+						<PinY Unit="MM">1.299212598425197</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>销项发票确认单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_OM_INVOICE</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_OM_INVOICE</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="102" UniqueID="{9CAC87EA-A5D7-4564-BEDC-E2B1D6F7AB63}" Name="Sheet.102" NameU="Sheet.102" Master="0">
+					<Text>未开发票入库单</Text>
+					<XForm>
+						<PinX Unit="MM">1.495734908136485</PinX>
+						<PinY Unit="MM">2.677165354330709</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>未开发票入库单</HLURL:Description>
+										<HLURL:Address>mytable_M_V_IVQ_INOUT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_V_IVQ_INOUT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="103" UniqueID="{2A060D5A-FC40-4BFC-9D33-920ADE700A24}" Name="Dynamic connector.103" NameU="Dynamic connector.103" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.555282152230972</PinX>
+						<PinY Unit="MM">3.195854556266405</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="104" UniqueID="{C7713396-C24C-4F5D-AA02-5A0B0E9DD204}" Name="Dynamic connector.104" NameU="Dynamic connector.104" Master="5">
+					<XForm>
+						<PinX Unit="MM">1.653379265091865</PinX>
+						<PinY Unit="MM">2.198572834645669</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="107" UniqueID="{DEA22002-649D-4FD6-84E0-7714A39C87F2}" Name="Document.107" NameU="Document.107" Master="0">
+					<Text>未开发票出库单</Text>
+					<XForm>
+						<PinX Unit="MM">5.000328083989500</PinX>
+						<PinY Unit="MM">1.968503937007874</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>未开发票出库单</HLURL:Description>
+										<HLURL:Address>mytable_M_V_OSQ_INOUT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_V_OSQ_INOUT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="108" UniqueID="{2DB5ABAA-038C-4330-9459-E92B9FE3C3BF}" Name="Sheet.108" NameU="Sheet.108">
+					<XForm>
+						<PinX Unit="MM">5.040553140794113</PinX>
+						<PinY Unit="MM">2.854330708661418</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="58" UniqueID="{4ABE2D00-B46B-4310-864A-B5710D46DCB7}" Name="Sheet.58" NameU="Sheet.58">
+					<XForm>
+						<PinX Unit="MM">5.039961609767135</PinX>
+						<PinY Unit="MM">2.997773847604988</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="110" UniqueID="{B0CB801C-4C77-498B-82D3-6824718EF3D2}" Name="Sheet.110" NameU="Sheet.110" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.008366141732282</PinX>
+						<PinY Unit="MM">1.662155511811024</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="105" UniqueID="{E9DCF560-BD41-48C4-BFAE-14BF93C62AB3}" Name="Sheet.105" NameU="Sheet.105">
+					<Text>付款</Text>
+					<XForm>
+						<PinX Unit="MM">4.291338582677166</PinX>
+						<PinY Unit="MM">0.541338582677165</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="106" UniqueID="{21B74C10-F6A6-48BE-83B9-3A90A4075B5F}" Name="Dynamic connector.106" NameU="Dynamic connector.106" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.000328083989500</PinX>
+						<PinY Unit="MM">2.514763779527560</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="109" UniqueID="{03CA987E-65E9-478C-97D5-8F75CD8503FE}" Name="Sheet.109" NameU="Sheet.109">
+					<Text>驻厂代表确认</Text>
+					<XForm>
+						<PinX Unit="MM">3.740157480314960</PinX>
+						<PinY Unit="MM">4.586614173228346</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="111" UniqueID="{8FB27A28-01B5-4A27-B412-2E8DE9636DB7}" Name="Sheet.111" NameU="Sheet.111">
+					<Text>在入库单被确认后自动产生并提交，从而实现零库存</Text>
+					<XForm>
+						<PinX Unit="MM">6.221160927399898</PinX>
+						<PinY Unit="MM">3.429110687335960</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="112" UniqueID="{CB466389-D54C-47F5-B833-F337B3A0EA9C}" Name="Sheet.112" NameU="Sheet.112">
+					<Text>在购销确认单提交时生成并立刻提交</Text>
+					<XForm>
+						<PinX Unit="MM">6.141732283464567</PinX>
+						<PinY Unit="MM">7.696850393700786</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="33" UniqueID="{B8384E5A-B069-47D1-903B-A7E1E8431A09}" Name="Terminator.33" NameU="Terminator.33" Master="4">
+					<Text>中止</Text>
+					<XForm>
+						<PinX Unit="MM">1.515748031496063</PinX>
+						<PinY Unit="MM">8.218503937007872</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="113" UniqueID="{0BA5EC33-54E5-4540-B8F0-F86ADECE0235}" Name="Sheet.113" NameU="Sheet.113" Master="5">
+					<XForm>
+						<PinX Unit="MM">1.608923884514434</PinX>
+						<PinY Unit="MM">8.641732283464567</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="114" UniqueID="{D401F525-619E-4B4B-9798-FC86A95C54DA}" Name="Dynamic connector.114" NameU="Dynamic connector.114" Master="5">
+					<XForm>
+						<PinX Unit="MM">2.992125984251969</PinX>
+						<PinY Unit="MM">8.300208435859577</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="25" UniqueID="{29DBC54D-ECA4-4308-9B39-96E37400C26C}" Name="Document.17" NameU="Document.17" Master="0">
+					<Text>销售付款通知单</Text>
+					<XForm>
+						<PinX Unit="MM">6.616141732283465</PinX>
+						<PinY Unit="MM">6.811023622047244</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>销售付款通知单</HLURL:Description>
+										<HLURL:Address>mytable_C_V_IN_PAYMENT</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_V_IN_PAYMENT</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="115" UniqueID="{3773A2C8-ED1C-4A36-B6AD-B46B1D0D9C05}" Name="Document.115" NameU="Document.115" Master="0">
+					<Text>货运误差单</Text>
+					<XForm>
+						<PinX Unit="MM">6.810695538057745</PinX>
+						<PinY Unit="MM">2.421259842519687</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>货运误差单</HLURL:Description>
+										<HLURL:Address>mytable_M_INOUTDIFF</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_M_INOUTDIFF</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="117" UniqueID="{26998C03-A9F0-47A2-8C2B-45E09C9AC8E1}" Name="Sheet.117" NameU="Sheet.117">
+					<Text>收货确认</Text>
+					<XForm>
+						<PinX Unit="MM">7.047244094488188</PinX>
+						<PinY Unit="MM">2.047244094488189</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="118" UniqueID="{1F1258C8-9FDC-4A5A-9702-761F19F3713E}" Name="Dynamic connector.118" NameU="Dynamic connector.118" Master="5">
+					<XForm>
+						<PinX Unit="MM">5.807086614173228</PinX>
+						<PinY Unit="MM">2.627952755905513</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="127" UniqueID="{118D6FFB-E454-4897-A083-AAD18EDB5F9D}" Name="Predefined process.127" NameU="Predefined process.127">
+					<Text>收款分配流程</Text>
+					<XForm>
+						<PinX Unit="MM">7.224409448818897</PinX>
+						<PinY Unit="MM">3.861232057906824</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>收款分配流程</HLURL:Description>
+										<HLURL:Address>..\allocation.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\allocation.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="134" UniqueID="{0E292D2F-D4CC-49E5-948F-005668EF4854}" Name="Sheet.134" NameU="Sheet.134">
+					<XForm>
+						<PinX Unit="MM">7.185039370078740</PinX>
+						<PinY Unit="MM">4.409448818897638</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>收款分配流程</HLURL:Description>
+										<HLURL:Address>..\allocation.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\allocation.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="119" UniqueID="{118D6FFB-E454-4897-A083-AAD18EDB5F9D}" Name="Predefined process" NameU="Predefined process" Master="13">
+					<XForm>
+						<PinX Unit="MM">0.492125984251969</PinX>
+						<PinY Unit="MM">0.393700787401575</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>收款分配流程</HLURL:Description>
+										<HLURL:Address>..\allocation.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\allocation.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="126" UniqueID="{2C33F082-2E8C-4138-9746-46A9F1C1EB02}" Name="Document.126" NameU="Document.126" Master="0">
+					<XForm>
+						<PinX Unit="MM">0.298686390998821</PinX>
+						<PinY Unit="MM">0.560519910597113</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="128" UniqueID="{AEB4F9F0-2204-4529-801B-2E85164D45A3}" Name="Document.128" NameU="Document.128" Master="0">
+					<XForm>
+						<PinX Unit="MM">0.492125984251968</PinX>
+						<PinY Unit="MM">0.325306861056430</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="129" UniqueID="{06152FAC-29A7-4F37-B698-48C239D86793}" Name="On-page reference.129" NameU="On-page reference.129" Master="3">
+					<XForm>
+						<PinX Unit="MM">0.589841622571440</PinX>
+						<PinY Unit="MM">0.698818897637794</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="130" UniqueID="{78443FA9-F515-460D-92E7-FCB4261A1939}" Name="Terminator.130" NameU="Terminator.130" Master="4">
+					<XForm>
+						<PinX Unit="MM">0.570511362466817</PinX>
+						<PinY Unit="MM">0.118110236220471</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="131" UniqueID="{F2C609B6-7D84-4177-B60E-DBE71262279E}" Name="Dynamic connector.131" NameU="Dynamic connector.131" Master="5">
+					<XForm>
+						<PinX Unit="MM">0.501258945406084</PinX>
+						<PinY Unit="MM">0.609984364747376</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="132" UniqueID="{A2253F46-A266-45F4-8076-DE0D50469D53}" Name="Dynamic connector.132" NameU="Dynamic connector.132" Master="5">
+					<XForm>
+						<PinX Unit="MM">0.338411249004440</PinX>
+						<PinY Unit="MM">0.417265663447342</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="133" UniqueID="{4F2C0B90-3A92-497B-BDB6-36BFCCF78274}" Name="Dynamic connector.133" NameU="Dynamic connector.133" Master="5">
+					<XForm>
+						<PinX Unit="MM">0.531318673359392</PinX>
+						<PinY Unit="MM">0.211737901901992</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="144" UniqueID="{4E438147-3E66-45C4-A6F0-5A672D02BF45}" Name="Sheet.144" NameU="Sheet.144">
+					<XForm>
+						<PinX Unit="MM">2.165354330708661</PinX>
+						<PinY Unit="MM">0.787401574803150</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>付款分配流程</HLURL:Description>
+										<HLURL:Address>..\allocation.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\allocation.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+				</Shape>
+				<Shape ID="145" UniqueID="{678208E3-31C7-493C-8E4E-79EADDAC6E5B}" Name="Predefined process" NameU="Predefined process" Master="13">
+					<XForm>
+						<PinX Unit="MM">0.492125984251969</PinX>
+						<PinY Unit="MM">0.393700787401575</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>收款分配流程</HLURL:Description>
+										<HLURL:Address>..\allocation.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\allocation.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="146" UniqueID="{C370AF55-3D1E-4464-88F5-37EC1E9645A5}" Name="Document.126" NameU="Document.126" Master="0">
+					<XForm>
+						<PinX Unit="MM">0.298686390998821</PinX>
+						<PinY Unit="MM">0.560519910597113</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="147" UniqueID="{15259AD0-59C3-41A3-85EE-B6ADAFB34155}" Name="Document.128" NameU="Document.128" Master="0">
+					<XForm>
+						<PinX Unit="MM">0.492125984251968</PinX>
+						<PinY Unit="MM">0.325306861056430</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="148" UniqueID="{A5940150-76A2-4352-A2B8-FED651F71A45}" Name="On-page reference.129" NameU="On-page reference.129" Master="3">
+					<XForm>
+						<PinX Unit="MM">0.589841622571440</PinX>
+						<PinY Unit="MM">0.698818897637794</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="149" UniqueID="{68AEDB0A-9C41-4323-B219-23D4CA100923}" Name="Terminator.130" NameU="Terminator.130" Master="4">
+					<XForm>
+						<PinX Unit="MM">0.570511362466817</PinX>
+						<PinY Unit="MM">0.118110236220471</PinY>
+					</XForm>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="150" UniqueID="{B9F580B1-813D-47AF-AFD2-F6ACCFD5E653}" Name="Dynamic connector.131" NameU="Dynamic connector.131" Master="5">
+					<XForm>
+						<PinX Unit="MM">0.501258945406084</PinX>
+						<PinY Unit="MM">0.609984364747376</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="151" UniqueID="{044132C1-1D2D-43DA-B088-37A71C708A9B}" Name="Dynamic connector.132" NameU="Dynamic connector.132" Master="5">
+					<XForm>
+						<PinX Unit="MM">0.338411249004440</PinX>
+						<PinY Unit="MM">0.417265663447342</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="152" UniqueID="{372E6EAA-144C-4BD2-820A-4286CEF777F4}" Name="Dynamic connector.133" NameU="Dynamic connector.133" Master="5">
+					<XForm>
+						<PinX Unit="MM">0.531318673359392</PinX>
+						<PinY Unit="MM">0.211737901901993</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="153" UniqueID="{0C583836-3044-4E97-AB65-3D44F2D84611}" Name="Predefined process.153" NameU="Predefined process.153">
+					<Text>付款分配流程</Text>
+					<XForm>
+						<PinX Unit="MM">2.243739708923510</PinX>
+						<PinY Unit="MM">0.226377952755905</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>付款分配流程</HLURL:Description>
+										<HLURL:Address>..\allocation.htm</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\allocation.htm</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="154" UniqueID="{2B3E4167-D5EE-4C93-87CE-D12CF81BA2E8}" Name="Document.154" NameU="Document.154" Master="0">
+					<Text>购销工作流</Text>
+					<XForm>
+						<PinX Unit="MM">0.984251968503937</PinX>
+						<PinY Unit="MM">6.968503937007872</PinY>
+					</XForm>
+					<Scratch>
+						<B>
+							<SolutionXML>
+								<HLURL:Hyperlinks xmlns:HLURL="urn:schemas-microsoft-com:office:visio:dghlinkext">
+									<HLURL:Hyperlink ID="1">
+										<HLURL:Description>购销工作流</HLURL:Description>
+										<HLURL:Address>mytable_C_ORDERFLOW</HLURL:Address>
+										<HLURL:SubAddress></HLURL:SubAddress>
+										<HLURL:Default>0</HLURL:Default>
+										<HLURL:AbsoluteURL>file://E:\portal\server\default\deploy\liferay.war\html\portlet\nds\guide\mytable_C_ORDERFLOW</HLURL:AbsoluteURL>
+									</HLURL:Hyperlink>
+								</HLURL:Hyperlinks>
+							</SolutionXML>
+						</B>
+					</Scratch>
+					<Prop ID="1" Name="Cost" NameU="Cost">
+						<Value></Value>
+						<Label>Cost</Label>
+					</Prop>
+					<Prop ID="2" Name="Duration" NameU="Duration">
+						<Value></Value>
+						<Label>Duration</Label>
+					</Prop>
+					<Prop ID="3" Name="Resources" NameU="Resources">
+						<Value></Value>
+						<Label>Resources</Label>
+					</Prop>
+				</Shape>
+				<Shape ID="155" UniqueID="{254F4E7C-76E1-4FAC-8DE8-620688C66C92}" Name="Sheet.155" NameU="Sheet.155">
+					<Text>【发货通知单】</Text>
+					<XForm>
+						<PinX Unit="MM">3.979986876640419</PinX>
+						<PinY Unit="MM">6.496062992125983</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="156" UniqueID="{07097158-4B02-4397-B82D-CC704E68603A}" Name="Sheet.156" NameU="Sheet.156">
+					<Text>【出库明细】</Text>
+					<XForm>
+						<PinX Unit="MM">3.979986876640419</PinX>
+						<PinY Unit="MM">4.724409448818897</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="157" UniqueID="{F3D57AF2-FB78-403F-9956-3F15316E2A27}" Name="Sheet.157" NameU="Sheet.157">
+					<Text>【发货申请单】</Text>
+					<XForm>
+						<PinX Unit="MM">2.922900262467196</PinX>
+						<PinY Unit="MM">9.192913385826770</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="158" UniqueID="{F4952BCE-D440-479C-9D15-25D8482B46B9}" Name="Sheet.158" NameU="Sheet.158">
+					<Text>【发货确认单】</Text>
+					<XForm>
+						<PinX Unit="MM">5.476049868766403</PinX>
+						<PinY Unit="MM">8.618133407152227</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="159" UniqueID="{4F0879BE-E582-48A7-BF0B-C69CEF72B64A}" Name="Sheet.159" NameU="Sheet.159">
+					<Text>【客户付款确认单】</Text>
+					<XForm>
+						<PinX Unit="MM">7.062992125984250</PinX>
+						<PinY Unit="MM">7.185039370078741</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="88" UniqueID="{CF897516-E6DE-4AC3-AC0A-43B0CC9A47FA}" Name="Sheet.88" NameU="Sheet.88">
+					<XForm>
+						<PinX Unit="MM">6.314960629921258</PinX>
+						<PinY Unit="MM">6.496062992125983</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="87" UniqueID="{9DC6F4AF-0413-40D3-AAFC-791F53555599}" Name="Dynamic connector.87" NameU="Dynamic connector.87" Master="5">
+					<XForm>
+						<PinX Unit="MM">6.616141732283465</PinX>
+						<PinY Unit="MM">6.578494094488189</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="99" UniqueID="{EE3BDB6B-F345-4890-A668-D3AF41E8F31D}" Name="Dynamic connector.99" NameU="Dynamic connector.99" Master="5">
+					<XForm>
+						<PinX Unit="MM">6.521653793307088</PinX>
+						<PinY Unit="MM">5.875984251968504</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="120" UniqueID="{10455408-B434-4928-BB62-85CE5E6CE3DB}" Name="Dynamic connector.120" NameU="Dynamic connector.120" Master="5">
+					<XForm>
+						<PinX Unit="MM">4.822834645669291</PinX>
+						<PinY Unit="MM">6.294291338582676</PinY>
+					</XForm>
+				</Shape>
+				<Shape ID="122" UniqueID="{85AB6B0F-0094-4D8F-89DD-B2A63A586406}" Name="Sheet.122" NameU="Sheet.122">
+					<Text>确认环节</Text>
+					<XForm>
+						<PinX Unit="MM">7.244094488188976</PinX>
+						<PinY Unit="MM">7.677165354330708</PinY>
+					</XForm>
+				</Shape>
+			</Shapes>
+		</Page>
+	</Pages>
+</VisioDocument>

@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates
+END
+bottom.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/bottom.jsp
+END
+portal_init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/portal_init.jsp
+END
+javascript.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/javascript.jsp
+END
+css.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/css.jsp
+END
+portal_normal.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/portal_normal.jsp
+END
+portlet_top.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/portlet_top.jsp
+END
+javascript_cached.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/javascript_cached.jsp
+END
+portlet_bottom.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/portlet_bottom.jsp
+END
+css_cached.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/css_cached.jsp
+END
+navigation.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/navigation.jsp
+END
+top.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/top.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/init.jsp
+END
+portal_pop_up.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic.orig/templates/portal_pop_up.jsp
+END

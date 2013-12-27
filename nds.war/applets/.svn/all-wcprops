@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets
+END
+editor.jar
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/editor.jar
+END
+lawt.jar
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/lawt.jar
+END
+calculator.jar
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/calculator.jar
+END
+hangman.jar
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/hangman.jar
+END
+secureftp.jar
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/secureftp.jar
+END
+minesweeper.jar
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/minesweeper.jar
+END

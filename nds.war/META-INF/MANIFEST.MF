@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.0
+Created-By: 1.4.2_14-b05 (Sun Microsystems Inc.)
+Class-Path: counter-ejb.jar documentlibrary-ejb.jar lock-ejb.jar mail-
+ ejb.jar portal-ejb.jar lib/compression-filter.jar lib/secure-filter.j
+ ar lib/sso-filter.jar lib/strip-filter.jar lib/util-java.jar lib/util
+ -wsrp.jar lib/activemq.jar lib/alfresco-client.jar lib/ant.jar lib/an
+ tlr.jar lib/aopalliance.jar lib/asm.jar lib/asm-attrs.jar lib/axis.ja
+ r lib/axis-ant.jar lib/backport-concurrent.jar lib/bcprov-jdk15.jar l
+ ib/burlap.jar lib/casclient.jar lib/cglib.jar lib/commons-beanutils.j
+ ar lib/commons-codec.jar lib/commons-collections.jar lib/commons-conf
+ iguration.jar lib/commons-dbcp.jar lib/commons-digester.jar lib/commo
+ ns-discovery.jar lib/commons-email.jar lib/commons-fileupload.jar lib
+ /commons-httpclient.jar lib/commons-io.jar lib/commons-lang.jar lib/c
+ ommons-logging.jar lib/commons-pool.jar lib/commons-validator.jar lib
+ /compass.jar lib/concurrent.jar lib/displaytag.jar lib/dom4j.jar lib/
+ easyconf.jar lib/ehcache.jar lib/friki.jar lib/gif89.jar lib/google.j
+ ar lib/hessian.jar lib/hibernate3.jar lib/icq.jar lib/j2ee-management
+ .jar lib/jackrabbit-core.jar lib/jackrabbit-index-filters.jar lib/jac
+ krabbit-jcr-commons.jar lib/jaim.jar lib/jaxen.jar lib/jaxrpc.jar lib
+ /jazzy.jar lib/jcommon.jar lib/jcr.jar lib/jdom.jar lib/jfreechart.ja
+ r lib/jgroups.jar lib/jmx-remote.jar lib/jmx-ri.jar lib/jsonrpc.jar l
+ ib/jstl.jar lib/jstl-impl.jar lib/log4j.jar lib/lucene.jar lib/msnm.j
+ ar lib/nekohtml.jar lib/odmg.jar lib/opensaml.jar lib/oro.jar lib/osc
+ ache.jar lib/pdfbox.jar lib/poi.jar lib/poi-contrib.jar lib/poi-scrat
+ chpad.jar lib/portals-bridges.jar lib/portletbridge-core.jar lib/port
+ letbridge-portlet.jar lib/quartz.jar lib/rome.jar lib/saaj.jar lib/si
+ mplecaptcha.jar lib/slf4j-log4j12.jar lib/smack.jar lib/smackx.jar li
+ b/soap.jar lib/spring.jar lib/struts.jar lib/struts-el.jar lib/subeth
+ a-smtp.jar lib/textmining.jar lib/trove.jar lib/velocity.jar lib/wsdl
+ 4j.jar lib/wss4j.jar lib/xalan.jar lib/xercesImpl.jar lib/xml-apis.ja
+ r lib/xmlsec.jar lib/xpp3.jar lib/xstream.jar lib/ym.jar
+

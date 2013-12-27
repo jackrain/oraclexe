@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/chat/resources
+END
+messages.properties
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/chat/resources/messages.properties
+END
+userCommands.properties
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/chat/resources/userCommands.properties
+END
+commandProcessors.properties
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/applets/chat/resources/commandProcessors.properties
+END

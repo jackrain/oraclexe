@@ -1,0 +1,193 @@
+body{
+	font-size:12px;
+	font-family:Tahoma,Arial;
+	margin:0px;
+	padding:0px;
+	HEIGHT:100%;
+}
+#objtb22{
+	PADDING: 0px;
+	border:1px #fff solid;
+	width:925px;
+	margin-bottom:5px;
+	margin-top:5px;
+	margin-left:10px;
+}
+
+#from_top{
+	MARGIN-RIGHT: auto;
+	MARGIN-LEFT: auto;
+	PADDING: 0px;
+	text-align:center;
+	height:45px;
+	width:923px;
+	background: scroll url(/groups/images/head_bg.gif) repeat;
+	}
+
+.from_top_text{
+	text-align:center;
+	background: url(/groups/images/title.gif) no-repeat scroll;
+	height: 31px;
+	width: 156px;
+}
+
+.from_top_text_list{
+	text-align:center;
+	background: url(/groups/images/title_cx.gif) no-repeat scroll;
+	height: 31px;
+	width: 156px;
+}
+/******* cost_copy.jsp  title   need a new photo(title_cx1.gif)*******/
+.from_top_text_list1{
+	text-align:center;
+	background: url(/groups/images/title_cx1.gif) no-repeat scroll;
+	height: 31px;
+	width: 182px;
+}
+
+.from_top_text_list2{
+	text-align:center;
+	height: 31px;
+	width: 175px;
+	font-family: sans-serif;
+        font-size: 200%;
+}
+
+.from_top_title{
+	text-align:center;
+	background: url(/groups/images/title_cx.gif) no-repeat scroll;
+	height: 31px;
+	width: 112px;
+}
+ul.Var-Index-width{
+ margin:0 auto;
+ padding:0;
+ width:700px;
+ text-align:center;
+ list-style-type:none;
+}
+/******* cost_copy.jsp*******/
+ul.Var-Index-width1{
+ margin:0 auto;
+ padding:0;
+ width:700px;
+ text-align:center;
+ list-style-type:none;
+}
+ul.Var-Index-width li{
+ width:700px;
+ margin:0;
+ padding:0;
+}
+/******* cost_copy.jsp*******/
+ul.Var-Index-width1 li{
+ width:745px;
+ margin:0;
+ padding:0;
+}
+
+ul.Var-Index-width li .left{
+float:left;
+width:200px;
+text-align:right;}
+
+
+/******* cost_copy.jsp *******/
+ul.Var-Index-width1 li .left001{
+float:left;
+width:350px;
+text-align:left;}
+ul.Var-Index-width1 li .left002{
+float:left;
+width:100px;
+text-align:right;}
+ul.Var-Index-width1 li .right002{
+float:left;
+width:210px;
+height:18px;
+text-align:left;}
+
+/******* cost_copy.jsp *******/
+ul.Var-Index-width1 li .right001{
+float:right;
+width:350px;
+text-align:right;}
+ul.Var-Index-width1 li .left003{
+float:left;
+width:100px;
+text-align:right;}
+ul.Var-Index-width1 li .right003{
+float:left;
+width:210px;
+height:18px;
+text-align:left;}
+
+
+ul.Var-Index-width li .right{
+float:left;
+width:540px;
+text-align:left;}
+
+ul.Var-Index-width li .right01{
+float:left;
+width:300px;
+text-align:center;}
+/******* cost_copy.jsp *******/
+ul.Var-Index-width1 li .right01{
+float:left;
+width:650px;
+text-align:center;}
+ul.Var-Index-width1 li .result001{
+padding-top:100px;
+font-size:16px !important;
+font-weight:bold;
+float:left;
+width:650px;
+height:80px;
+text-align:center;}
+
+input.Warning_query {
+  border:1px solid #7F9DB9;
+  height:18px;
+  padding:2px 8px 0 3px;
+  width:400px;
+}
+/******* cost_copy.jsp *******/
+input.Warning_copy{
+  border:1px solid #7F9DB9;
+  height:20px;
+  padding:2px 8px 0 3px;
+  width:170px;
+}
+
+.HackBox {
+  border-top:1px solid transparent !important;
+  clear:both;
+  height:10px;
+  width:300px;
+}
+
+.modify_table, #modify_table {
+border-collapse:collapse;
+}
+.modify_table, #modify_table {
+background-color:#FFFFFF;
+border:1px solid #77A5E0;
+border-collapse:collapse;
+}
+
+.emtb {
+height:22px;
+}
+
+.emtbts {
+height:22px;
+background:#EFF4FA none repeat scroll 0 0;
+}
+
+.td_text{
+	font-size: 12px;
+	color: #000;
+	padding:5px 10px 5px 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}

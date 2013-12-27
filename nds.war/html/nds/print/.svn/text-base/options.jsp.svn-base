@@ -1,0 +1,204 @@
+<%@page errorPage="/html/nds/error.jsp"%>
+<%@ include file="/html/nds/header.jsp" %>
+<%
+ /**
+  We have two types of print template: one is from ad_report, the other is from ad_cxtab (reportytpe='S' FOR single object, 'L' for List)
+ * Select print template, and export type(pdf,excel,html,html-by-page), action- background, forground (if allowed)
+ * Param 
+ *    query -  in request attribute "QueryRequest" (for list object), will get expression from it
+ *    table -  in request parameter (id) int       (for single object)
+ *    id    -  in request parameter object id int  (for single object)
+ *    if table not exists, query must exists, and vice vesa.
+*/
+
+	String tabName=PortletUtils.getMessage(pageContext, "print-options",null);
+%>
+<script language="javascript" src="/html/nds/js/printcontrol.js"></script>
+<script>
+	document.title="<%=tabName%>";
+</script>
+<style>
+.buttons{
+padding-top: 3px;
+}
+#content{
+ padding-left: 10px;
+ padding-top: 0px;
+}
+#message {
+clear:both;
+margin:5px 0px 10px 5px;
+}
+#template{
+width:410px;
+float:left;
+}
+#format{
+padding-left:20px;
+width:200px;
+float:left;
+}	
+</style>	
+<%
+    QueryRequestImpl qRequest =(QueryRequestImpl) request.getAttribute("query");
+    int tableId= Tools.getInt(request.getParameter("table"), -1);
+    int objectId= Tools.getInt(request.getParameter("id"), -1);
+    Expression expr=null;
+    String reportType=null; // "L" for list, "O" for Object
+    if(qRequest == null && (tableId==-1 || objectId==-1)){
+        out.println("Internal Error: can not find query object or table id in httpservletrequest!");
+  	    return;
+    }
+    if(qRequest!=null){
+    	expr=qRequest.getParamExpression();
+    }
+    
+    Table table=null;
+    if (qRequest!=null){
+    	table= qRequest.getMainTable();
+    	reportType="L";
+    	objectId=-1;// -1 means object view
+    	tableId= table.getId();
+    }else{
+    	table=TableManager.getInstance().getTable(tableId);
+    	reportType="O";
+    }
+	SimpleDateFormat sdf = new SimpleDateFormat("MMddHHmm");
+	String destFile= "rpt"+sdf.format(new Date());
+	Properties props=userWeb.getPreferenceValues(table.getName().toLowerCase()+".print", false,false);
+	String templateFile= props.getProperty("template"); // format like: cx123 for ad_cxtab(id=123) definitions, t123 for ad_report(id=123) definitions
+	boolean hasTemplateSet= Validator.isNotNull(templateFile);
+	String format=props.getProperty("format", "pdf"); //default to htm format as output
+    
+%>
+<div id="content">
+<div class="buttons">
+	<input type="button" value="<%=PortletUtils.getMessage(pageContext, "print",null)%>" onclick="prt.doPrint()" name="Print" class="cbutton"/>
+	<input type="button" value="<%=PortletUtils.getMessage(pageContext, "save-setting",null)%>" onclick="prt.doSaveSettings()" name="Save" class="cbutton"/>
+	<input type="button" value="<%=PortletUtils.getMessage(pageContext, "preview",null)%>" onclick="prt.doPreview()" name="Preview" class="cbutton"/>
+	<span id="closebtn"></span>
+	<input type='hidden' name='tableid' id="tableid" value='<%=table.getId()%>'>
+</div>
+<div id="message" class="nt">
+	<%=PortletUtils.getMessage(pageContext, "print-notice",null)%>
+</div>
+<br><br>
+<form id="form1" name= "form1">
+<div id="template">
+<fieldset>
+  <legend><%=PortletUtils.getMessage(pageContext, "print-template",null)%></legend>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+	<input type='hidden' name='reportid' value=''>
+	<input type='hidden' name='reporttype' value='<%=reportType%>'>
+	<input type='hidden' name='destfile' value='<%=destFile%>'>
+	<input type='hidden' name='table' value='<%=tableId%>'>
+	<input type='hidden' name='filetype' value=''>
+	<input type='hidden' name='isjreport' value='N'>
+	<%if(qRequest!=null){%>
+	  <%
+	    out.println("***********:"+String.valueOf(qRequest.getOrderColumnLink()[0]));
+	    System.out.println("***********:"+String.valueOf(qRequest.getOrderColumnLink()[0]));
+	  %> 
+		<input type='hidden' name='order_by' value='<%=new ColumnLink(qRequest.getOrderColumnLink())%>'>		
+		<input type='hidden' name='order_asc' value='<%=qRequest.isAscendingOrder()?"true":"false"%>'>		
+		<%if( expr!=null){
+			//QueryUtils.toHTMLControlForm(qRequest)
+		%>            
+		<input type='hidden' name='expr' value='<%=expr.toHTMLInputElement()%>'>
+		<%}
+	}else{%>
+	<input type='hidden' name='id' value='<%=objectId%>'>
+	<%}%>
+        <tr>
+          <td>
+	<table align="center" width="95%" border="0" cellpadding="0" cellspacing="0">
+<%	
+	// order: id, name, description, previewurl,allow_fg 
+	QueryResult rt=userWeb.getReportTemplates(table, reportType);
+	//Loading templates from ad_cxtab 
+	List al= QueryEngine.getInstance().doQueryList("select id, name, description from ad_cxtab where ad_table_id="+tableId +" and reporttype="+ (objectId==-1?"'L'":"'P'")+ " and isactive='Y' order by orderno, id");
+	
+	Object id,name; String previewurl, allow_fg,description;
+			
+              if(rt.getRowCount() == 0 && al.size()==0){
+
+              %>
+              <tr>
+                      <td align="center" colspan="2">
+                      <%= PortletUtils.getMessage(pageContext, "no-template",null)%>
+                      <p>
+                      <input type="button" onclick="prt.checkTemplate(<%=tableId%>)" value="<%=PortletUtils.getMessage(pageContext, "create-template-by-master",null)%>">
+                      <p>
+                      </td>
+              </tr>
+              <%
+              }
+
+for(int i=0;i< al.size();i++){
+		List advTemplate=(List) al.get(i);
+		id= advTemplate.get(0);
+		name=advTemplate.get(1);
+		description=(String)advTemplate.get(2);
+		String  checkMark= (("cx"+ id).equals(templateFile) || !hasTemplateSet? " checked":"");
+		if(!hasTemplateSet)hasTemplateSet=true;
+%>
+            <tr>
+              <td width="5"><input type="radio" name="tmpl" value="cx<%=id%>" <%=checkMark%>></td><td  align="left" width="400" ><img src="<%=NDS_PATH%>/images/jprint.gif" border=0 width=32 height=32>
+               &nbsp;<b><a href="javascript:prt.editJReport(<%=id%>)"><%=name%></a></b>&nbsp;&nbsp;
+               <p>
+              <%if(nds.util.Validator.isNotNull(description)){%>
+              <i><%=description%></i>
+              <%}%>
+
+</td>
+	</tr>
+	
+<%       
+    }//end for
+
+	while(rt.next()){
+		id= rt.getObject(1);
+		name=rt.getObject(2);
+		description=(String)rt.getObject(3);
+		previewurl=(String)rt.getObject(4);
+		allow_fg=(String)rt.getObject(5);
+		String  checkMark= (("t"+ id).equals(templateFile) || !hasTemplateSet ? " checked":"");
+		if(!hasTemplateSet)hasTemplateSet=true;
+%>
+            <tr>
+              <td width="5"><input type="radio" name="tmpl" value="t<%=id%>" <%=checkMark%>></td>
+              <td  align="left" width="400" ><img src="<%=NDS_PATH%>/images/report_template.gif" border=0 width=32 height=32>
+               &nbsp;<b><a href="javascript:prt.editReport(<%=id%>)"><%=name%></a></b>&nbsp;&nbsp;
+               [<a href="javascript:prt.checkTemplate(<%=tableId%>)"><%=PortletUtils.getMessage(pageContext, "check-update",null)%></a>]
+               <p>
+              <%if(nds.util.Validator.isNotNull(description)){%>
+              <i><%=description%></i>
+              <%}%>
+</td>
+	
+	</tr>
+	
+<%       
+    }//end while
+%>
+             </table>
+              </td>
+            </tr>
+</table>
+</fieldset>	
+</div>
+<div id="format">
+<fieldset>
+  <legend><%=PortletUtils.getMessage(pageContext, "print-format",null)%></legend>
+  <ul>
+  	<li><input type="radio" name="fmt" value="pdf" <%=("pdf".equals(format) ? " checked":"")%>>PDF</li>
+  	<li><input type="radio" name="fmt" value="htm" <%=("htm".equals(format) ? " checked":"")%>>HTML</li>
+  	<li><input type="radio" name="fmt" value="xls" <%=("xls".equals(format) ? " checked":"")%>>XLS</li>
+  	<li><input type="radio" name="fmt" value="csv" <%=("csv".equals(format) ? " checked":"")%>>CSV</li>
+  </ul>
+</fieldset>
+</div>	<!--template-->
+</form>
+</div><!--content-->
+<iframe id="print_iframe" name="print_iframe" style="display:none" width="1" height="1" src="<%= contextPath %>/html/common/null.html"></iframe>
+<%@ include file="/html/nds/footer_info.jsp" %>

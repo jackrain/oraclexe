@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance
+END
+EAS2PORTAL.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/EAS2PORTAL.class
+END
+WSGLWebServiceFacade.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSGLWebServiceFacade.class
+END
+WSOtherBillFacade.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSOtherBillFacade.class
+END
+WSOtherBillFacadeApp.class
+K 25
+svn:wc:ra_dav:version-url
+V 167
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSOtherBillFacadeApp.class
+END
+KingdeeAutoRun.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/KingdeeAutoRun.class
+END
+WSInvokeException.class
+K 25
+svn:wc:ra_dav:version-url
+V 164
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSInvokeException.class
+END
+WSImportCSSPManagerFacadeSrvProxy.class
+K 25
+svn:wc:ra_dav:version-url
+V 180
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSImportCSSPManagerFacadeSrvProxy.class
+END
+ImportKDCusSuppAutoRun.class
+K 25
+svn:wc:ra_dav:version-url
+V 169
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/ImportKDCusSuppAutoRun.class
+END
+KDServiceInfo.class
+K 25
+svn:wc:ra_dav:version-url
+V 160
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/KDServiceInfo.class
+END
+WSImportCSSPManager$1.class
+K 25
+svn:wc:ra_dav:version-url
+V 168
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSImportCSSPManager$1.class
+END
+WSImportCSSPManagerFacadeSrvProxyServiceLocator.class
+K 25
+svn:wc:ra_dav:version-url
+V 194
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSImportCSSPManagerFacadeSrvProxyServiceLocator.class
+END
+EASLogin.class
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/EASLogin.class
+END
+ImportCSSPType.class
+K 25
+svn:wc:ra_dav:version-url
+V 161
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/ImportCSSPType.class
+END
+ProfitType.class
+K 25
+svn:wc:ra_dav:version-url
+V 157
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/ProfitType.class
+END
+WSImportCSSPManager.class
+K 25
+svn:wc:ra_dav:version-url
+V 166
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSImportCSSPManager.class
+END
+WSImportCSSPManagerFacadeSoapBindingStub.class
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSImportCSSPManagerFacadeSoapBindingStub.class
+END
+WSImportCSSPManagerFacadeSrvProxyService.class
+K 25
+svn:wc:ra_dav:version-url
+V 187
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/serviceclients/m18/finance/WSImportCSSPManagerFacadeSrvProxyService.class
+END

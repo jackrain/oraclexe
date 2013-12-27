@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/random_bible_verse
+END
+edit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/random_bible_verse/edit.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/random_bible_verse/view.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/random_bible_verse/init.jsp
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar
+END
+incomplete_right.gif
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/incomplete_right.gif
+END
+loading_animation.gif
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/loading_animation.gif
+END
+incomplete_middle.gif
+K 25
+svn:wc:ra_dav:version-url
+V 142
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/incomplete_middle.gif
+END
+complete_left.gif
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/complete_left.gif
+END
+complete_right.gif
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/complete_right.gif
+END
+complete_middle.gif
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/complete_middle.gif
+END
+incomplete_left.gif
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/velocity/images/progress_bar/incomplete_left.gif
+END

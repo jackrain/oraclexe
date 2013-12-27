@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jackrain/portal/!svn/ver/1252/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld
+END
+struts-logic-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-logic-el.tld
+END
+input.tld
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jackrain/portal/!svn/ver/1252/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/input.tld
+END
+sql.tld
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/sql.tld
+END
+struts-logic.tld
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-logic.tld
+END
+liferay-security.tld
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/liferay-security.tld
+END
+displaytag.tld
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/displaytag.tld
+END
+filecache.tld
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/filecache.tld
+END
+struts-html-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-html-el.tld
+END
+c-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/c-rt.tld
+END
+struts-bean-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-bean-el.tld
+END
+liferay-ui.tld
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/liferay-ui.tld
+END
+liferay-util.tld
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/liferay-util.tld
+END
+struts-html.tld
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-html.tld
+END
+easyconf.tld
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/easyconf.tld
+END
+struts-bean.tld
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-bean.tld
+END
+x.tld
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/x.tld
+END
+fmt-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/fmt-rt.tld
+END
+liferay-portlet-ext.tld
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/liferay-portlet-ext.tld
+END
+struts-tiles-el.tld
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-tiles-el.tld
+END
+c.tld
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/c.tld
+END
+liferay-portlet.tld
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/liferay-portlet.tld
+END
+sql-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/sql-rt.tld
+END
+struts-tiles.tld
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-tiles.tld
+END
+struts-nested.tld
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/struts-nested.tld
+END
+fmt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/fmt.tld
+END
+x-rt.tld
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/x-rt.tld
+END
+liferay-theme.tld
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/tld/liferay-theme.tld
+END

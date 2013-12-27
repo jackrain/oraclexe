@@ -1,0 +1,344 @@
+<PUBLIC:COMPONENT>
+<PUBLIC:ATTACH EVENT="onmousedown" ONEVENT="buttonMouseDown()"/>
+<PUBLIC:ATTACH EVENT="onmouseup" ONEVENT="buttonMouseUp()"/>
+<PUBLIC:ATTACH EVENT="onmouseout" ONEVENT="buttonMouseOut()"/>
+<PUBLIC:ATTACH EVENT="onmouseover" ONEVENT="buttonMouseOver()"/>
+<PUBLIC:ATTACH EVENT="ondblclick" ONEVENT="buttonDblClick()"/>
+<PUBLIC:ATTACH EVENT="oncontentready" ONEVENT="buttonInit()"/>
+<PUBLIC:ATTACH EVENT="onpropertychange" ONEVENT="buttonPropertyChange()"/>
+<PUBLIC:PROPERTY NAME="buttontype"/>
+<PUBLIC:PROPERTY NAME="value"/>
+<PUBLIC:PROPERTY NAME="cooldisabled"/>
+
+<SCRIPT>
+
+///////////////////////////////////////////////////////////////////////
+//     This script was designed by Erik Arvidsson for WebFX          //
+//                                                                   //
+//     For more info and examples see: http://webfx.eae.net          //
+//     or send mail to erik@eae.net                                  //
+//                                                                   //
+//     Feel free to use this code as lomg as this disclaimer is      //
+//     intact.                                                       //
+///////////////////////////////////////////////////////////////////////
+
+var currentState, overState;
+var backgroundImageUrl = "url('../images/tileback.gif')";
+
+style.border = "1px solid buttonface";
+style.padding = "1px";
+
+function buttonMouseOver() {
+	overState = true;
+	cd = getBooleanCoolDisabled();
+	
+	if (cd) return;
+
+	if (buttontype == "" || buttontype == null) {	// Standard button
+		if (currentState == "down") {
+			makePressed();
+		}
+		else {
+			currentState = "up";
+			makeRaised();
+			
+		}
+		makeGray(false);
+	}
+	else if (buttontype = "radio") {
+		style.backgroundImage = "";
+		
+		if (!getBooleanValue()) {
+			makeGray(false);
+			if (currentState == "down")
+				makePressed();
+			else
+				makeRaised();
+		}
+	}
+
+}
+
+function buttonMouseOut() {
+	overState = false;
+	cd = getBooleanCoolDisabled();
+	
+	if (cd) return;
+	
+	if (buttontype == "" || buttontype == null) {	// Standard button
+		makeFlat();
+		makeGray(true);
+	}
+	else if (buttontype == "radio") {
+		if (getBooleanValue()) { // pressed
+			style.backgroundImage = backgroundImageUrl;
+		}
+		else {
+			makeGray(true);
+			makeFlat();
+		}
+	}
+}
+
+function buttonMouseDown() {
+	cd = getBooleanCoolDisabled();
+	
+	if (cd) return;
+	
+	if (event.button == 1) {
+		currentState = "down";
+		if (buttontype == "" || buttontype == null) {	// Standard button
+			makePressed();
+		}
+		else if (buttontype = "radio") {
+			makePressed();
+		}
+	}
+}
+
+function buttonMouseUp() {
+	cd = getBooleanCoolDisabled();
+	
+	if (cd) return;
+	
+	if (event.button == 1) {
+		currentState = "up";
+		if (buttontype == "" || buttontype == null) {	// Standard button
+			makeRaised();
+		}
+		else if (buttontype = "radio") {
+			style.backgroundImage = "";
+			
+			if (getBooleanValue()) {
+				makeRaised();
+			}
+		}
+	}
+}
+
+function buttonDblClick() {
+	if (buttontype == "radio") {
+		if (name == "")
+			value = !getBooleanValue();
+		else
+			makePressed();
+	}
+}
+
+function buttonInit() {
+	if (element.currentStyle.coolRadioBackgroundUrl != null)
+		backgroundImageUrl = element.currentStyle.coolRadioBackgroundUrl;
+
+	if (buttontype == "" || buttontype == null) {	// Standard button
+		makeGray(true);
+	}
+	else if (buttontype == "radio") {
+		if (getBooleanValue()) {
+			makePressed();
+			style.backgroundImage = backgroundImageUrl;
+		}
+		else {
+			makeGray(true);
+		}
+		attachEvent("onclick", valueToggler);
+	}
+
+	element.document.body.attachEvent("onmouseup", function() {currentState = "up";});
+	
+	if (getBooleanCoolDisabled()) {
+		disable();
+	}
+	
+}
+
+function valueToggler() {
+	if (!getBooleanCoolDisabled()) {
+		var n = element.getAttribute("name");
+		if (n != "" && n != null) {
+			var all = element.document.all
+			var alll = all.length;
+			
+			for (var i=0; i < alll; i++) {
+				if (all[i].name == n)
+					all[i].value = false;
+			}
+			
+			element.value = true;
+		}
+		else {
+			element.value = !getBooleanValue();
+		}
+	}
+}
+
+function buttonPropertyChange() {
+	var pName = event.propertyName;
+	if (pName == "cooldisabled") {
+		if (getBooleanCoolDisabled())
+			disable();
+		else
+			enable();
+	}
+	else if (pName == "value") {
+		if (getBooleanValue()) {
+			makePressed();
+			makeGray(false);
+			if (!overState)
+				style.backgroundImage = backgroundImageUrl;
+			if (getBooleanCoolDisabled())
+				style.backgroundImage = "";
+		}
+		else {
+			if (!overState) {
+				style.backgroundImage = "";
+				makeFlat();
+				makeGray(true);
+			}
+		}
+	}
+	else if (pName == "buttontype") {
+		detachEvent("onclick", valueToggler);
+		if (buttontype == null || buttontype == "") {
+			style.backgroundImage = "";
+			if (overState) {
+				makeRaised();
+			}
+			else {
+				makeFlat();
+				makeGray(true);
+			}
+		}
+		else if (buttontype == "radio") {
+			attachEvent("onclick", valueToggler);
+			if (getBooleanValue()) {
+				makePressed();
+				makeGray(false);
+				if (!overState)
+					style.backgroundImage = backgroundImageUrl;
+			}
+			else {
+				if (!overState) {
+					makeFlat();
+					makeGray(true);
+				}
+			}
+		}
+	}
+}
+
+function getBooleanCoolDisabled() {
+	return makeBooleanOfAttribute("cooldisabled");
+}
+
+function getBooleanValue() {
+	return makeBooleanOfAttribute("value");
+}
+
+
+function makeBooleanOfAttribute(attName) {
+	a = element.getAttribute(attName);
+	
+	if (typeof(a) == "boolean")
+		return a;
+	else if (a == null) {
+		a = false;
+	}
+	else if (typeof(a) == "string") {
+		a = a.toLowerCase();
+		
+		a = (a == "true" || a == "1" || a == "yes")
+	}
+	else {
+		a = new Boolean(a);
+	}
+
+	return a;
+}
+
+function makeRaised() {
+	with (style) {
+		borderLeft   = "1px solid buttonhighlight";
+		borderRight  = "1px solid buttonshadow";
+		borderTop    = "1px solid buttonhighlight";
+		borderBottom = "1px solid buttonshadow";
+		padding      = "1px";
+	}
+}
+
+function makePressed() {
+	with (style) {
+		borderLeft   = "1px solid buttonshadow";
+		borderRight  = "1px solid buttonhighlight";
+		borderTop    = "1px solid buttonshadow";
+		borderBottom = "1px solid buttonhighlight";
+		paddingTop    = "2px";
+		paddingLeft   = "2px";
+		paddingBottom = "0px";
+		paddingRight  = "0px";
+	}
+}
+
+function makeFlat() {
+	with (style) {
+		border = "1px solid buttonface";
+		padding      = "1px";
+	}
+}
+
+function makeGray(b) {
+	var filtval;
+	
+	if (b)
+		filtval = "gray()";
+	else
+		filtval = "";
+
+	var imgs = element.getElementsByTagName("IMG");
+		
+	for (var i=0; i<imgs.length; i++)
+		imgs[i].style.filter = filtval;
+
+}
+
+function disable() {
+	cd = getBooleanCoolDisabled();
+
+	if (!element._disableDrawn) {
+		style.backgroundImage = "";
+		element._disableDrawn = true;
+		cd = true;
+		
+		innerHTML =	"<span style='background: buttonshadow; filter: chroma(color=red) dropshadow(color=buttonhighlight, offx=1, offy=1); width: 100%; height: 100%;'>" +
+					"<span style='filter: mask(color=red); width: 100%; height: 100%;'>" +
+					innerHTML +
+					"</span>" +
+					"</span>";
+
+		if (element.onclick != null) {
+			element.cooldisabled_onclick = element.onclick;
+			element.onclick = null;
+		}
+	}
+}
+
+function enable() {
+	cd = getBooleanCoolDisabled();
+	
+	if (element._disableDrawn) {
+		element._disableDrawn = false;
+		if (getBooleanValue())
+			style.backgroundImage = backgroundImageUrl;
+		cd = false;
+		
+		innerHTML = children[0].children[0].innerHTML;
+
+		if (element.cooldisabled_onclick != null) {
+			element.onclick = element.cooldisabled_onclick;
+			element.cooldisabled_onclick = null;
+		}
+	}
+}
+
+
+</SCRIPT>
+</PUBLIC:COMPONENT>

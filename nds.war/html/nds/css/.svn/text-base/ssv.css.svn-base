@@ -1,0 +1,352 @@
+html{
+top:0;
+height:100%;
+}
+
+body, img,{
+margin: 0;
+padding: 0;
+border: 0;
+overflow: hidden;
+font-family:Tahoma,Arial;
+font-size:12px;
+}
+
+* html body{ /*IE6 hack*/
+padding: 60px 0 20px 0; /*Set value to (HeightOfFrameDiv 0 0 0)*/
+}
+
+* html #ssv-main{ /*IE6 hack*/ 
+height: 100%; 
+width: 100%; 
+}
+
+ul, ol {
+    list-style-type:none;
+}
+
+a{
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #000;
+}
+
+a:hover{
+    font-size: 12px;
+    COLOR:#ff0000;
+    TEXT-DECORATION: underline;
+	}
+
+a.IMG{
+	TEXT-DECORATION: none;
+	background-color:#f1f5f8;
+    border:1px #acd3f0 solid;
+	font-size: 12px;
+	color: #000;
+	width:110px;
+  height:110px;
+  padding-top:5px;
+  display: block;
+}
+
+a.IMG:hover{
+    background-color:#d2dfe9;
+    border:1px #acd3f0 solid;
+    font-size: 12px;
+    COLOR:#0000FF;
+    TEXT-DECORATION: underline;
+	  width:110px;
+    height:110px;
+    padding-top:5px;
+    display: block;
+	}
+
+a.IMG01{
+	background-color:#f5f5f5;
+  border:1px #e9e9e9 solid;
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #000;
+	width:110px;
+  height:110px;
+  padding-top:5px;
+  display: block;
+
+}
+
+a.IMG01:hover{
+  background-color:#efefef;
+  border:1px #e9e9e9 solid;
+    font-size: 12px;
+    COLOR:#0000FF;
+    TEXT-DECORATION: underline;
+	  width:110px;
+    height:110px;
+    padding-top:5px;
+    display: block;
+	}
+
+#ssv-top{
+top:0;
+position:absolute;
+height:60px;
+left:0;
+min-width:1000px;
+width:100% !important;
+}
+
+#ssv-top-banner{
+height:60px;
+position:absolute;
+text-align:left;
+z-index:3;
+margin-right:15px;
+width:100%;
+}
+
+#page-company-logo {
+background:url(/html/nds/portal/ssv/images/head-left-logo.gif) no-repeat scroll;
+color:#fff;
+display:inline;
+float:left;
+font-size:10pt;
+font-weight:bold;
+height:60px;
+padding:0px 0 0 630px;
+margin-left:15px;
+}
+
+#page-niche-menu {
+color:#000;
+padding:30px 30px 0;
+right:0;
+text-align:right;
+font-size:12px;
+z-index:3;
+position:absolute;
+}
+
+a.top-text{
+	TEXT-DECORATION: none;
+	font-size: 12px;
+	color: #000;
+}
+
+a.top-text:hover{
+    font-size: 12px;
+    COLOR:#ff6600;
+    TEXT-DECORATION: underline;
+	}
+
+#ssv-main {
+left:0;
+right:0;
+top:60px;
+bottom:20px;
+overflow:auto;
+position:absolute;
+margin:0 auto;
+}
+
+#ssv-height{
+height:4px;
+background-color: #b8d2f2;
+}
+
+#ssv-table {
+
+padding:0 0 0 30px;
+width:520px;
+font-size:12px;
+text-algin:left;
+}
+
+.topleft {
+text-align:left;
+vertical-align:top;
+}
+
+#ssv-content {
+margin:0 auto;
+padding:0 5px;
+width:520px;
+}
+
+#ssv-v {
+margin10px 0;
+clear:both;
+}
+
+.title-bg{ 
+background:url(/html/nds/portal/ssv/images/title-bg.gif) repeat-x scroll;
+height:28px;
+margin:0;
+}
+
+.title{
+font-size:12px;
+color:#333;
+font-weight:bold;
+padding:8px 0 0 20px;}
+
+.clearfix{
+display:inline-block;}
+
+#ssv-v ul{
+list-style:none;
+float:left;
+text-algin:left;
+margin:0;}
+
+#ssv-v li{
+float:left;
+text-algin:left;
+}
+
+.ss{
+float:left;
+margin:5px;
+text-align:center;
+padding:5px;
+	width:110px;
+  height:110px;
+position:relative;
+}
+  
+.sst{
+padding:2px 0 0 0;
+}
+
+#ssv-l {
+margin:5px 0;
+clear:both;
+}
+
+#ssv-l ul{
+list-style:none;
+float:left;
+margin:0;}
+
+#ssv-l li{
+float:left;}
+
+#ssv-w {
+margin:0 0 10px 0;
+clear:both;
+}
+
+#ssv-w ul{
+list-style:none;
+float:left;
+margin:0;}
+
+#ssv-w li{
+float:left;}
+
+#ssv-help2{
+background-color:#fbfbfb;
+border:1px solid #ccc;
+clear:both;
+margin:5px 5px;
+padding:0;
+width:210px;
+display: block;
+}
+
+.ssv-help{
+background-color:#fbfbfb;
+clear:both;
+padding:5px;
+height:400px;
+width:200px;
+display: block;
+overflow-y: hidden; 
+overflow-x: hidden;
+line-height:18px;}
+
+#ssv-bbs{
+background-color:#fbfbfb;
+border:1px solid #ccc;
+padding:0px;
+margin:0px;
+width:100%;
+font-size:12px;
+text-align:left;
+}
+
+.title-bg01{ 
+background:url(/html/nds/portal/ssv/images/title-bg.gif) repeat-x scroll;
+height:18px;
+margin:0;
+}
+
+.title01{
+font-size:12px;
+color:#333;
+font-weight:bold;
+padding:5px 0 0 20px;}
+
+#ssv-bottom1 {
+color:#333333;
+height:20px;
+bottom:0px;
+left:0;
+top: auto;
+min-width:700px;
+overflow:hidden;
+position:absolute;
+width:100%;
+}
+
+#ssv-bottom {
+background-color:#024770;
+color:#fff;
+height:20px;
+bottom:0px;
+left:0;
+min-width:700px;
+overflow:hidden;
+position:absolute;
+width:100%;
+}
+
+#bottom-company-txt {
+position:absolute;
+right:30px;
+text-align:right;
+top:2px;
+font-size:12px;
+}
+
+.hot{
+background:url(/html/nds/portal/ssv/images/hot.png) no-repeat scroll 0 0 transparent;
+display:block;
+height:40px;
+left:3px;
+overflow:hidden;
+position:absolute;
+width:70px;
+z-index:99;
+}
+
+.hot-1{
+background:url(/html/nds/portal/ssv/images/hot-1.png) no-repeat scroll 0 0 transparent;
+display:block;
+height:40px;
+left:3px;
+overflow:hidden;
+position:absolute;
+width:70px;
+z-index:99;
+}
+
+.hot-2{
+background:url(/html/nds/portal/ssv/images/hot-2.png) no-repeat scroll 0 0 transparent;
+display:block;
+height:40px;
+left:3px;
+overflow:hidden;
+position:absolute;
+width:70px;
+z-index:99;
+}

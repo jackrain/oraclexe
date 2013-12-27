@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list
+END
+data_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/data_list.jsp
+END
+inc_result_scroll.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/inc_result_scroll.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/view.jsp
+END
+dh.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/dh.jsp
+END
+ul_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/ul_list.jsp
+END
+table_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/table_search.jsp
+END
+table_list_result.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/table_list_result.jsp
+END
+table_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/list/table_list.jsp
+END

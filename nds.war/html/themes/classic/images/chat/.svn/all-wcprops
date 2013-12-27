@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic/images/chat
+END
+delete_user.gif
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic/images/chat/delete_user.gif
+END
+user_offline.gif
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic/images/chat/user_offline.gif
+END
+Thumbs.db
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic/images/chat/Thumbs.db
+END
+user_online.gif
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic/images/chat/user_online.gif
+END
+add_user.gif
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/themes/classic/images/chat/add_user.gif
+END

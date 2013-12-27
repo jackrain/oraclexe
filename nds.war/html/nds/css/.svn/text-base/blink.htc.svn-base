@@ -1,0 +1,42 @@
+<public:component>
+
+<public:property name="msec" value="500"/>
+<public:method name="blink"/>
+<public:method name="pause"/>
+<public:attach event="oncontentready" onevent="initBlink()"/>
+<public:attach event="onpropertychange" onevent="checkProperty()"/>
+</public:component>
+
+<script language="JScript">
+
+// Declare a reference to the interval
+var blinkInterval;
+
+function initBlink() {
+	if (element.style.visibilty == null) element.style.visibility = "visible";
+	blinkInterval = window.setInterval(element.uniqueID +".blink()", msec);
+	paused = false;
+}
+
+function blink() {
+	element.style.visibility = (element.style.visibility == "visible") ? "hidden" : "visible";
+}
+
+function pause() {
+	if (paused)
+		blinkInterval = window.setInterval(element.uniqueID + ".blink()", msec);
+	else
+		window.clearInterval(blinkInterval);
+	paused = !paused;
+}
+
+function checkProperty() {
+	window.status = event.propertyName;
+	if (event.propertyName == "msec") {
+		element.pause();
+		element.pause();
+	}
+	
+}
+</script>
+

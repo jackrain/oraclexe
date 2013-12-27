@@ -1,0 +1,25 @@
+#maintab-body {
+border:0 none;
+font-family:Tahoma,Arial;
+font-size:76%;
+height:100%;
+margin:0;
+max-height:100%;
+overflow:auto;
+padding:10px;
+}
+#tabs {
+padding:8px 0;
+width:500px;
+}
+.mv {
+padding-top:130px;
+vertical-align:top;
+}
+.selectbox {
+height:300px;
+width:170px;
+}
+#lc{
+ padding-left:10px;
+}

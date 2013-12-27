@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms
+END
+VoucherLine.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms/VoucherLine.class
+END
+PackingSlip.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms/PackingSlip.class
+END
+WmsShipImplC2S.class
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms/WmsShipImplC2S.class
+END
+WmsShipImplS2C.class
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms/WmsShipImplS2C.class
+END
+PackingList.class
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms/PackingList.class
+END
+WmsShip.class
+K 25
+svn:wc:ra_dav:version-url
+V 143
+/jackrain/portal/!svn/ver/1144/trunk/trunk/portal422/server/default/deploy/nds.war/WEB-INF/classes/cn/com/burgeon/service/m18/wms/WmsShip.class
+END

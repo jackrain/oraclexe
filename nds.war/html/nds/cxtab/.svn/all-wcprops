@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/jackrain/portal/!svn/ver/1304/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab
+END
+inc_cxtabdef.js.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/646/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/inc_cxtabdef.js.jsp
+END
+downloadrpt.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/142/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/downloadrpt.jsp
+END
+processparam.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/processparam.jsp
+END
+opencube.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/opencube.jsp
+END
+viewrpt.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/142/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/viewrpt.jsp
+END
+search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/1304/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/search.jsp
+END
+quickview.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/quickview.jsp
+END
+viewcube.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/960/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/viewcube.jsp
+END
+create_cxtabrpt.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jackrain/portal/!svn/ver/1304/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/create_cxtabrpt.jsp
+END
+search_jreport.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1304/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/search_jreport.jsp
+END
+inc_create_cxtabrpt.js.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/inc_create_cxtabrpt.js.jsp
+END
+rpthome.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1238/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/rpthome.jsp
+END
+columns.xml.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/651/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/columns.xml.jsp
+END
+cubsetup.exe
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1035/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/cubsetup.exe
+END
+cxtabdef.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1079/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/cxtabdef.jsp
+END
+viewrpt_toolbar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/142/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/viewrpt_toolbar.jsp
+END
+history_files.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/947/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/cxtab/history_files.jsp
+END

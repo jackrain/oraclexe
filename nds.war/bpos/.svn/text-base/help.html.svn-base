@@ -1,0 +1,66 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>WEBPOS-操作帮助说明</title>
+<style type="text/css">
+<!--
+body {
+	margin-left: 0px;
+	margin-top: 5px;
+}
+.STYLE1 {font-size: 12px}
+.STYLE4 {font-size: 12px; color: #FFFFFF; }
+-->
+</style></head>
+
+<body>
+<table width="700" border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#CCCCCC" bgcolor="#E1F4FF" rules="none">
+  
+  
+  <tr>
+    <td width="565" valign="top"><table width="455" height="443" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="1">&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="27"><img src="images/buzhou.gif" width="235" height="18" align="absmiddle" /></td>
+        </tr>
+      <tr>
+        <td height="2"><hr align="left" width="226" size="1" /></td>
+        </tr>
+      <tr>
+        <td height="20"><span class="STYLE1">在IE菜单栏选择&quot;工具&quot;－“弹出窗口阻止程序”－选择“关闭弹出阻止程序”；如下图所示：</span></td>
+        </tr>
+      
+      <tr>
+        <td height="27"><img src="images/Steps.jpg" width="581" height="252" /></td>
+        </tr>
+      <tr>
+        <td width="600" height="86" align="left" valign="middle"><table width="475" height="71" border="0" align="left" cellpadding="0" cellspacing="0">
+          <tr>
+            <td>&nbsp;</td>
+            </tr>
+          <tr>
+            <td></td>
+            </tr>
+          <tr>
+            <td></td>
+            </tr>
+        </table></td>
+      </tr>
+      
+      
+    </table></td>
+    <td width="155" bgcolor="#E1F4FF"></td>
+  </tr>
+  
+  <tr>
+    <td height="0" colspan="2">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2" bgcolor="#214A69"><div align="right" class="STYLE4">Copyright &copy;2008-2012 Burgeon Software ALL RIGHTS RESERVED</div></td>
+  </tr>
+</table>
+</body>
+</html>

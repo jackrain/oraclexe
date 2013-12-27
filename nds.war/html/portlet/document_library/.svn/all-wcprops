@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library
+END
+edit_file_entry_form.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/edit_file_entry_form.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/error.jsp
+END
+select_group.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/select_group.jsp
+END
+file_entry_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/file_entry_action.jsp
+END
+select_file_entry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/select_file_entry.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/init.jsp
+END
+edit_file_entry.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/edit_file_entry.jsp
+END
+search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/search.jsp
+END
+folder_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/folder_action.jsp
+END
+select_folder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/select_folder.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/view.jsp
+END
+edit_file_shortcut.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/edit_file_shortcut.jsp
+END
+edit_folder.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/edit_folder.jsp
+END
+edit_file_entry_form_extra_fields.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/edit_file_entry_form_extra_fields.jsp
+END
+file_version_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/document_library/file_version_action.jsp
+END

@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>伯俊天气指南</title>
+<script type="text/javascript" src="/html/nds/js/jquery1.3.2/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="/html/nds/sinawa/js/weather_mj.js" language="javascript"charset="UTF-8"></script>
+<script type="text/javascript">
+//创建天气预报核心对象
+var weather_=new weather();
+var city = "";
+function utf8ToGBK ($value) {
+return iconv("UTF-8", "gbk", $value);
+}
+$(document).ready(function(){
+/*
+$.getScript('http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js',function(){
+city=remote_ip_info.city;
+jintian();
+$(".city").html(remote_ip_info.city);
+ */
+$.ajax({
+contentType:'application/x-javascript',
+dataType:'script',
+scriptCharset:'gb2312',////////
+url:'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js',
+success:function(){
+city=remote_ip_info.city;
+jintian();
+$(".city").html(remote_ip_info.city);}
+})
+});
+</script>
+<style type="text/css">
+	.weather{ 
+		
+		/*	float:left; color:#333333; padding:10px;*/
+		padding: 5px 0px;
+border-bottom-style: dotted;
+border-bottom-width: 1px;
+border-bottom-color: rgb(153, 153, 153);
+cursor: pointer;
+	}
+.weather a{ color:#333333;}
+.wt{line-height:17px; font-size:12px; padding:3px 5px; text-align:center;}
+.wtimg{ vertical-align:middle;padding:0px 1px; margin:0PX auto;}
+#weath{
+padding: 1px;
+margin: 0;
+position: relative;
+text-align: center;
+font-family: Tahoma;
+font-size: 12px;
+line-height: 100%;
+}
+#ltlTemperature {
+font-size: 40px;
+line-height: 42px;
+}
+</style>
+</head>
+<body>
+<div id="weath" style="color:#000000; background-color:transparent; border:none; zoom:1;">
+<div>当前城市：<span class="city"></span></div>
+<div class="weather" style="padding: 5px 0px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: rgb(153, 153, 153); cursor: pointer;">
+	<div style="margin:0 auto; width:200px;">
+		<div class="wtimg" id="T_weather_img" style="width:90px; float:left; text-align:center;"></div>
+<div class="wt"><span id="ltlTemperature"><span id="T_temperature" class="temp"></span>°</span><br/>
+	<span id="T_direction"></span><span id="T_wind"></span></div>
+	</div>
+</div>
+<div class="weather" style="padding: 5px 0px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: rgb(153, 153, 153); cursor: pointer;">
+	<div style="margin:0 auto; width:200px;">
+<div class="wtimg" id="M_weather_img" style="width:90px; float:left; text-align:center;"></div>
+<div class="wt">明 天&nbsp;<span id="M_weather"></span><br /><span id="M_temperature"></span><br/>
+	<span id="M_direction"></span><span id="M_wind"></span></div>
+</div>
+</div>
+<div class="weather" style="padding: 5px 0px; border-bottom-style: dotted; border-bottom-width: 1px; border-bottom-color: rgb(153, 153, 153); cursor: pointer;">
+	<div style="margin:0 auto; width:200px;">
+<div class="wtimg" id="L_weather_img" style="width:90px; float:left; text-align:center;"></div>
+<div class="wt">后 天&nbsp;<span id="L_weather"></span><br /><span id="L_temperature"></span><br/>
+	<span id="L_direction"></span><span id="L_wind"></span></div>
+</div>
+</div>
+</div>
+</body>
+</html>

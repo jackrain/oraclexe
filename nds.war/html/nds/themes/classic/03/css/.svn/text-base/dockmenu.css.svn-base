@@ -1,0 +1,131 @@
+ .portal-dock.interactive-mode {
+	float:right;
+	width:150px;
+	min-width:150px;
+	position:absolute;
+	right:2px;
+	top:0px;
+	margin-right:1.3em;
+	
+}
+
+.portal-dock-list-container {
+	background:#DDEAFB;
+	border:0px;
+	position:absolute;
+	top:30px;
+	right:2px;
+	text-align: right;
+}
+ .portal-dock.expanded .portal-dock-list-container {
+	background: #FCEEF9;
+	border: 1px solid #5D0C7B;
+	border-top: none;
+	top: 24px;
+	text-align: right;
+}
+
+ .portal-dock.interactive-mode ul {
+	background: url(/html/nds/images/dock/menu_bg.png) no-repeat 0 0;
+	border-left: 20px solid #FCEEF9;
+	display: none;
+	float: none;
+	margin:1px 0pt 1px 1px;
+}
+
+ .portal-dock.interactive-mode li {
+	display: block;
+	float: none;
+	margin-bottom: 0pt;
+	margin-left: 0.2em;
+	height:28px;
+	width: 140px;
+}
+
+ .portal-dock.interactive-mode li a {
+	background-position: 0.5em 50%;
+	background-repeat: no-repeat;
+	border-top: 1px solid #ccc;
+	display: block;
+	margin-left: 0.3em;
+	padding: 0.5em 1em 0.5em 0.5em;
+	text-decoration: none;
+}
+
+ .portal-dock.interactive-mode ul.portal-dock-list > li:first-child a,  .portal-dock.interactive-mode ul.portal-dock-list > li:first-child ul.show-my-places li:first-child a {
+	border-top: none;
+}
+
+ .portal-dock.interactive-mode li a:hover {
+	background-color: #FCEEF9;
+	background-position: 1.5em 50%;
+	border-top: 1px solid #FEDCF6;
+	padding-left: 1.5em;
+	text-decoration: none;
+}
+
+ .portal-dock.interactive-mode ul.portal-dock-list > li:first-child a,  .portal-dock.interactive-mode ul.portal-dock-list > li:first-child a:hover,  .portal-dock.interactive-mode ul.portal-dock-list li.my-places ul.show-my-places li ul li:first-child a,  .portal-dock.interactive-mode ul.portal-dock-list li.my-places ul.show-my-places li ul li:first-child a:hover {
+	border-top: none;
+}
+
+.portal-dock li.Add a {
+	background-image: url(/html/nds/images/tb_new.gif);
+}
+.portal-dock li.Delete a {
+	background-image: url(/html/nds/images/tb_delete.gif);
+}
+.portal-dock li.Submit a {
+	background-image: url(/html/nds/images/tb_submit.gif);
+}
+.portal-dock li.Report a {
+	background-image: url(/html/nds/images/tb_cxtab.gif);
+}
+.portal-dock li.Modify a {
+	background-image: url(/html/nds/images/tb_modify.gif);
+}
+.portal-dock li.ExportList a {
+	background-image: url(/html/nds/images/tb_export.gif);
+}
+.portal-dock li.Import a {
+	background-image: url(/html/nds/images/tb_import.gif);
+}
+.portal-dock li.SmsList a {
+	background-image: url(/html/nds/images/tb_sms.gif);
+}
+.portal-dock li.ListAdd a {
+	background-image: url(/html/nds/images/tb_listadd.gif);
+}
+.portal-dock li.UpdateSelection a {
+	background-image: url(/html/nds/images/tb_update_selection.gif);
+}
+.portal-dock li.UpdateResultSet a {
+	background-image: url(/html/nds/images/tb_update_resultset.gif);
+}
+.portal-dock li.PrintList a {
+	background-image: url(/html/nds/images/tb_print.gif);
+}
+.portal-dock li.ListCopyTo a {
+	background-image: url(/html/nds/images/tb_listcopy.gif);
+}
+
+.ie6 .portal-dock.interactive-mode {
+	white-space: nowrap;
+	width: 150px;
+}
+
+.ie .portal-dock .my-places .show-my-places h3 {
+	font-size: 1.1em;
+}
+
+.ie6 .portal-dock.expanded.interactive-mode .portal-dock-list-container {
+	height: 1%;
+}
+
+
+.ie6 .portal-dock.interactive-mode li {
+	height: 1%;
+}
+
+.ie6 .portal-dock.interactive-mode li a {
+	height: 1%;
+}

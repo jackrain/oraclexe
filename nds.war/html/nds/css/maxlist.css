@@ -1,0 +1,38 @@
+body{
+margin-left: 5px;
+padding: 0;
+border: 0;
+overflow-x:hidden;
+overflow-y:auto;
+height: 100%; 
+max-height: 100%; 
+font-family:Tahoma,Arial;
+font-size:76%;
+}
+* html body{ /*IE6 hack*/
+padding: 0px 0px 0px 0px; /*Set value to (HeightOfFrameDiv 0 0 0)*/
+}
+* html #portal-main{ /*IE6 hack*/ 
+height: 100%; 
+width: 100%; 
+}
+#page-table-content{
+	overflow:auto;
+}
+#page-table-content{
+    overflow-y: hidden;
+    _overflow-y: hidden;
+    overflow-x: auto;
+    height: 99%;
+    _width: expression((document.body.offsetWidth-20)+"px");
+    background-color:#FFF;
+    margin:0px 0px 0px 0px;
+}
+#page-table-query{
+    overflow-y: auto;
+    overflow-x: auto;
+    height: 100%;
+    _width: expression((document.body.offsetWidth-20)+"px");
+    background-color:#FFF;
+    margin:0px 0px 0px 5px;
+}

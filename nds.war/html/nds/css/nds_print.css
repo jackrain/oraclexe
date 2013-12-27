@@ -1,0 +1,25 @@
+body {  font: 9pt "Verdana", "Arial", "Helvetica", "sans-serif"; color: #333333}
+select {  border: 1px solid; background: #FFFFFF}
+input {  font: normal 9pt "Verdana", "Arial", "Helvetica", "sans-serif"; border: solid; border-color: #CCCCCC #999999 #999999 #CCCCCC; background:transparent; vertical-align: middle; border-width: 0px 0px 1px}
+button {  font: normal 9pt "Verdana", "Arial", "Helvetica", "sans-serif"; border: solid; border-color: #CCCCCC #999999 #999999 #CCCCCC; background:transparent; vertical-align: middle; border-width: 0px 0px 1px}
+A:{color: #0033FF; TEXT-DECORATION: none}
+A:link{text-decoration: none;; color: #0033FF}
+A:visited {text-decoration: none;; color: #0033FF}
+BODY{
+SCROLLBAR-HIGHLIGHT-COLOR: buttonface;
+SCROLLBAR-SHADOW-COLOR: buttonface;
+SCROLLBAR-3DLIGHT-COLOR: buttonhighlight;
+SCROLLBAR-TRACK-COLOR: #eeeeee;
+SCROLLBAR-DARKSHADOW-COLOR: buttonshadow}
+INPUT{BORDER-TOP-WIDTH: 1px; PADDING-RIGHT: 1px; PADDING-LEFT: 1px; BORDER-LEFT-WIDTH: 1px; BORDER-LEFT-COLOR: #cccccc; BORDER-BOTTOM-WIDTH: 1px; BORDER-BOTTOM-COLOR: #cccccc; PADDING-BOTTOM: 1px; BORDER-TOP-COLOR: #cccccc; PADDING-TOP: 1px; HEIGHT: 18px; BORDER-RIGHT-WIDTH: 1px; BORDER-RIGHT-COLOR: #cccccc}
+select {border-width: 1; border-color: #000000; background-color: #efefef; font-family: "Verdana", "Arial", "Helvetica", "sans-serif"; font-size: 9pt; font-style: bold;}
+.command_button
+{
+    color: #000000;
+    border: 2px solid;
+    background:#FFFFFF;
+    vertical-align: middle;
+    height:21;
+; font-family: black 9pt "Verdana", "Arial", "Helvetica", "sans-serif"; font-style: normal; font-weight: normal; font-variant: normal
+; border-color: #FF7F00 #FF7F00 #FF7F00 #FF7F00
+}

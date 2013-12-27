@@ -1,0 +1,371 @@
+/*
+#page-nav-container {list-style:none;margin:0;padding:0;position: absolute;top: 22px;float: left;left: 210px;}
+#page-nav-container li {float:left;width:100px;margin:0;padding:0;text-align:center;}
+#page-nav-container li a {display:block;padding:5px 10px;height:26px;color:#FFF;text-decoration:none;border-right:1px solid #FFF;}
+
+#page-nav-container li a:hover,#page-nav-container li a:focus,#page-nav-container li a:active {background-position:-150px 0;}
+#page-nav-container a {background:url(/html/nds/themes/classic/01/images/bg.jpg) repeat -20px 35px;}
+
+#page-nav-container li:first-child {
+-moz-border-radius: 4px 0 0 4px;
+-webkit-border-radius: 4px 0 0 4px;
+border-radius: 4px 0 0 4px;
+border-left: none;
+}
+*/
+
+/* APPLE STYLE NAVIGATION MENU */
+#page-nav-container { margin:0; list-style:none;
+
+    /* Lucinda Grande is the font used on the website from Apple. */
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif; letter-spacing:-0.5px; font-size:13px;
+    
+    /* Apply a subtle text-shadow to the text */
+    text-shadow: 0 -1px 3px #202020;
+
+    /* We want to add the shadow to the complete navigation menu. In order to do that, we'll need to set
+    the correct width and height, and also the correct borders, in order to create the perfect drop shadow */
+    /*width:766px; */
+    height:32px;
+    
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    
+    -moz-box-shadow: 0px 3px 3px #cecece;
+    -webkit-box-shadow: 0px 3px 3px #cecece;
+    box-shadow: 0 3px 4px #8b8b8b;
+}
+
+#page-nav-container li { display:block; float:left; border-right:1px solid #5d5d5d; border-left:1px solid #929292; width:95px; height:33px; border-bottom:1px solid #575757; border-top:1px solid #797979;
+
+    /* Gradient backgrounds for the buttons. Generated using http://gradients.glrzad.com/ */
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #787878), color-stop(0.5, #5E5E5E), color-stop(0.51, #707070), color-stop(1, #838383));
+    background-image: -moz-linear-gradient(center bottom, #787878 0%, #5E5E5E 50%, #707070 51%, #838383 100%);
+    background-color:#5f5f5f; /* Fallback */
+}
+
+/* Set the states when hovering, except for the last item in the list (the search bar), since it doesn't need to change */
+#page-nav-container li:not(:last-child):hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3F3F3F), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
+    background-image: -moz-linear-gradient(center bottom, #3F3F3F 0%, #383838 50%, #434343 51%, #555555 100% );
+    background-color:#383838; /* Fallback */
+    
+    /* We use the inset of the box shadow to create a subtle inner glow when hovering */
+    -moz-box-shadow: inset 0 0 5px 5px #535353;
+    -webkit-box-shadow: inset 0 0 5px 5px #535353;
+    box-shadow: inset 0 0 5px 5px #535353;
+}
+
+/* When the user clicks the button, we simply change the box inset (compared to the "hover") */
+#page-nav-container li:not(:last-child):active {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3F3F3F), color-stop(0.5, #383838), color-stop(0.51, #434343), color-stop(1, #555555));
+    background-image: -moz-linear-gradient(center bottom, #3F3F3F 0%, #383838 50%, #434343 51%, #555555 100% );
+    background-color:#383838; /* Fallback */
+    
+    -moz-box-shadow: inset 0 1px 2px 2px #000;
+    -webkit-box-shadow: inset 0 1px 2px 2px #000;
+    box-shadow: inset 0 1px 2px 2px #000;
+}
+
+#page-nav-container li a { color:white; text-decoration:none; text-align:center; display:block; line-height:34px; outline:none; }
+
+/* Styling of the search field */
+#page-nav-container form input { width:76px; height:20px; margin-left:9px; margin-top:8px; border:none; padding-left:20px; padding-right:10px; color:#eee;
+
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+
+    /* We use the CSS3 multiple backgrounds for the input field: The magnifier image and the gradient background */    
+    background-image: url("/html/nds/themes/classic/01/images/magnifier.png"), -webkit-gradient(linear, left bottom, left top, color-stop(0, #747474), color-stop(0.5, #6E6E6E), color-stop(0.51, #7E7E7E), color-stop(1, #8D8D8D));
+    background-image: url("/html/nds/themes/classic/01/images/magnifier.png"), -moz-linear-gradient(center bottom, #747474 0%, #6E6E6E 50%, #7E7E7E 51%, #8D8D8D 100%);
+    background-repeat: no-repeat;
+    
+    background-color:#6E6E6E; /* Fallback */
+    
+    -moz-box-shadow: inset 0 2px 1px 1px #363636;
+    -webkit-box-shadow: inset 0 2px 1px 1px #363636;
+    box-shadow: inset 0 2px 1px 1px #363636;
+}
+
+/* Rounded corner for the first in last item. Shorthand: Top left, Top right, Bottom right, Bottom left.
+We also remove the borders, since they don't need them. */
+#page-nav-container li:first-child {
+    -moz-border-radius:4px 0 0 4px;
+    -webkit-border-radius:4px 0 0 4px;
+    border-radius:4px 0 0 4px;
+    
+    border-left:none;
+}
+
+/* The first child image - the logo - has to be centered. Because of the image dimensions, we manually need to shift it a bit. */
+#page-nav-container li:first-child a img {
+   vertical-align:middle; margin-top:8px;
+}
+
+#page-nav-container li:last-child {
+    -moz-border-radius:0 4px 4px 0;
+    -webkit-border-radius:0 4px 4px 0;
+    border-radius:0 4px 4px 0;
+    
+    border-right:none;
+    
+    /* The width of the last menu item (search bar) is bigger than the others */
+    width:124px;
+}
+
+/* Fade in animation (Webkit only) */
+@-webkit-keyframes showMenu {
+    from { opacity: 0; top:-20px; }
+    to   { opacity: 1; }
+}
+
+#page-nav-container {
+     -webkit-animation: showMenu 1s; position:absolute;
+     top: 12px;
+left: 213px;
+}
+/* 标签页样式   */
+#tabs ul{
+    margin: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    margin-bottom: -1px;
+    height: 2.25em;
+}
+
+#tabs .ui-tabs-nav li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: .25em .25em 0;
+    height: 2em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #FFF;
+}
+
+#tabs .ui-tabs-nav li.ui-tabs-selected {
+    z-index: 3;
+}
+
+#tabs .ui-tabs-nav a {
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-bottom: 0;
+    padding: 0 10px;
+    color: #000;
+    text-decoration: none;
+    behavior: url(PIE.htc);
+}
+
+#tabs .ui-tabs-nav .ui-tabs-selected a {
+    background: #FFF;
+    -webkit-box-shadow: #CCC 0 0 .25em;
+    -moz-box-shadow: #CCC 0 0 .25em;
+    box-shadow: #CCC 0 0 .25em;
+}
+
+#tabs .ui-tabs-nav a:hover {
+    background: -webkit-gradient(linear, 0 0, 0 70%, from(#EEF), to(#FFF));
+    background: -webkit-linear-gradient(#EEF, #FFF 70%);
+    background: -moz-linear-gradient(#EEF, #FFF 70%);
+    background: -ms-linear-gradient(#EEF, #FFF 70%);
+    background: -o-linear-gradient(#EEF, #FFF 70%);
+    background: linear-gradient(#EEF, #FFF 70%);
+    -pie-background: linear-gradient(#EEF, #FFF 70%);
+}
+
+#tabs .ui-tabs-panel {
+    clear: left;
+    position: relative;
+    z-index: 2;
+/*     padding: 2em 1em; */
+	padding: 0.8em 1em;
+    border: 1px solid #CCC;
+    background: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: #CCC 0 0 .25em;
+    -moz-box-shadow: #CCC 0 0 .25em;
+    box-shadow: #CCC 0 0 .25em;
+    behavior: url(PIE.htc);
+    /*width:902px;*/
+    /*width:100%;*/
+}
+
+.ui-tabs-hide{
+  display:none;	
+	
+	
+	}
+	
+	
+/* 标签页样式   */
+#page-table-query-tab ul{
+    margin: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    margin-bottom: -1px;
+    height: 2.25em;
+}
+
+#page-table-query-tab .ui-tabs-nav li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: .25em .25em 0;
+    height: 2em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #FFF;
+}
+
+#page-table-query-tab .ui-tabs-nav li.selected {
+    z-index: 3;
+}
+
+#page-table-query-tab .ui-tabs-nav a {
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-bottom: 0;
+    padding: 0 10px;
+    color: #000;
+    text-decoration: none;
+    behavior: url(PIE.htc);
+}
+
+#page-table-query-tab .ui-tabs-nav .selected a {
+    background: #FFF;
+    -webkit-box-shadow: #CCC 0 0 .25em;
+    -moz-box-shadow: #CCC 0 0 .25em;
+    box-shadow: #CCC 0 0 .25em;
+}
+
+#page-table-query-tab .ui-tabs-nav a:hover {
+    background: -webkit-gradient(linear, 0 0, 0 70%, from(#EEF), to(#FFF));
+    background: -webkit-linear-gradient(#EEF, #FFF 70%);
+    background: -moz-linear-gradient(#EEF, #FFF 70%);
+    background: -ms-linear-gradient(#EEF, #FFF 70%);
+    background: -o-linear-gradient(#EEF, #FFF 70%);
+    background: linear-gradient(#EEF, #FFF 70%);
+    -pie-background: linear-gradient(#EEF, #FFF 70%);
+}
+
+#page-table-query-tab .ui-tabs-panel {
+    clear: left;
+    position: relative;
+    z-index: 2;
+    padding: 0 1em;
+    border: 1px solid #CCC;
+    background: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: #CCC 0 0 .25em;
+    -moz-box-shadow: #CCC 0 0 .25em;
+    box-shadow: #CCC 0 0 .25em;
+    behavior: url(PIE.htc);
+}
+
+
+/* 查询标签页样式   */
+#query-search-content ul{
+    margin: 0;
+    padding: 0 10px;
+    overflow: hidden;
+    margin-bottom: -1px;
+    height: 2.25em;
+}
+
+#query-search-content .ui-tabs-nav li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: .25em .25em 0;
+    height: 2em;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+    border-bottom: 1px solid #FFF;
+}
+
+#query-search-content .ui-tabs-nav li.selected {
+    z-index: 3;
+}
+
+#query-search-content .ui-tabs-nav li.ui-tabs-selected {
+z-index: 3;
+}
+
+#query-search-content  .ui-tabs-nav .ui-tabs-selected a {
+background: white;
+-webkit-box-shadow: #CCC 0 0 .25em;
+-moz-box-shadow: #CCC 0 0 .25em;
+box-shadow: #CCC 0 0 .25em;
+}
+
+#query-search-content .ui-tabs-nav a {
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    -webkit-border-radius: 8px 8px 0 0;
+    -moz-border-radius: 8px 8px 0 0;
+    border-radius: 8px 8px 0 0;
+    background: #EEE;
+    border: 1px solid #CCC;
+    border-bottom: 0;
+    padding: 0 10px;
+    color: #000;
+    text-decoration: none;
+    behavior: url(PIE.htc);
+}
+
+#query-search-content .ui-tabs-nav .selected a {
+    background: #FFF;
+    -webkit-box-shadow: #CCC 0 0 .25em;
+    -moz-box-shadow: #CCC 0 0 .25em;
+    box-shadow: #CCC 0 0 .25em;
+}
+
+#query-search-content .ui-tabs-nav a:hover {
+    background: -webkit-gradient(linear, 0 0, 0 70%, from(#EEF), to(#FFF));
+    background: -webkit-linear-gradient(#EEF, #FFF 70%);
+    background: -moz-linear-gradient(#EEF, #FFF 70%);
+    background: -ms-linear-gradient(#EEF, #FFF 70%);
+    background: -o-linear-gradient(#EEF, #FFF 70%);
+    background: linear-gradient(#EEF, #FFF 70%);
+    -pie-background: linear-gradient(#EEF, #FFF 70%);
+}
+
+#query-search-content .ui-tabs-panel {
+    clear: left;
+    position: relative;
+    z-index: 2;
+    padding: 0 1em;
+    border: 1px solid #CCC;
+    background: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: #CCC 0 0 .25em;
+    -moz-box-shadow: #CCC 0 0 .25em;
+    box-shadow: #CCC 0 0 .25em;
+    behavior: url(PIE.htc);
+}

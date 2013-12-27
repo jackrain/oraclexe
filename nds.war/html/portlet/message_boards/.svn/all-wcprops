@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards
+END
+bbcode_editor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/bbcode_editor.jsp
+END
+css.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/css.jsp
+END
+edit_message.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/edit_message.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/error.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/init.jsp
+END
+search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/search.jsp
+END
+view_message_thread.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/view_message_thread.jsp
+END
+view_message_thread_message.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/view_message_thread_message.jsp
+END
+category_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/category_action.jsp
+END
+tabs1.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/tabs1.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/view.jsp
+END
+edit_configuration.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/edit_configuration.jsp
+END
+select_category.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/select_category.jsp
+END
+view_message.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/view_message.jsp
+END
+message_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/message_action.jsp
+END
+edit_category.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/message_boards/edit_category.jsp
+END

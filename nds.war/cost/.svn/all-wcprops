@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/jackrain/portal/!svn/ver/192/trunk/trunk/portal422/server/default/deploy/nds.war/cost
+END
+cost.js
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/jackrain/portal/!svn/ver/192/trunk/trunk/portal422/server/default/deploy/nds.war/cost/cost.js
+END
+link.css
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/jackrain/portal/!svn/ver/183/trunk/trunk/portal422/server/default/deploy/nds.war/cost/link.css
+END
+entercost_query.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jackrain/portal/!svn/ver/107/trunk/trunk/portal422/server/default/deploy/nds.war/cost/entercost_query.jsp
+END
+cost_query.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jackrain/portal/!svn/ver/117/trunk/trunk/portal422/server/default/deploy/nds.war/cost/cost_query.jsp
+END
+cost_adjust.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jackrain/portal/!svn/ver/88/trunk/trunk/portal422/server/default/deploy/nds.war/cost/cost_adjust.jsp
+END
+cost_copy.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jackrain/portal/!svn/ver/192/trunk/trunk/portal422/server/default/deploy/nds.war/cost/cost_copy.jsp
+END

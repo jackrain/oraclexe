@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/jackrain/portal/!svn/ver/805/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security
+END
+sql_filter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/sql_filter.jsp
+END
+changepassword.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/570/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/changepassword.jsp
+END
+loginusers.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/loginusers.jsp
+END
+userinfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/userinfo.jsp
+END
+grouperm_subsystem.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/805/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/grouperm_subsystem.jsp
+END
+groupperm.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jackrain/portal/!svn/ver/217/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/groupperm.jsp
+END
+groupperm2.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/570/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/groupperm2.jsp
+END
+groupperms.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/groupperms.jsp
+END
+relate_table.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/security/relate_table.jsp
+END

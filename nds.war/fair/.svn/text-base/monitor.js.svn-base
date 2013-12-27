@@ -1,0 +1,20 @@
+document.open();
+live800_companyID="70354";
+var enterurl="null";
+var isOldSkin=false;
+jid="5701110145";
+var live800_baseUrl="chat8.live800.com";
+var live800_baseHtmlUrl="chat8.live800.com";
+var live800_baseWebApp="/live800";
+var live800_baseChatHtmlDir="/chatClient";
+monitor_live800_configID="82300";
+live800_status="1";
+live800_Language="zh";
+monitor_live800_configContent="live800_invite_auto=0&live800_invite_delay=10&live800_invite_style=2&live800_invite_top=2&custom_configId=109552&live800_invite_title=%E5%A5%95%E5%B0%9A%E7%BD%91%E5%9C%A8%E7%BA%BF%E5%AE%A2%E6%9C%8D%E7%B3%BB%E7%BB%9F";
+live800_custom_config="interface_type=2&swfUrl=http://prom.sasacity.com/flash/sasa_lady.swf&height=200&width=350";
+live800_inviteContent="%E6%9C%89%E4%BB%80%E4%B9%88%E5%8F%AF%E4%BB%A5%E5%B8%AE%E5%8A%A9%E6%82%A8%E7%9A%84%E5%90%97%EF%BC%9F";
+live800_visitorAddr="%E6%AC%A2%E8%BF%8E%E6%82%A8%EF%BC%8C%E6%9D%A5%E8%87%AA%E4%B8%8A%E6%B5%B7%E5%B8%82%E7%9A%84%E6%9C%8B%E5%8F%8B";
+var invite_accept='%E6%8E%A5%E3%80%80%E5%8F%97';
+var invite_cancel='%E5%BF%BD%E3%80%80%E7%95%A5';
+
+document.write("<scr"+"ipt language=\"javascript\" src=\"http://chat8.live800.com/live800/chatClient/monitorStatic.js\"></scr"+"ipt>");

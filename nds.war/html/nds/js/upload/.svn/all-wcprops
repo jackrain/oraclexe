@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jackrain/portal/!svn/ver/1232/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/js/upload
+END
+uploadify-cancel.png
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1181/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/js/upload/uploadify-cancel.png
+END
+uploadify.css
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jackrain/portal/!svn/ver/1181/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/js/upload/uploadify.css
+END
+jquery.uploadify.js
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jackrain/portal/!svn/ver/1181/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/js/upload/jquery.uploadify.js
+END
+jquery.uploadify.min.js
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1232/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/js/upload/jquery.uploadify.min.js
+END
+uploadify.swf
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jackrain/portal/!svn/ver/1181/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/js/upload/uploadify.swf
+END

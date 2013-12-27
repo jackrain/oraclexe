@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/jackrain/portal/!svn/ver/1278/trunk/trunk/portal422/server/default/deploy/nds.war/box
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/jackrain/portal/!svn/ver/1278/trunk/trunk/portal422/server/default/deploy/nds.war/box/index.jsp
+END
+box.js
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jackrain/portal/!svn/ver/1278/trunk/trunk/portal422/server/default/deploy/nds.war/box/box.js
+END
+getBoxNoIdIn.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/958/trunk/trunk/portal422/server/default/deploy/nds.war/box/getBoxNoIdIn.jsp
+END
+ztools.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/jackrain/portal/!svn/ver/487/trunk/trunk/portal422/server/default/deploy/nds.war/box/ztools.js
+END
+getBarcodeInfo.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/jackrain/portal/!svn/ver/958/trunk/trunk/portal422/server/default/deploy/nds.war/box/getBarcodeInfo.jsp
+END
+index-in.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jackrain/portal/!svn/ver/958/trunk/trunk/portal422/server/default/deploy/nds.war/box/index-in.jsp
+END
+box-in.js
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/jackrain/portal/!svn/ver/958/trunk/trunk/portal422/server/default/deploy/nds.war/box/box-in.js
+END
+zh.css
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/jackrain/portal/!svn/ver/1003/trunk/trunk/portal422/server/default/deploy/nds.war/box/zh.css
+END
+oc.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/jackrain/portal/!svn/ver/487/trunk/trunk/portal422/server/default/deploy/nds.war/box/oc.js
+END
+getBoxNoId.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jackrain/portal/!svn/ver/957/trunk/trunk/portal422/server/default/deploy/nds.war/box/getBoxNoId.jsp
+END

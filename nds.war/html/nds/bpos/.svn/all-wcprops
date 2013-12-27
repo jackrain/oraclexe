@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/jackrain/portal/!svn/ver/649/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos
+END
+inc_list.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_list.jsp
+END
+inc_retail_no.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_retail_no.jsp
+END
+index.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jackrain/portal/!svn/ver/501/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/index.jsp
+END
+inc_employee.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_employee.jsp
+END
+inc_num.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_num.jsp
+END
+inc_amt.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_amt.jsp
+END
+inc_retail_price.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_retail_price.jsp
+END
+vip.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/vip.jsp
+END
+bpos.css
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/bpos.css
+END
+inc_discount.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_discount.jsp
+END
+inc_pay.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/inc_pay.jsp
+END
+bpos.js
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jackrain/portal/!svn/ver/649/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/bpos/bpos.js
+END

@@ -1,0 +1,50 @@
+var NDS_PATH="/html/nds";
+function PortletInitObject(){}
+PortletInitObject.prototype={
+};
+var gMessageHolder={
+	LOADING:"Loading",
+	SEARCH: "Search",
+	CONTAINS:"Contains",
+	CLEAR_CONDITION:"Click to clear current filter",
+	DATA_ERROR:"Some data error, pls check",
+	SUM_DATA_ERROR:"Sum is not as expected, pls check",
+	INPUT_FIELD:"Please input 0 first",
+	INPUT_FILE_NAME:"Please input file name",
+	TEMPLATE_UPDATED:"You website changed!",
+	CATEGORY_GUIDE:"Guide",
+	TIME_OUT:"Operation timeout",
+	DO_YOU_CONFIRM_DELETE:"Do you confirm to delete";
+	DO_YOU_CONFIRM_GROUPSUBMIT:"Submit mutiple lines simultanously will trigger special group function, are you sure?",
+	MAINTAIN_BY_SYS: "System",
+	NO_PERMISSION: "No permission",
+	EXCEPTION: "Exception",
+	PLEASE_CHECK_SELECTED_LINES:"Please tick lines to select!",
+	PLEASE_SELECT_LINES_LESS_THAN:"Please select lines less than 20!",
+	MORE_COMMANDS:"Others",
+	CONFIRM_DELETE_CHECKED:"Do you confirm to delete checked lines?",
+	NO_DATA_TO_PROCESS:"No data to process",
+	CAN_NOT_BE_NULL: "Can not be null",
+	MUST_BE_DATE_TYPE:"Must be date type",
+	MUST_BE_NUMBER_TYPE: "Must be number type",
+	PLEASE_SELECT: "Please select",
+	MAINTAIN_BY_SYS: "System Maintain",
+	NO_PERMISSION: "No permission",
+	CMD_ADD:"Add",
+	CMD_MODIFY:"Modify",
+	CMD_DELETE:"Delete",
+	CMD_SUBMIT:"Submit",
+	CMD_REFRESH:"Refresh",
+	CMD_CXTAB:"Report",
+	CMD_LISTADD:"Batch Add",
+	CMD_IMPORT:"Import",
+	CMD_LISTCOPYTO:"Copy Lines",
+	CMD_UPDATE_SELECTION:"Modify Selected",
+	CMD_UPDATE_RESULTSET:"Modify ResultSet",
+	CMD_PRINT_LIST:"Print List",
+	CMD_EXPORT_LIST:"Export List",
+	CMD_SMS_LIST:"Send SMS Report",
+	CAN_NOT_QUICK_SEARCH:"Exception found. Please reload current page and try again.",
+	NO_DATA:"No data"	
+};
+

@@ -1,0 +1,488 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>安徽省医药电子商务网</title>
+<link href="index.css" rel="stylesheet" type="text/css" />
+<link href="portal/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="5" valign="top">&nbsp;</td>
+    <td width="748" valign="top" bgcolor="#FFFFFF"><table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tr> 
+        <td height="3"></td>
+      </tr>
+      <tr>
+        <td><table width="750" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="615"><img src="portal/adv1.jpg" width="560" height="80" /></td>
+            <td><img src="portal/top-right-menu.jpg" width="184" height="70" /></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="3"></td>
+      </tr>
+      <tr>
+        <td class="menu-bg"><table width="748" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">首页</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">数据查询</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">信息发布</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">政策法规</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">电子商务</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">挂网目录</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">医疗机构</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">企业目录</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">关于我们</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">操作帮助</a></td>
+            <td class="menu-line">&nbsp;</td>
+            <td width="66" align="center" valign="middle"><a href="#" class="menu">投诉回复</a></td>
+          </tr>
+        </table></td>
+      </tr>
+      <tr>
+        <td height="6"></td>
+      </tr>
+    </table></td>
+    <td width="5" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="191" valign="top"><table width="190" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5" valign="top"><img src="portal/center-left-bg.jpg" width="5" height="407" /></td>
+        <td width="186" valign="top"><table width="182" border="0" cellpadding="0" cellspacing="0">
+          <tr>
+            <form id="form1" name="form1" method="post" action=""><td class="user-bg">
+              <table width="160" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td height="60" colspan="2">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td width="44" align="right" class="user-font">用户名</td>
+                  <td width="116"><input name="textfield" type="text" class="user-inputline" /></td>
+                </tr>
+                <tr>
+                  <td align="right" class="user-font">密　码</td>
+                  <td><input name="textfield2" type="text" class="user-inputline" /></td>
+                </tr>
+                <tr>
+                  <td height="30" colspan="2" align="center"><input type="image" name="imageField" src="portal/dl.gif" />
+                    &nbsp;
+                    <input type="image" name="imageField2" src="portal/cz.gif" /></td>
+                  </tr>
+                <tr>
+                  <td colspan="2" align="center" class="user-font">在线注册&nbsp;忘记密码</td>
+                  </tr>
+              </table>
+                        
+            </td></form>
+          </tr>
+          <tr>
+            <td height="5"></td>
+          </tr>
+          <tr>
+            <td valign="top"><table width="182" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="left-font"><img src="portal/left-title01.gif" width="182" height="22" /></td>
+              </tr>
+              <tr>
+                <td height="1"></td>
+              </tr>
+              <tr>
+                <td valign="top" class="left-border">·西安药品备案公示 <br />
+                  ·药品临时零售价格的通知 <br />
+                  ·企业定价药品价格备案信息 <br />
+                  ·政府定价目录药品临时价格表<br />
+                  ·107种中成药价格的通知<br />
+                  ·中招标采购药品价格管理办法 <br />
+·33种中成药最高零售价格通知 <br />
+·AnyBoardUT神州建站系统 <br />
+·企业医院改制困惑解决方案<br />
+·21家医院下月设平价门诊 </td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="433" valign="top"><table width="395" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><table width="395" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="portal/center-title01.gif" width="395" height="20" /></td>
+          </tr>
+          <tr>
+            <td class="center-border"><table width="380" border="0" align="center" cellpadding="0" cellspacing="0">
+              <tr>
+                <td valign="top"><img src="portal/center-pic.jpg" width="127" height="88" align="left" /><strong>关于做好药品和保健食品广告集中整治工作的通知</strong><br />
+                  　　各省、自治区、直辖市食品药品监督管理局（药品监督管理局）：为贯彻落实全国质量工作会议精神和《全国产品质量和食品安全专项整治行动方案》的部署，我局与国家工商行政管理...</td>
+              </tr>
+              <tr>
+                <td><img src="portal/little_gray_fang.gif" width="6" height="13" /> 2008年度葫芦岛市医疗机构医用耗材及检验试剂集中采(2007/11/28)</td>
+              </tr>
+              <tr>
+                <td><img src="portal/little_gray_fang.gif" width="6" height="13" /> 2008年度葫芦岛市医疗机构医用耗材及检验试剂集中采(2007/11/28)</td>
+              </tr>
+              <tr>
+                <td><img src="portal/little_gray_fang.gif" width="6" height="13" /> 2008年度葫芦岛市医疗机构医用耗材及检验试剂集中采(2007/11/28)</td>
+              </tr>
+            </table></td>
+          </tr>
+          
+        </table></td>
+      </tr>
+      
+      <tr>
+        <td height="5"></td>
+      </tr>
+      <tr>
+        <td><table width="395" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td><img src="portal/center-title02.gif" width="395" height="24" /></td>
+          </tr>
+          <tr>
+            <td class="left-border"><table width="380" border="0" align="center" cellpadding="0" cellspacing="1">
+              <tr>
+                <td width="92" class="hight-top-color">药品名称</td>
+                <td width="66" class="hight-top-color">编号</td>
+                <td width="67" class="hight-top-color">剂型</td>
+                <td width="68" class="hight-top-color">规格</td>
+                <td width="81" class="hight-top-color">质量层次</td>
+              </tr>
+              <tr>
+                <td class="hight-center-color">药品ABC1</td>
+                <td class="hight-center-color">ABC0003</td>
+                <td class="hight-center-color">巴布膏剂</td>
+                <td class="hight-center-color">11111</td>
+                <td class="hight-center-color">单独定价</td>
+              </tr>
+              <tr>
+                <td class="hight-bottom-color">药品ABC1245678</td>
+                <td class="hight-bottom-color">BC0008</td>
+                <td class="hight-bottom-color">擦剂</td>
+                <td class="hight-bottom-color"><span class="hight-center-color">11111</span></td>
+                <td class="hight-bottom-color">优质优价</td>
+              </tr>
+              <tr>
+                <td class="hight-center-color">药品ABC124567</td>
+                <td class="hight-center-color">BC0007</td>
+                <td class="hight-center-color">擦剂</td>
+                <td class="hight-center-color">11111</td>
+                <td class="hight-center-color">优质优价</td>
+              </tr>
+              <tr>
+                <td class="hight-bottom-color">药品ABC12456</td>
+                <td class="hight-bottom-color">BC0006</td>
+                <td class="hight-bottom-color">擦剂</td>
+                <td class="hight-bottom-color"><span class="hight-center-color">11111</span></td>
+                <td class="hight-bottom-color">优质优价</td>
+              </tr>
+              <tr>
+                <td class="hight-center-color">药品ABC1245</td>
+                <td class="hight-center-color">BC0005</td>
+                <td class="hight-center-color">擦剂</td>
+                <td class="hight-center-color">11111</td>
+                <td class="hight-center-color">优质优价</td>
+              </tr>
+              <tr>
+                <td class="hight-bottom-color">药品ABC124</td>
+                <td class="hight-bottom-color">BC0004</td>
+                <td class="hight-bottom-color">巴布膏剂</td>
+                <td class="hight-bottom-color"><span class="hight-center-color">11111</span></td>
+                <td class="hight-bottom-color">GMP</td>
+              </tr>
+              <tr>
+                <td class="hight-center-color">药品ABC123</td>
+                <td class="hight-center-color">BC0003</td>
+                <td class="hight-center-color">薄膜衣片</td>
+                <td class="hight-center-color">11111</td>
+                <td class="hight-center-color">单独定价</td>
+              </tr>
+              <tr>
+                <td class="hight-bottom-color">药品ABCD</td>
+                <td class="hight-bottom-color">BC0002</td>
+                <td class="hight-bottom-color">棒剂</td>
+                <td class="hight-bottom-color"><span class="hight-center-color">11111</span></td>
+                <td class="hight-bottom-color">单独定价</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="173" valign="top"><table width="175" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="171" valign="top"><table width="167" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><table width="167" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td><img src="portal/right-title01.gif" width="167" height="22" /></td>
+              </tr>
+              <tr>
+                <td valign="top" class="right-border">·国家中药保护品种 <br />
+·医改八方案首次集体过堂 <br />
+·世行方案未见披露 <br />
+·习近平上海履新“满月” <br />
+·低调实干贴近民众 <br />
+·会诊上海生物医药产业 <br />
+·大豆蛋白可以分解肝脏内 <br />
+·神经管缺陷有关的基因<br />
+·沪建成50个中医特色专科</td>
+              </tr>
+            </table></td>
+          </tr>
+          
+          <tr>
+            <td height="5"></td>
+          </tr>
+          <tr>
+            <td valign="top"><table width="167" border="0" align="right" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><img src="portal/right-title02.gif" width="167" height="22" /></td>
+              </tr>
+              <tr>
+                <td valign="top" class="right-border">·香港明骏：螺旋藻替代品 <br />
+·浙大医药：注射用氨曲南 <br />
+·金阳光：独家抗生素 <br />
+·金阳光：夏季热销 消炎止 <br />
+·普爱：暖宫贴/风湿贴膏 <br />
+·今朝不醉：蛇油冻疮膏 <br />
+·广州兰昆：益母草片 <br />
+·康炎宁二十余产品<br />
+·泰来：注射用萘普生钠<br />
+·三九企业：苦参碱栓招商</td>
+              </tr>
+            </table></td>
+          </tr>
+        </table></td>
+        <td width="5" valign="top"><img src="portal/center-right-bg.jpg" width="5" height="407" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="624"><table width="585" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5"><img src="portal/center-left-bg01.jpg" width="5" height="58" /></td>
+        <td><img src="portal/adv2.jpg" width="580" height="50" /></td>
+      </tr>
+    </table></td>
+    <td><table width="175" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="171" align="right"><img src="portal/adv3.jpg" width="167" height="50" /></td>
+        <td width="5"><img src="portal/center-right-bg01.jpg" width="5" height="58" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="191" valign="top"><table width="191" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5"><img src="portal/center-left-bg02.jpg" width="5" height="210" /></td>
+        <td width="186" valign="top"><table width="182" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="left-font"><img src="portal/left-title02.gif" width="182" height="22" /></td>
+          </tr>
+          <tr>
+            <td height="1"></td>
+          </tr>
+          <tr>
+            <td valign="top" class="left-border"><img src="portal/little_gray_fang.gif" width="6" height="13" /> 九康药业<br />              <img src="portal/little_gray_fang.gif" width="6" height="13" /> 天安药业<br />
+<img src="portal/little_gray_fang.gif" width="6" height="13" /> 香港明骏<br />
+<img src="portal/little_gray_fang.gif" width="6" height="13" /> 益生堂<br /><img src="portal/little_gray_fang.gif" width="6" height="13" /> 德尔泰<br />
+<img src="portal/little_gray_fang.gif" width="6" height="13" /> 华立药业<br />
+<img src="portal/little_gray_fang.gif" width="6" height="13" /> 金华长青<br /><img src="portal/little_gray_fang.gif" width="6" height="13" /> 四川科伦<br />
+<img src="portal/little_gray_fang.gif" width="6" height="13" /> 白云山<br />
+<img src="portal/little_gray_fang.gif" width="6" height="13" /> 敖东制药厂</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="298" valign="top"><table width="280" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><img src="portal/center-title03.gif" width="280" height="22" /></td>
+      </tr>
+      <tr>
+        <td class="center-border-color"><img src="portal/little_gray_fang.gif" width="6" height="13" /> 植物提取物的现状与未来<br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 卫生部推医德考评制 医务人员建医德档案 <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 无锡将由政府买单在全市实行“免费婚检” <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 福建调整244种药品最高零售价 25日起执行 <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 中国今年基本医保参保人数将增加逾5000万 <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 精神外科手术混乱 应制定准入标准 <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 北京社区药品“零差率” 百姓药费降三成 <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 南京白下区320种基本用药实行“零差价”<br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 研究探索“天才”的大脑是否真与众不同？ <br />
+          <img src="portal/little_gray_fang.gif" width="6" height="13" /> 研究称常发短信使人变笨 专家:要客观看待 </td>
+      </tr>
+    </table></td>
+    <td width="311" valign="top"><table width="289" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><table width="280" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="portal/right-title03.gif" width="280" height="22" /></td>
+          </tr>
+          <tr>
+            <td class="center-border-color"><img src="portal/little_gray_fang.gif" width="6" height="13" /> 植物提取物的现状与未来<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 卫生部推医德考评制 医务人员建医德档案 <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 无锡将由政府买单在全市实行“免费婚检” <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 福建调整244种药品最高零售价 25日起执行 <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 中国今年基本医保参保人数将增加逾5000万 <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 精神外科手术混乱 应制定准入标准 <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 北京社区药品“零差率” 百姓药费降三成 <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 南京白下区320种基本用药实行“零差价”<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 研究探索“天才”的大脑是否真与众不同？ <br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 研究称常发短信使人变笨 专家:要客观看待 </td>
+          </tr>
+        </table></td>
+        <td width="5"><img src="portal/center-right-bg02.jpg" width="5" height="210" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="191" valign="top"><table width="190" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5"><img src="portal/center-left-bg03.jpg" width="5" height="57" /></td>
+        <td width="186" valign="top"><img src="portal/adv4.jpg" width="182" height="50" /></td>
+      </tr>
+    </table></td>
+    <td width="609" valign="top"><table width="570" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="595" align="right" valign="top"><img src="portal/adv5.jpg" width="560" height="50" /></td>
+        <td width="5"><img src="portal/center-right-bg03.jpg" width="5" height="57" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="191" valign="top"><table width="190" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5"><img src="portal/center-left-bg04.jpg" width="5" height="210" /></td>
+        <td width="186" valign="top"><table width="182" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="left-font"><img src="portal/left-title03.gif" width="182" height="22" /></td>
+          </tr>
+          <tr>
+            <td height="1"></td>
+          </tr>
+          <tr>
+            <td valign="top" class="left-border"><img src="portal/little_gray_fang.gif" width="6" height="13" /> 发改委报告称我国城市... <br />
+              <img src="portal/little_gray_fang.gif" width="6" height="13" /> 中国代表就同意将伊朗核...<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 会诊上海生物医药产业<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 中国传统医药国际化高峰论坛 <img src="portal/little_gray_fang.gif" width="6" height="13" /> 请在3月23日16:3.2006/03/23<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 请在3月23日16:3.2006/03/23<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 请在3月23日16:3.2006/03/23 <img src="portal/little_gray_fang.gif" width="6" height="13" /> 请在3月23日16:3.2006/03/23<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 请在3月23日16:3.2006/03/23<br />
+                <img src="portal/little_gray_fang.gif" width="6" height="13" /> 请在3月23日16:3.2006/03/23</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="433" valign="top"><table width="395" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td><img src="portal/center-title04.gif" width="395" height="21" /></td>
+      </tr>
+      <tr>
+        <td valign="top" class="center-border-color"><table width="98%" border="0" align="center" cellpadding="0" cellspacing="0">
+          <tr>
+            <td height="7"></td>
+          </tr>
+          <tr>
+            <td class="user-font">　　安徽省医药招标中心是由安徽省机械设备成套局（安徽省招标局）注资，在安徽省招标中心（全省最大的  综合性招标代理机构之一，仅2006年度代理招标金额就达80余亿元人民币）的基础上增设的国有医药招标代理中介服务机构。中心具有食品药品监督管理行政  主管部门颁发的中华人民共和国药品招标代理机构资质证书，可以从事中药材、中成药、中药饮片、化学原料药及其制剂、抗生素原料药及其制剂、生化药品、生物  制品，以及医疗器械（含卫生材料）等招标代理业务。</td>
+          </tr>
+          <tr>
+            <td>&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="176" valign="top"><table width="175" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td valign="top"><table width="167" border="0" align="right" cellpadding="0" cellspacing="0">
+          <tr>
+            <td><img src="portal/right-title04.gif" width="167" height="22" /></td>
+          </tr>
+          <tr>
+            <td class="right-border">·到伯骏演示  2006/11/26 <br />
+              ·通知模板 <br />
+              ·请在3月23日12006/03/23 <br />
+              ·请在32316:3.2006/03/23 <br />
+              ·256M DDR2 笔记本内存 <br />
+              ·256M DDR2 笔记本内存 <br />
+              ·256M DDR2 笔记本内存 <br />
+              ·256M DDR2 笔记本内存<br />
+              ·256M DDR2 笔记本内存<br />
+              ·256M DDR2 笔记本内存</td>
+          </tr>
+        </table></td>
+        <td width="5"><img src="portal/center-right-bg04.jpg" width="5" height="210" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="191" valign="top"><table width="190" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="5"><img src="portal/center-left-bg05.jpg" width="5" height="72" /></td>
+        <td width="186" valign="top"><table width="182" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td class="left-font"><img src="portal/left-title04.gif" width="182" height="22" /></td>
+          </tr>
+          <tr>
+            <td height="1"></td>
+          </tr>
+          <tr>
+            <td valign="top" class="left-border">&nbsp;</td>
+          </tr>
+        </table></td>
+      </tr>
+    </table></td>
+    <td width="609" valign="top"><table width="565" border="0" align="right" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="595" align="right" valign="top"><img src="portal/adv6.jpg" width="560" height="67" /></td>
+        <td width="5"><img src="portal/center-right-bg05.jpg" width="5" height="72" /></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="760" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  <tr>
+    <td width="5"><img src="portal/bottom-left-bg.jpg" width="5" height="83" /></td>
+    <td width="790" valign="top"><table width="750" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td colspan="2" class="bottom-bgcolor">关于我们 | 中心位置 | 法律声明 | 招贤纳才 | 网站地图 </td>
+      </tr>
+      <tr>
+        <td width="205" class="bottom-font">&nbsp;</td>
+        <td width="585" class="bottom-font">Copyright(C) 2007-2008 安徽省医药招标中心 <br />
+电话：0551-2638572 | 传真：0516-2638573 | 地址：合肥市长江中路114号 <br />
+网站信箱:xzmtp@126.com | ICP备05004308号 <br />
+互联网药品信息服务资格证书编号：(徽)-经营性-2007-34002 </td>
+      </tr>
+    </table></td>
+    <td width="5"><img src="portal/bottom-right-bg.jpg" width="5" height="83" /></td>
+  </tr>
+</table>
+</body>
+</html>
+

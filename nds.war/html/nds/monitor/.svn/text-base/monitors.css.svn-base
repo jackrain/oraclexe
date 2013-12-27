@@ -1,0 +1,171 @@
+.wordwrap
+{
+     word-wrap:break-word;
+     word-break:break-all;
+    -moz-binding: url('/html/nds/css/wordwrap.xml#wordwrap');
+     overflow: hidden;
+}
+#mmain{
+	padding:5px 5px 5px 20px;	
+}
+#monitors{
+	padding:10px 10px 10px 40px;
+}
+.monitor{
+	width:500px;
+	border-bottom: 1px solid #666;
+	height:22px;
+}
+.mname{
+	float:left;
+	width:400px;
+}
+.actions{
+	float:left;
+	width:100px;
+}
+.btns{
+	clear:both;
+	padding:5px 0 5px 10px;
+}
+.monitortype{
+	width:500px;
+	padding:3px 3px 20px 3px;
+	margin: 2px;
+	border:1px solid white;
+}
+.mtt{
+font-weight:bold;
+color:blue;
+font-size:14px;
+}
+.mtt img{
+ vertical-align:bottom;	
+}
+.mtover{
+	background-color:#F9F9F9;
+	border:1px solid silver;
+	color:#110000;
+	cursor: hand;
+}
+.tg{
+ padding-left:20px;	
+}
+.ct{
+ clear:both;
+ padding:5px 0px 5px 0px;	
+}
+.np{
+width:80px;
+vertical-align:top;
+}
+.nv{
+	padding-left:5px;
+	width:700px;
+}
+.dtable{
+ padding-left:40px;	
+}
+
+.note{
+-moz-background-clip:border;
+-moz-background-inline-policy:continuous;
+-moz-background-origin:padding;
+-moz-border-radius-bottomleft:3px;
+-moz-border-radius-bottomright:3px;
+-moz-border-radius-topleft:3px;
+-moz-border-radius-topright:3px;
+padding:2px 2px;
+background:#FFFFCC none repeat scroll 0 0;
+border:1px solid #CCCCCC;
+/*text-shadow:1px 1px 1px rgba(0, 0, 0, 0.4);*/
+font-family:Arial,Verdana,sans-serif;
+/*font-size:0.9em;*/
+float: left;
+clear:left;
+margin:2px;
+}
+#div_action{
+	display: inline;
+}
+#div_byaction{
+	display: inline;
+}
+#div_bypeirod{
+	display: inline;
+}
+#condition_desc{
+	width: 730px;
+	height:50px;
+}
+#cxtabConditionDesc {
+height:50px;
+width:730px;
+}
+#div_cxtab{
+	padding:5px 0px 0px 0px;
+}
+#div_sql{
+	padding:5px 0px 0px 0px;
+}
+.p5{
+	padding:5px 0px 5px 0px;
+}
+#listSQL{
+	width: 730px;
+	height:100px;
+}
+#body_text{
+	width:730px;	
+	heigth:300px;
+}
+#div_body_html{
+	width:730px;	
+}
+#name{
+	width:730px;
+}
+#subject{
+	width:730px;
+}
+ul.recul{
+height: 100px;
+width:730px;
+border:1px solid #CCCCCC;
+overflow:auto;
+}
+ul.recul li.even{
+	background:#fcfcfc none repeat scroll 0 0;
+}
+.udline{
+text-decoration:underline;
+};
+.recipbtns,
+.cctxt,
+.recip{
+	float:left;
+}
+.recipbtns{
+	padding:50px 5px 5px 5px;
+}
+.cctxt{
+	padding: 2px 5px 0px 5px	
+}
+.qline{
+	border-bottom:1px solid #999999;
+	border-style:none none solid;
+	vertical-align:middle;
+	width:80px;
+}
+.qmline{
+	border-bottom:1px solid #999999;
+	border-style:none none solid;
+	vertical-align:middle;
+	width:250px;
+}
+.cxbtns{
+padding:10px 0px 10px 20px;
+}
+.nnul{
+color:#ff0000;
+}

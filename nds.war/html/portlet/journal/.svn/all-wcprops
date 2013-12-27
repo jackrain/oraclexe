@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal
+END
+structure_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/structure_search.jsp
+END
+edit_article.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_article.jsp
+END
+error.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/error.jsp
+END
+structure_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/structure_action.jsp
+END
+select_structure.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/select_structure.jsp
+END
+select_image_gallery.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/select_image_gallery.jsp
+END
+template_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/template_search.jsp
+END
+select_document_library.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/select_document_library.jsp
+END
+edit_structure_xsd_el.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_structure_xsd_el.jsp
+END
+init.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/init.jsp
+END
+edit_structure.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_structure.jsp
+END
+edit_template_xsl.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_template_xsl.jsp
+END
+view_article_content.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/view_article_content.jsp
+END
+article_search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/article_search.jsp
+END
+template_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/template_action.jsp
+END
+select_template.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/select_template.jsp
+END
+view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/view.jsp
+END
+edit_configuration.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_configuration.jsp
+END
+template_description.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/template_description.jsp
+END
+article_action.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/article_action.jsp
+END
+edit_article_content_xsd_el.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_article_content_xsd_el.jsp
+END
+edit_template.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_template.jsp
+END
+edit_structure_xsd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/portlet/journal/edit_structure_xsd.jsp
+END

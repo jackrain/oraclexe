@@ -1,0 +1,227 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/jackrain/portal/!svn/ver/1320/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object
+END
+inc_multiple_object_buttons.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_multiple_object_buttons.jsp
+END
+inc_multiple_object_scroll.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/jackrain/portal/!svn/ver/1061/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_multiple_object_scroll.jsp
+END
+inc_multiple_object_quicksearch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/jackrain/portal/!svn/ver/595/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_multiple_object_quicksearch.jsp
+END
+inc_objmenu_modify.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/518/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_objmenu_modify.jsp
+END
+inc_single_object.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1315/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_single_object.jsp
+END
+turboscan.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1288/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/turboscan.jsp
+END
+locked.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/598/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/locked.jsp
+END
+top.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/top.jsp
+END
+workflow_top_meta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/jackrain/portal/!svn/ver/1215/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/workflow_top_meta.jsp
+END
+inlineobj_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inlineobj_view.jsp
+END
+bottom.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1282/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/bottom.jsp
+END
+inc_edit_object.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/1109/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_edit_object.jsp
+END
+inc_object_comments.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_object_comments.jsp
+END
+inc_edit_object_product_only.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/jackrain/portal/!svn/ver/1024/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_edit_object_product_only.jsp
+END
+object.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/jackrain/portal/!svn/ver/1300/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/object.jsp
+END
+inc_multiple_object_init.js.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/jackrain/portal/!svn/ver/1121/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_multiple_object_init.js.jsp
+END
+inc_single_object_view_buttons.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/985/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_single_object_view_buttons.jsp
+END
+top_meta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1261/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/top_meta.jsp
+END
+ajax_object.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1300/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/ajax_object.jsp
+END
+inlineobj.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/jackrain/portal/!svn/ver/1194/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inlineobj.jsp
+END
+ajaxtab.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/1122/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/ajaxtab.jsp
+END
+inc_multiple_object.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1248/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_multiple_object.jsp
+END
+workflow.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/1215/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/workflow.jsp
+END
+inc_message.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jackrain/portal/!svn/ver/588/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_message.jsp
+END
+inlineobj_modify.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inlineobj_modify.jsp
+END
+multiple_object.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/multiple_object.jsp
+END
+inc_tabs.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/jackrain/portal/!svn/ver/780/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_tabs.jsp
+END
+inc_single_object_modify_buttons.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/jackrain/portal/!svn/ver/1010/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_single_object_modify_buttons.jsp
+END
+object_tabcontent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/jackrain/portal/!svn/ver/1/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/object_tabcontent.jsp
+END
+object_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/jackrain/portal/!svn/ver/1320/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/object_view.jsp
+END
+body_meta.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/jackrain/portal/!svn/ver/734/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/body_meta.jsp
+END
+audit.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/jackrain/portal/!svn/ver/1300/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/audit.jsp
+END
+inc_command.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/jackrain/portal/!svn/ver/892/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_command.jsp
+END
+inc_edit_object_add.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/jackrain/portal/!svn/ver/1267/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_edit_object_add.jsp
+END
+object_modify.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/jackrain/portal/!svn/ver/1320/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/object_modify.jsp
+END
+inc_multiple_object_tabbuttons.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/jackrain/portal/!svn/ver/309/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_multiple_object_tabbuttons.jsp
+END
+inc_objmenu_view.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/jackrain/portal/!svn/ver/518/trunk/trunk/portal422/server/default/deploy/nds.war/html/nds/object/inc_objmenu_view.jsp
+END

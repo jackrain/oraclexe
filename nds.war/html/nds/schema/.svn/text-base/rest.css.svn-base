@@ -1,0 +1,53 @@
+body{
+  font-size:12px;
+
+}
+.anc {
+	font-size:14px;
+	font-weight:bold;
+	color:#a3502c; 
+	padding-left:10px;
+}
+.table{
+  line-height:20px;
+   font-size:12px; 
+   
+}
+.td{
+   background-color:#fff;
+   padding:0px 4px 0px 4px;
+ }
+ .td1{
+  background-color:#999999;
+  color:#FFFFFF;
+  text-align:center;
+  font-weight: bold;
+   }
+#Layer1 {
+	width:778px;
+	height:22px;
+}
+#Layer2 {
+    float:left;
+	width:560px;
+
+}
+#Layer3 {
+	width:200px;
+	float:right;
+	text-align:right;
+	padding-right:10px;
+}
+.ns {
+	background-color:#efefef;
+	width:300px;
+	text-align:left;
+	padding:4px;
+}
+.ns ul{
+	text-align:left; 
+
+}
+.tle {
+	font-size:14px;
+}

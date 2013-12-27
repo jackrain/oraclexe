@@ -1,0 +1,181 @@
+body{background-color:#eeeeee;
+font-size:9pt/130%;
+font-family:"Verdana","Arial\","Helvetica\","sans-serif";
+margin:10px;
+}
+tr {  font: 9pt/130% "Verdana", "Arial", "Helvetica", "sans-serif";}
+#div {  font: 9pt/130% "Verdana", "Arial", "Helvetica", "sans-serif";}
+.no-data{
+color:red;
+font-size:24px;
+font-weight:bold;
+margin-top:50px;
+text-align:center;
+}
+h2
+{
+	background-color:#90abcd;
+	color:#2222aa;
+	width:100%;
+	text-align:center;
+}
+
+/* ---------------------------------------------
+   Below, the top "naviagation table", where login,
+	database, table and columns are set.
+	--------------------------------------------- */
+
+table#header
+{
+	background-color:#bbccdd;
+	border-style:outset;
+}
+
+table#header td
+{
+	vertical-align:top;
+}
+
+table#connection-info tr td input
+{
+	width:100px;
+}
+
+select
+{
+	width:145px;
+}
+
+td#excel-download
+{
+	text-align:center;
+}
+
+td#excel-download a
+{
+	font-size:10px;
+}
+
+td#excel-download img
+{
+	border:none;
+}
+
+td.axis-slice img
+{
+	border:none;
+}
+
+td#grid-slice img
+{
+	border:none;
+}
+
+table.report-header{
+	border-width:0px;
+}
+td.report-subject{
+	font-size: 14pt; color: #800000; font-weight: bold;
+}
+td.report-creator{
+	color: #000080;
+}
+td.report-date{
+	color: #000080;
+}
+td.report-desc{
+	color: #000080;
+}
+td.axis-h-desc{
+	color: #000080;
+}
+td.axis-v-desc{
+	color: #000080;
+}
+td.fact-desc{
+	color: #000080;
+}
+tr.column-desc{
+	
+}
+td.vertical-axis-desc{
+	background-color:#789ac2;
+	text-align:center;
+	
+	border-style:solid;
+	border-width:1px;	
+}
+td.fact-column-desc{
+	background-color:#789ac2;
+	text-align:center;
+	border-style:solid;
+	border-width:1px;	
+}
+/* ---------------------------------------------
+   Below, the JCrosstab data table tags as sent 
+	back by the DisplayConverter class.
+	i.e., these tags are for JCrosstab (not HCrosstab).
+	--------------------------------------------- */
+table.jcrosstab-data-table
+{
+	background-color:#abcdef;
+	border-collapse:collapse;
+	border:1px solid #000;
+}
+
+td.vertical-spacer
+{
+	background-color:#bbbbbb;
+	text-align:center;
+	vertical-align:middle;
+}
+
+td.axis
+{
+	background-color:#90abcd;
+	border-style:solid;
+	border-width:1px;
+}
+
+td.horizontal-axis
+{
+	text-align:center;
+}
+
+td.vertical-axis
+{
+	background-color:#90abcd;
+}
+
+td.data-grid
+{
+	font-family:monspace, courier, courier-new, fixed;
+	text-align:right;
+	border-style:solid;
+	border-width:1px;
+}
+
+td.odd-row
+{
+	background-color:#bbbbbb;
+}
+
+td.even-row
+{
+	background-color:#cccccc;
+}
+
+td.odd-column
+{
+	
+}
+
+td.even-column
+{
+	
+}
+sql{
+}
+duration{
+}
+rowsfetched{}

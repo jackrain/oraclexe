@@ -1,0 +1,87 @@
+.negative-row{
+	color:blue;
+}
+.positive-row{
+	font-weight:bold;
+}
+.null-row{
+	font-weight:bold;
+}
+.notnull-row{
+	font-weight:bold;
+}
+.nonezero-row{
+	font-style: italic;
+	background-color: #FFCCFF;
+}
+.zero-row{
+	color:red;
+}
+.red-font-row{
+	color:red;
+}
+.blue-font-row{
+	color:blue;
+}
+.green-font-row{
+	color:green;
+}
+.yellow-font-row{
+	color:green;
+}
+.italic-row{
+	font-style: italic;
+}
+.italic-green-font-row{
+	font-style: italic;
+}
+.bold-row{
+	font-weight:bold;
+}
+.inactive-row{
+	font-style: italic;
+	color:#333;
+	background-color: #F3F8FF;
+}
+.inactive-row A{
+	color:#666;
+}
+.red-light-bg-row{
+	background-color: #FEF3F3;
+}
+.yellow-light-bg-row{
+	background-color: #FBF3DC;
+}
+.green-light-bg-row{
+	background-color: #CCFFFF;
+}
+.blue-light-bg-row{
+	background-color: #D3E9FF;
+}
+.tanla-light-bg-row{
+	background-color: #F6FAFF;
+}
+.grey-light-bg-row{
+	background-color: #F8f8f8;
+}
+.pallida-light-bg-row{
+	background-color: #F8EDFF;
+}
+.brown-light-bg-row{
+	background-color: #F1ECE9;
+}
+.request-row{
+	color:green;
+}
+.reject-row{
+	color:red;
+}
+.accept-row{
+	
+}
+.auditing-row{
+	font-weight:bold;
+}
+.selected{
+   background: #F1EDE8;
+}

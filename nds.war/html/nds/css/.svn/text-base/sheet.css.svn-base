@@ -1,0 +1,39 @@
+#sheetbody{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 10px;
+border: 0;
+font-family:Tahoma,Arial;
+font-size:76%;
+background-color:#C0D1ED;
+text-align:left;
+}
+#notopbody{
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+border: 0;
+font-family:Tahoma,Arial;
+font-size:76%;
+background-color:#C0D1ED;
+text-align:left;
+}
+#modify_table{
+background:			Window;
+border-collapse: collapse;
+border:1px solid #999999;
+width:100%;
+}
+#modify_table thead {
+background:	ButtonFace;
+}
+#modify_table thead td {
+border:	1px solid #C0D1ED;
+background:url(/html/nds/images/obj-center-menu-bg.jpg);
+cursor: pointer;
+_cursor:hand;
+}
+#modify_table tr {
+height:18px;
+}
+#modify_table td {
+white-space: nowrap;
+}
