@@ -34,7 +34,6 @@ String url,cdesc,tdesc,tabout,fa_tdesc;
 String famus = new String();
 
 if(mu_favorites.size()>0){
-//System.out.println("mu_favorites     "+mu_favorites.size());
 for(int j=0;j<mu_favorites.size();j++){
 List favs=(List)mu_favorites.get(j);
 String	fa_menu=(String)favs.get(0);
@@ -51,19 +50,15 @@ if(fa_tab instanceof Table){
 	  			}	
 			}	
 }
-//System.out.println(famus);
 //String tabout = new String();
 TableManager manager=TableManager.getInstance();
 TableCategory tc= manager.getTableCategory(tablecategoryId);
-//System.out.println(tc.getName());
 //String tabout1 = new String();
 String tabout1 ="<div><h3 class=\"ui-accordion-first\"><a style=\"color:white;\">我的收藏夹</a></h3><div id=\"mu_favorite\">"+famus+"</div></div>";
 for(int j=0;j<categoryChildren.size();j++){
 List als=(List)categoryChildren.get(j);
 String	ACCORDION_name=(String)als.get(0);
-//System.out.println(ACCORDION_name);
 List tab=(List)als.get(1);
-//System.out.println(tab.size());
 //String higthp=String.valueOf((tab.size()+1)*23);
 String Inable = new String();
 String Inaction = new String();
@@ -80,11 +75,9 @@ for(int e=0;e<tab.size();e++){
 			tabimg="<img src=\""+StringUtils.escapeForXML(table.getAccordico())+"\" style=\"height:16px;width:20px;\"></img>";
 			}
 		Inable=Inable+"<div class=\"accordion_headings\" onclick=\"javascript:pc.navigate('"+tableId+"')\">"+tabimg+"<a>"+StringUtils.escapeForXML(tdesc)+"</a></div>";
-		//System.out.println(Inable);
   }else if(tab.get(e)  instanceof WebAction){
   	  
 			action=(WebAction)tab.get(e);
-			//System.out.println(action.getName());
 			WebAction.ActionTypeEnum ate= action.getActionType();
 			WebAction.DisplayTypeEnum dst=action.getDisplayType();
 			if(ate.equals(WebAction.ActionTypeEnum.JavaScript)&&dst.equals(WebAction.DisplayTypeEnum.Accord)){
@@ -92,15 +85,12 @@ for(int e=0;e<tab.size();e++){
 		}else{
 		//扩展webaction treenode 支持 outlook 方式
 		  action=(WebAction)tab.get(e);
-		//System.out.println(action.getName());
-		//System.out.println(action.getActionType());
 			Inaction=Inaction+action.toHTML(locale,actionEnv);
 		}
 	}
 }
 //自适应调整OUTLOOK 菜单高度
 
-//System.out.println(Inable);
 //height:300px;
 if(tab.size()>=12&&Inable!=null){
 	tabout="<div><h3><a>"+ACCORDION_name+"</a></h3><div style=\"max-height:566px\">"+Inable+"</div></div>";
@@ -109,7 +99,6 @@ if(tab.size()>=12&&Inable!=null){
 	}else{
 	tabout=" ";
 	}
-//System.out.println(tabout);
  /*
 tabout="<div><h3><a>"+ACCORDION_name+"</a></h3><div>"+Inable+"</div></div>";
 */
@@ -122,6 +111,5 @@ String main="<h3 class='ui-accordion-header ui-helper-reset ui-state-default ui-
 		main+="<div id='wth'>";
 			//main+="<iframe src='/html/nds/sinawa/index.html' frameborder='0' scrolling='no' width='210' height='230' allowTransparency='true'></iframe>";
 		main+="</div>";
-//System.out.println(tabout1);
 out.print("<div id=\"tab_accordion\">"+tabout1+"</div>");
 %>

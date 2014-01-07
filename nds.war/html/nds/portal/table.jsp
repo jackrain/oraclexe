@@ -139,9 +139,7 @@ if(userWeb.isAdmin()){
 }
 int listViewPermissionType= (canModify && (WebUtils.getTableUIConfig(table).getDefaultAction()==nds.web.config.ObjectUIConfig.ACTION_EDIT)?3:1);
 if(!listUiconf)listViewPermissionType=1;
-//System.out.print(listViewPermissionType);
-//System.out.println(WebUtils.getTableUIConfig(table).getDefaultAction());
-//System.out.println(nds.web.config.ObjectUIConfig.ACTION_EDIT);
+
 if(listHelp){%>
 	<a href="javascript:popup_window('/html/nds/help/index.jsp?table=<%=tableId%>')"><img src="/html/nds/images/help.png"/><%=PortletUtils.getMessage(pageContext, "help",null)%></a>
 <%}%>	

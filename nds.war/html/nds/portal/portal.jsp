@@ -20,7 +20,6 @@
  	/*session.invalidate();
  	com.liferay.util.servlet.SessionErrors.add(request,PrincipalException.class.getName());
  	response.sendRedirect("/login.jsp");*/
- 	//System.out.println("portal.jsp:redirect to login");
  	response.sendRedirect("/c/portal/login"+
  		(nds.util.Validator.isNotNull(dialogURL)?"?redirect="+
  			java.net.URLEncoder.encode(dialogURL,"UTF-8"):""));
@@ -76,8 +75,7 @@ boolean fav_show=Tools.getYesNo(userWeb.getUserOption("FAV_SHOW",defaultSsviewFi
 nds.util.License.LicenseType ltype=nds.control.web.WebUtils.getLtype();
 String mms=nds.control.web.WebUtils.getMms();
 String cp=nds.control.web.WebUtils.getCompany();
-//System.out.println("ltype "+ltype.toString());
-//System.out.println("aaaaaaaaaaa");
+
 %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

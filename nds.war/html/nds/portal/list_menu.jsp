@@ -11,9 +11,7 @@
 		<div style="height:100%;">
 		<%
 		String istree=userWeb.getUserOption("ISTREE","Y");
-		//System.out.println(istree);
 		if("N".equalsIgnoreCase(istree)){
-		//System.out.println("ASDFASDFASDF");
 		%>
 		<div><div id="rpt-list-outlook">
 		<%

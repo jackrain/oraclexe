@@ -23,7 +23,7 @@ List subsystems=null;
 int tabId= Integer.MAX_VALUE-1;
 boolean is_store=Tools.getYesNo(request.getParameter("isstore"),false);
 boolean hasOnlyActions=true;//not show reports if has only actions in subsystem
-//System.out.print("defaultboshome"+defaultboshome);
+
 Boolean bosxe=(Boolean)userWeb.getProperty("product.model",Boolean.TRUE);
 if(ssId==-1&&!defaultboshome||bosxe){
 	// list all subsystems, for backward compatibility
