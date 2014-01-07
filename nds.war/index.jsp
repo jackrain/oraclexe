@@ -12,7 +12,78 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>首页</title> 
+<link href="/reset.css" rel="stylesheet">
+<link rel="stylesheet" href="/login.css">
 <style type="text/css">
+	body{
+		background: url(images/login-bg.jpg);
+		background-size: 100%;
+	}
+	#login-box{
+		position: absolute; left: 50%; top: 50%;
+		margin: -186px 0 0 -319px;
+		width: 638px; height: 373px;
+	}
+	#logo{
+		float: left;
+		margin-left: 18px;
+	}
+	#tel{
+		float: right;
+		margin: 15px 17px 0 0;
+	}
+	#content{
+		height: 315px;
+		margin-top: 13px;
+		background: url(images/login-box.png);
+	}
+	#content table{
+		width: 236px;
+		margin: 0 auto;
+		position: relative; top: 130px;
+		color: #1e5100; font-size: 14px;
+	}
+	#content table td{
+		padding-bottom: 9px;
+	}
+	#content table input{
+		height: 20px; width: 178px;
+		border:1px solid #2c7700;
+	}
+	#verifyCode{
+		width: 94px!important;
+	}
+	#content table img{
+		display: inline-block;
+	}
+	#content table input[type="submit"],
+	#content table input[type="reset"]{
+		width: 84px; height: 30px;
+		margin-top: 4px;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		background: url(images/login-btn.png);
+	}
+	#content table input[type="submit"]{
+		margin-right: 8px;
+	}
+	#footer{
+		position: fixed; bottom: 0; left: 0; right: 0;
+		height: 60px;
+		text-align: center; color: #fff;
+		background-color: #318002;
+	}
+	#footer img{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#footer span{
+		padding: 0 10px;
+	}
+	#ewm{
+		position: relative; top: -5px;
+	}
 ul,li{list-style:none;}
 body{padding:0;margin:0 auto;}
 
@@ -196,18 +267,18 @@ function onReturn(event){
 function submitForm(){
 	if(document.getElementById("login").value==""){ 
 		alert("请输入会员用户名");
-		return;
+		return false;
 	}
 	else if(document.getElementById("password1").value==""){
 		alert("请输入密码");
-		return;
+		return false;
 	}
 	else if(document.getElementById("verifyCode").value==""){
 		alert("请输入验证码");
-		return;
+		return false;
 	}else if(document.getElementById("verifyCode").value.length!=4){
 		alert("您的输入验证码的长度不对!");
-		return;
+		return false;
 	}
 	document.fm1.submit();
 	document.body.innerHTML=document.getElementById("progress").innerHTML;
@@ -216,76 +287,83 @@ function submitForm(){
 </head>
 
 <body>
-<div class="title">
-	<h4 class="Logo"><img src="images/left.gif" alt="伯俊logo"></h4>
-	</div>
-<div class="login">
-<div class="bar"></div>
-<div id="bottom">
-	<div id="bottom-right"><span class="bottom-logo"></span>&copy;2011-2013上海伯俊软件科技有限公司 版权所有 了解更多产品请点击:<a class="bottom-text" target="_parent" href="http://www.burgeon.com.cn">www.burgeon.com.cn</a></div>
-</div>
-<div id="Layer3">
-<div id="LAYER3"> 
-  <form action="/loginproc.jsp" method="post" name="fm1">
-     	   <input type="hidden" value="already-registered" name="cmd"/>
-   <input type="hidden" value="already-registered" name="tabs1"/> 
-	<c:choose>
-	<c:when test="<%= (userWeb!=null&&!userWeb.isGuest()) %>">
-		<li><div class="l"><%= LanguageUtil.get(pageContext, "current-user")%>:</div><div class="right_text"><%=userWeb.getUserDescription() %></div>
-		</li>
-		<li><div class="lx"><%= LanguageUtil.get(pageContext, "enter-view") %>:<a href="/html/nds/portal/portal.jsp"><%= LanguageUtil.get(pageContext, "backmanager") %></a>
-	,<%= LanguageUtil.get(pageContext, "or") %>:<a href="/c/portal/logout"><%= LanguageUtil.get(pageContext, "logout") %></a></div><div></div></li>
-	</c:when>
-	<c:otherwise>
-	 <%
- 	 String  login ="";
-	 if(company==null){
-          company = com.liferay.portal.service.CompanyLocalServiceUtil.getCompany("liferay.com");
-	 }
-     login =LoginAction.getLogin(request, "login", company);
-	%> 
-</div>
-</div>
-<div id="Layer2" >
-<div id="Layer_2">
-  <table width="250" cellspacing="0" height="80" border="0" style="margin-top:77px;">
-<tr>
-	 <td width="53" height="20"><span class="STYLE29">用户名:</span></td>
-      <td width="175">
-        <label>
-          <input id="login" name="login" type="text" class="Warning-120" size="25" value="<%=login %>" />
-        </label>
-     </td>
-    </tr>
-<tr>
-      <td height="30"><span class="STYLE29">密&nbsp;&nbsp;&nbsp;码:</span></td>
-      <td >
-        <label>
-        	<input id="password1" name="<%= SessionParameters.get(request, "password")%>" type="password" value=""  size="25" class="Warning-120"/>
-  
-        </label>
-    </td>
-    </tr>
-<tr>
-      <td height="20"><span class="STYLE29">验证码:</span></td>
-      <td>
-        <label>
-        	<input id="verifyCode" name="verifyCode" type="text" onKeyPress="onReturn(event)" class="Warning-60"  size="7" />
-					<img src="/servlets/vms" width="64" height="16" align="absmiddle" id="chkimg" onclick="javascript:document.getElementById('chkimg').src='/servlets/vms?'+Math.random()" />       
-        </label>
-     </td>
-	 </tr>
-<tr>
-	 <td  height="22">
-	 <div id="Layer_3"><a href="#" onclick="javascript:submitForm()"><!--img src="/images/button.png" width="103" height="36" border="0" /-->登  陆</a></div>
-	 </td>
-	 </tr>
-</form>
-</table>
-</div>
-</div>
-</div>
-</c:otherwise>
-</c:choose> 
+<div id="login-box">
+		<header id="header" class="cl">
+			<a href=""><img id="logo" src="images/logo.png" alt=""></a>
+			<img id="tel" src="images/tel.png" alt="">
+		</header>
+		<div id="content">
+			<form action="/loginproc.jsp" method="post" name="fm1">
+				<input type="hidden" value="already-registered" name="cmd"/>
+				<input type="hidden" value="already-registered" name="tabs1"/>
+				<c:choose>
+					<c:when test="<%= (userWeb!=null&&!userWeb.isGuest()) %>">
+						<table>
+							<tr>
+								<td><%= LanguageUtil.get(pageContext, "current-user")%>:</td>
+								<td><%=userWeb.getUserDescription() %></td>
+							<tr>
+							<tr>
+								<td><%= LanguageUtil.get(pageContext, "enter-view") %>:</td>
+								<td><a href="/html/nds/portal/portal.jsp"><%= LanguageUtil.get(pageContext, "backmanager") %></a></td>
+							</tr>
+							<tr>
+								<td><%= LanguageUtil.get(pageContext, "or") %>:</td>
+								<td><a href="/c/portal/logout"><%= LanguageUtil.get(pageContext, "logout") %></a></td>
+							</tr>
+						</table>
+					</c:when>
+					<c:otherwise>
+						<%
+						String  login ="";
+						if(company==null){
+						company = com.liferay.portal.service.CompanyLocalServiceUtil.getCompany("liferay.com");
+						}
+						 login =LoginAction.getLogin(request, "login", company);
+						%> 
+						<table>
+							<tr>
+								<td>用户名：</td>
+								<td>
+									<label>
+										<input id="login" name="login" type="text" value="<%=login %>" />
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+								<td>
+									<label>
+										<input id="password1" name="<%= SessionParameters.get(request, "password")%>" type="password" value="" />
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td>验证码：</td>
+								<td>
+									<label>
+										<input id="verifyCode" name="verifyCode" type="text" onKeyPress="onReturn(event)" class="vm" />
+										<img src="/servlets/vms" class="vm" id="chkimg" onclick="javascript:document.getElementById('chkimg').src='/servlets/vms?'+Math.random()" />       
+									</label>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>
+									<input type="submit" onclick="javascript:submitForm()" value="登陆">
+									<input type="reset">
+								</td>
+							</tr>
+						</table>
+					</c:otherwise>
+				</c:choose>
+			</form>
+		</div>
+    </div>
+    <div id="footer">
+		<img src="images/bos-xe.png" alt="">
+		<span>©2008-2014上海伯俊软件科技有限公司 版权所有 保留所有权      了解更多：www.burgeon.com.cn</span>
+		<img id="ewm" src="images/rwm.png" alt="">
+    </div>
 </body>
 </html>
