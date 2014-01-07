@@ -205,13 +205,12 @@ CategoryTabItem.prototype.toString= function() {
 	//alert(this.id);
 	if(this.id==0){
 		var str = "<li id=\"page-tab-" + this.id + "\" onclick=\"categoryTabHandler.select(this);\" class=\"page-tab\"><a class=\"page-tab-text\">" +
-	"<img src=\"/html/nds/themes/classic/01/images/bos-logo.png\" alt=\"BOS Logo\"></a></li>";
+		"<img src=\"/html/nds/themes/classic/01/images/bos-logos.png\" alt=\"BOS Logo\"></a></li>";
 	}else{
-	var str = "<li id=\"page-tab-" + this.id + "\" onclick=\"categoryTabHandler.select(this);\" class=\"page-tab\"><a class=\"page-tab-text\">" +
-	this.oTableCategory.desc+"</a></li>";
-  }
-	return str;			
-		
+		var str = "<li id=\"page-tab-" + this.id + "\" onclick=\"categoryTabHandler.select(this);\" class=\"page-tab\"><a class=\"page-tab-text\">" +
+		this.oTableCategory.desc+"</a></li>";
+	}
+	return str;
 };
 function CategoryTabs(oCategories) {
 	var i,c,t,tb;

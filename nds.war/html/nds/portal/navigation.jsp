@@ -17,21 +17,29 @@ org.json.JSONArray menuObjs=new org.json.JSONArray();
 org.json.JSONArray tables=new org.json.JSONArray();
 org.json.JSONObject tb;
 org.json.JSONObject jc;
+SysModel smode=null;
+List subsystems=null;
 
 int tabId= Integer.MAX_VALUE-1;
 boolean is_store=Tools.getYesNo(request.getParameter("isstore"),false);
 boolean hasOnlyActions=true;//not show reports if has only actions in subsystem
-if(ssId==-1&&!defaultboshome){
-	List subsystems =ssv.getSubSystems(request);
+//System.out.print("defaultboshome"+defaultboshome);
+Boolean bosxe=(Boolean)userWeb.getProperty("product.model",Boolean.TRUE);
+if(ssId==-1&&!defaultboshome||bosxe){
 	// list all subsystems, for backward compatibility
-	String homeByJSP=conf.getProperty("home.jsp","true");
+	smode=manager.getSysModel("BOSXE");
+	if(smode!=null){subsystems=smode.children();}
+	//else{subsystems =ssv.getSubSystems(request);}
+	
+	String homeByJSP=conf.getProperty("boshome","true");
 	
 	
-	if("true".equalsIgnoreCase(homeByJSP)){
+	if(defaultboshome&&!is_store){
 		jc=new org.json.JSONObject();
 		jc.put("id", 0);
 		jc.put("desc",PortletUtils.getMessage(pageContext, "navitab",null));
-		jc.put("url", "home.jsp");
+		jc.put("url", "/html/nds/portal/ssv/homexe.jsp?ss=-1");
+		jc.put("ssid",ssId);
 		menuObjs.put(jc);
 	}
 	
@@ -68,7 +76,7 @@ if(ssId==-1&&!defaultboshome){
 		jc=new org.json.JSONObject();
 		jc.put("id", 0);
 		jc.put("desc",PortletUtils.getMessage(pageContext, "navitab",null));
-		jc.put("url", "/html/nds/portal/ssv/home.jsp?ss=-1");
+		jc.put("url", "/html/nds/portal/ssv/homexe.jsp?ss=-1");
 		jc.put("ssid",ssId);
 		menuObjs.put(jc);
 	}

@@ -1,37 +1,44 @@
 <%@ page language="java" import="nds.query.web.*,nds.control.web.*,nds.util.*,nds.schema.*,nds.query.*, java.io.*,java.util.*,nds.control.util.*" pageEncoding="utf-8"%>
 <table cellpadding="0" cellspacing="0" width="100%">
-<!--tr>
-<div class="search">子系统查找</div>
-<div id="searchform"> 
-	<input type="text" id="pojam" class="pinput" name="pojam"/>
-  <input type="submit" value="查找" class="pbutton" name="search"/>
-</div></tr-->
-<tr><td>
-<%
-String istree=userWeb.getUserOption("ISTREE","Y");
-//System.out.println(istree);
-if("N".equalsIgnoreCase(istree)){
-//System.out.println("ASDFASDFASDF");
-%>
-<div><div id="rpt-list-outlook">
-<%
-}else{
-%>
-	<div class="smalltab">
-		 <ul class="gamma-tab">
-			<li class="current"><%= PortletUtils.getMessage(pageContext, "feature-list",null)%>
-			</li>
-		</ul>
-		<div id="rpt-list-content" >
-				<!--%//((Configurations)WebUtils.getServletContextManager().getActor( nds.util.WebKeys.CONFIGURATIONS)).getProperty("chatback","")%-->
-<%
-}
-%>
-			<div id="tree-list"></div>
+	<!--tr>
+	<div class="search">子系统查找</div>
+	<div id="searchform"> 
+		<input type="text" id="pojam" class="pinput" name="pojam"/>
+	  <input type="submit" value="查找" class="pbutton" name="search"/>
+	</div></tr-->
+	<tr>
+		<td id="cont">
+		<div style="height:100%;">
+		<%
+		String istree=userWeb.getUserOption("ISTREE","Y");
+		//System.out.println(istree);
+		if("N".equalsIgnoreCase(istree)){
+		//System.out.println("ASDFASDFASDF");
+		%>
+		<div><div id="rpt-list-outlook">
+		<%
+		}else{
+		%>
+			<div class="smalltab">
+				 <ul class="gamma-tab">
+					<li class="current"><%= PortletUtils.getMessage(pageContext, "feature-list",null)%>
+					</li>
+				</ul>
+				<div id="rpt-list-content" >
+						<!--%//((Configurations)WebUtils.getServletContextManager().getActor( nds.util.WebKeys.CONFIGURATIONS)).getProperty("chatback","")%-->
+		<%
+		}
+		%>
+					<div id="tree-list"></div>
+						</div>
 				</div>
-		</div>
-	</div>
-</td></tr>
+			</div>
+			</div>
+		</td>
+</tr>
+<tr>
+<td id="weather"></td>
+</tr>
 <tr style="display:none;">
 <td>
 	<div id="bottom_tab">

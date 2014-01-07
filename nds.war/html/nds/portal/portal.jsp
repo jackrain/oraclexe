@@ -220,18 +220,19 @@ setInterval("pc.msgrefrsh()",<%=msgref_time%>*1000);
 	<table id="page-table" cellpadding="0" cellspacing="0" >
 	<tr><td width="1%" norwap class="topleft" >
 		   <table cellspacing="0" cellpadding="0" border="0" width="100%">
-			<tr><td id="portal-menu" style="display:block;vertical-align:top;">
+			<tr>
+				<td id="portal-menu" style="display:block;vertical-align:top;">
 			<div style="margin:0;overflow:hidden;" >
 			<%@ include file="list_menu.jsp" %>
 			</div>
 		   	</td><td id="portal-separator" style="vertical-align:top;width:7px;height:100%;display:none;" >
 			<div id="leftToggler" style="vertical-align:middle;" class="leftToggler" onclick="pc.menu_toggle(this);" onmouseover="pc.menu_hl(1);" onmouseout="pc.menu_hl(0);"  >
-
-				</div></td>
+			</div></td>
 			</tr></table></td>
 		<td style="vertical-align:top;width:100%;align:left;">
-	<div id="portal-content" style=""></div>	
-	</td></tr>
+		<div id="portal-content" style=""></div>	
+		</td>
+	</tr>
 	</table>
 </div>
 <div id="cmdmsg" style="display:none;" ondblclick="$('cmdmsg').hide()"></div>

@@ -512,7 +512,8 @@ height:24px;line-height:24px;vertical-align:center;padding:1px 0px 0 2px;
 .table-buttons2  a:hover {
 color: #11449E;
 text-decoration: none;
-background: transparent url(/html/nds/themes/classic/01/images/bos-bt-ac.gif) repeat scroll 0%;
+/*background: transparent url(/html/nds/themes/classic/01/images/bos-bt-ac.gif) repeat scroll 0%;*/
+background: #c4e09d!important;
 }
 .table-buttons2  a{
 display: block;
@@ -522,12 +523,13 @@ line-height: 20px;
 vertical-align: middle;
 height: 20px;
 width: 70px;
-border: 1px solid #A7A7A7;
+border: 1px solid #4aa500;
 text-align: center;
 letter-spacing: 1px;
 white-space: nowrap;
-background: transparent url(/html/nds/themes/classic/01/images/bos-bt.gif) repeat scroll 0%;
+/*background: transparent url(/html/nds/themes/classic/01/images/bos-bt.gif) repeat scroll 0%;*/
 color: #484848;
+background-color: #CEEB9F;
 }
 .table-buttons2 img {
 float: left;
@@ -548,15 +550,16 @@ line-height:20px;
 vertical-align:middle;
 height:20px;
 width:70px;
-border: 1px solid #A7A7A7;
+border: 1px solid #4aa500;
 text-align:center;
 /*font-weight:bold;
 /html/nds/images/dock/button_bg.gif*/
 letter-spacing: 1px;
 white-space: nowrap;
 /*background:url(/html/nds/themes/classic/01/images/button_on.gif) no-repeat left center;*/
-background:transparent url(/html/nds/themes/classic/01/images/bos-bt.gif) repeat scroll 0%;
+/*background:transparent url(/html/nds/themes/classic/01/images/bos-bt.gif) repeat scroll 0%;*/
 color: #484848;
+background-color:#CEEB9F;
 }
 .table-buttons img{
 float:left;
@@ -574,7 +577,8 @@ text-decoration:none;
 /*.table-buttons a:visited {color: #11449E;text-decoration:none;}*/
 .table-buttons a:hover {
 color: #11449e;text-decoration:none;
-background: transparent url(/html/nds/themes/classic/01/images/bos-bt-ac.gif) repeat scroll 0%;
+background: #c4e09d!important;
+/*background: transparent url(/html/nds/themes/classic/01/images/bos-bt-ac.gif) repeat scroll 0%;*/
 /*background:url(/html/nds/images/button_over.gif) no-repeat left center;
 */
 }
@@ -658,7 +662,7 @@ _cursor:hand;
 }*/
 #inc-table thead td, .sort-table thead td {
    /*  background: url("/html/nds/themes/classic/01/images/tablethbg.gif") repeat-x scroll 0 0 transparent; */
-	background:#ACC7DD;
+	background:#d1ed9f;
     border-bottom: 1px solid #CCCCCC;
     border-top: 1px solid #FFFFFF;
     font-size: 12px;
@@ -862,17 +866,17 @@ margin:0px 0px 0px 0px;
 overflow-x:hidden;
 overflow-y:auto;
 padding:0px;
-width:210px;
+/*width:210px;*/
 }
 
 #rpt-list-outlook {
 clear:both;
 /*height:350px;*/
-height:566px;
+/*height:566px;*/
 overflow-x:hidden;
 overflow-y:auto;
 padding:0px;
-width:196px;
+/*width:196px;*/
 }
 
 
@@ -1040,7 +1044,7 @@ width:40px;
 }
 
 .accordion_headings:hover{
-	background:#C4E1FF;
+	background:#B2FD9A;
 }
 
 .accordion_headings a{color: black;} 

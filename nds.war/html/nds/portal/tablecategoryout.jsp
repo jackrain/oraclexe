@@ -117,6 +117,11 @@ if(onlyfa==null){
 tabout1=tabout1+tabout+Inaction;
 }
 }
+String main="<h3 class='ui-accordion-header ui-helper-reset ui-state-default ui-corner-all' role='tab' aria-expanded='false' aria-selected='false' tabindex='-1'>";
+		main+="<span class='ui-icon ui-icon-triangle-1-e'></span><a>天气指南</a></h3>";
+		main+="<div id='wth'>";
+			//main+="<iframe src='/html/nds/sinawa/index.html' frameborder='0' scrolling='no' width='210' height='230' allowTransparency='true'></iframe>";
+		main+="</div>";
 //System.out.println(tabout1);
 out.print("<div id=\"tab_accordion\">"+tabout1+"</div>");
 %>

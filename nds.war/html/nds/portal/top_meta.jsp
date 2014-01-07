@@ -97,6 +97,7 @@
 <link type="text/css" rel="stylesheet" href="<%=userWeb.getThemePath()%>/css/objdropmenu.css">
 <!--link type="text/css" rel="stylesheet" href="<%=userWeb.getThemePath()%>/css/drop_menu3.css"-->
 <link type="text/css" rel="stylesheet" href="/html/nds/portal/ssv/css/home.css" />
+<link type="text/css" rel="stylesheet" href="/html/nds/themes/classic/01/css/green.css" />
 <%}//end JAVASCRIPT_FAST_LOAD
 %>
 <title><%=userWeb.getClientDomainName()%></title>

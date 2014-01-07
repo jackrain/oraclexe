@@ -178,9 +178,9 @@ div.objtb div.obj{
    /* width:902px;*/
     clear:both;
     background: none repeat scroll 0 0 #FFFFFF;
-    border: 1px solid #CCCCCC;
+    border: 1px solid #c4e09d;
       border-radius: 17px 17px 17px 17px;
-    box-shadow: 0 0 0.25em #CCCCCC;
+    box-shadow: 0 0 0.25em #CEEB9F;
     clear: left;
     padding: 1em 1em;
     position: relative;
@@ -337,8 +337,9 @@ background:	#fff;
 }
 .modify_table thead td,
 #modify_table thead td {
-border:	1px solid #77A5E0;
-background:url(/html/nds/images/obj-center-menu-bg.jpg);
+border:	1px solid #d1ed9f;
+/*background:url(/html/nds/images/obj-center-menu-bg.jpg);*/
+background-color:#d1ed9f;
 cursor: pointer;
 _cursor:hand;
 white-space: nowrap;
@@ -594,7 +595,7 @@ background:#EFF4FA;
 }
 
 td.desc{vertical-align:top;
-background-color:#efefef;
+background-color:#EAFABF;
 text-align:left;
 padding-left:5px;
 white-space: nowrap;
@@ -631,7 +632,7 @@ table.objtb input.ipt-4-2{
 	border-bottom-style: solid;
 	border-left-style: none;
 	border-bottom-width: 1px;
-	border-bottom-color: #A7C0D6;
+	border-bottom-color: #A3C77D;
   color: #333333;
   padding-top:2px;
   vertical-align: bottom;
@@ -834,14 +835,15 @@ text-align:left;
 border-bottom: 1px solid #678FC2 !important;
 }*/
 .nl{
-background-color:#F0F0FF;
+/*background-color:#F0F0FF;*/
 }
 
 
 .buttons  a:hover {
 color: #11449E;
 text-decoration: none;
-background: transparent url(/html/nds/themes/classic/01/images/bos-bt-ac.gif) repeat scroll 0%;
+/*background: transparent url(/html/nds/themes/classic/01/images/bos-bt-ac.gif) repeat scroll 0%;*/
+background: #c4e09d!important;
 }
 .buttons  a{
 display: block;
@@ -851,12 +853,13 @@ line-height: 20px;
 vertical-align: middle;
 height: 20px;
 width: 70px;
-border: 1px solid #A7A7A7;
+border: 1px solid #4aa500;
 text-align: center;
 letter-spacing: 1px;
 white-space: nowrap;
-background: transparent url(/html/nds/themes/classic/01/images/bos-bt.gif) repeat scroll 0%;
+/*background: transparent url(/html/nds/themes/classic/01/images/bos-bt.gif) repeat scroll 0%;*/
 color: #484848;
+background-color:#CEEB9F;
 }
 .buttons img {
 float: left;

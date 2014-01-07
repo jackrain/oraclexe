@@ -90,7 +90,7 @@ for(Iterator it=userWeb.getVisitTables();it.hasNext();){
 &nbsp;&nbsp;<%=PortletUtils.getMessage(pageContext, "my-recent-visit",null)%>:&nbsp;<%=sb.toString()%>
 </div-->
 <div id="page-table-query" style="width:99%;">
-	<div id="page-table-query-tab" style="border: 1px solid #CCC;width:99%;overflow: hidden;">
+	<div id="page-table-query-tab" style="border: 1px solid #c4e09d;width:99%;overflow: hidden;-webkit-box-shadow: #CEEB9F 0 0 .25em;-moz-box-shadow: #CEEB9F 0 0 .25em;box-shadow: #CEEB9F 0 0 .25em;" >
 		<ul id="navBar"><li><a id="hide_bar" class="hide_bar"></a><a href="#tab1"><span><%=PortletUtils.getMessage(pageContext, "query-setting",null)%>&nbsp;-&nbsp;<%=table.getDescription(locale)%></span></a></li></ul>
 		<%
 		if(search_show.equals("Y")){%>

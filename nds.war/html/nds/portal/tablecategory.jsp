@@ -56,5 +56,12 @@ if(userWeb==null || userWeb.isGuest()){
    });
   
 	}
+	   var main="<h3 class='ui-accordion-header ui-helper-reset ui-state-default ui-corner-all' role='tab' aria-expanded='false' aria-selected='false' tabindex='-1'>";
+		+"<span class='ui-icon ui-icon-triangle-1-e'></span><a>天气指南</a></h3>";
+		+"<div id='wth'>";
+			+"<iframe src='/html/nds/sinawa/index.html' frameborder='0' scrolling='no' width='210' height='230' allowTransparency='true'></iframe>";
+		+"</div>";
+   jQuery("#tree-list").append(main);
+   alert("ddd");
 </script>    
 </td></tr></table>

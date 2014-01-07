@@ -33,58 +33,51 @@ tabcategorylist=subsystemview.getTableCategories(request,subSystemId);// element
 %>
 <tree>
 <%
-  if(tabcategorylist.size()>1){
-for(int i=0;i<tabcategorylist.size();i++){  
-	al= (List)tabcategorylist.get(i);
-	if(al.get(0) instanceof TableCategory){
-	    tablecategory=(TableCategory)al.get(0);
-		categoryChildren= (List) al.get(1);
-		tablecategoryId =tablecategory.getId();
-		url=tablecategory.getPageURL();
-		cdesc=tablecategory.getName();
-	    if(url!=null){ 
- %>     
-    <tree text="<%=cdesc%>" action="javascript:pc.navigate('<%=url%>')">
-     	<%     	
-     	}else{
-     %>		 
-    <tree text="<%=cdesc%>">
-    <%
-		} // end  if(url!=null)
-		for(int j=0;j<categoryChildren.size();j++){
-			if(categoryChildren.get(j)  instanceof Table){
-				table=(Table)categoryChildren.get(j);
-				tableId =table.getId(); 
-				tdesc=table.getDescription(locale);
-%>
-	<tree icon="/html/nds/images/table.gif"  text="<%=StringUtils.escapeForXML(tdesc)%>" action="javascript:pc.navigate('<%=tableId%>')"/>       
-	<%			
-			}else if(categoryChildren.get(j)  instanceof WebAction){
-				WebAction action=(WebAction)categoryChildren.get(j) ;
-%>
-	<%=action.toHTML(locale,null)%>
-<%			
-			}
+if(tabcategorylist.size()>1){
+	for(int i=0;i<tabcategorylist.size();i++){ 
+		al= (List)tabcategorylist.get(i);
+		if(al.get(0) instanceof TableCategory){
+			tablecategory=(TableCategory)al.get(0);
+			categoryChildren= (List) al.get(1);
+			tablecategoryId =tablecategory.getId();
+			url=tablecategory.getPageURL();
+			cdesc=tablecategory.getName();
+			if(url!=null){
+				%>     
+				<tree text="<%=cdesc%>" action="javascript:pc.navigate('<%=url%>')">
+			<%}else{%>		 
+				<tree text="<%=cdesc%>">
+			<%} // end  if(url!=null)
+			for(int j=0;j<categoryChildren.size();j++){
+				if(categoryChildren.get(j)  instanceof Table){
+					table=(Table)categoryChildren.get(j);
+					tableId =table.getId(); 
+					tdesc=table.getDescription(locale);
+					%>
+					<tree icon="/html/nds/images/table.gif"  text="<%=StringUtils.escapeForXML(tdesc)%>" action="javascript:pc.navigate('<%=tableId%>')"/>       
+				<%}else if(categoryChildren.get(j)  instanceof WebAction){
+					WebAction action=(WebAction)categoryChildren.get(j) ;
+					%>
+						<%=action.toHTML(locale,null)%>
+				<%}
 		
+			}
+			// check additional links from configurations
+			String linkFile= conf.getProperty("ui.treelink.tablecategory_"+tablecategoryId );
+			if(linkFile !=null){
+			%>
+				<jsp:include page="<%=linkFile%>" flush="true"/>
+			<%}%>
+			</tree>
+		<%}//end if TableCategory
+		else{
+			//web action
+			WebAction wac= (WebAction)al.get(0);
+			%>
+			<%=wac.toHTML(locale,null)%>
+			<%		
 		}
-		// check additional links from configurations
-		String linkFile= conf.getProperty("ui.treelink.tablecategory_"+tablecategoryId );
-		if(linkFile !=null){
-	%>
-		<jsp:include page="<%=linkFile%>" flush="true"/>
-	<%	} 
-	%>
-	</tree>
-<%
-	}//end if TableCategory
-	else{
-		//web action
-		WebAction wac= (WebAction)al.get(0);
-%>
-		<%=wac.toHTML(locale,null)%>
-<%		
-	}
- }//  end for
+	}//  end for
 }else if(tabcategorylist.size()==1){
   	al= (List)tabcategorylist.get(0);
   	if(al.get(0) instanceof TableCategory){
@@ -95,30 +88,25 @@ for(int i=0;i<tabcategorylist.size();i++){
 				table=(Table)categoryChildren.get(j);
 				tableId =table.getId(); 
 				tdesc=table.getDescription(locale);
-%>
-	<tree icon="/html/nds/images/table.gif"  text="<%=StringUtils.escapeForXML(tdesc)%>" action="javascript:pc.navigate('<%=tableId%>')"/>       
-	<%			
-		}else if(categoryChildren.get(j)  instanceof WebAction){
-			WebAction action=(WebAction)categoryChildren.get(j);
-%>
-	<%=action.toHTML(locale,null)%>
-<%			
+				%>
+					<tree icon="/html/nds/images/table.gif"  text="<%=StringUtils.escapeForXML(tdesc)%>" action="javascript:pc.navigate('<%=tableId%>')"/>       
+			<%}else if(categoryChildren.get(j)  instanceof WebAction){
+				WebAction action=(WebAction)categoryChildren.get(j);
+				%>
+					<%=action.toHTML(locale,null)%>
+			<%}
 		}
-	} 
-	// check additional links from configurations
-	String linkFile= conf.getProperty("ui.treelink.tablecategory_"+tablecategory.getId() );
-	if(linkFile !=null){
-	%>
-		<jsp:include page="<%=linkFile%>" flush="true"/>
-	<%}
+		// check additional links from configurations
+		String linkFile= conf.getProperty("ui.treelink.tablecategory_"+tablecategory.getId() );
+		if(linkFile !=null){
+			%>
+				<jsp:include page="<%=linkFile%>" flush="true"/>
+		<%}
 	}else{
-	//web action
+		//web action
 		WebAction wac= (WebAction)al.get(0);
-%>
-		<%=wac.toHTML(locale,null)%>
-<%		
-	}
-}
-%>
- 
+		%>
+			<%=wac.toHTML(locale,null)%>
+	<%}
+}%>
 </tree>    

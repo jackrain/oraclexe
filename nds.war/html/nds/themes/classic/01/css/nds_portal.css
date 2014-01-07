@@ -62,7 +62,7 @@
 /*
 	background:	#fff;
 */
-background-color: #EEEFF0;
+background-color: #f8f8f8;
 
 }
 .row-M {
@@ -295,7 +295,9 @@ TR.odd { background-color: #EEEEEE; color: #000000; font-family: Tahoma, Arial; 
 
 #navBar {
     /*background: url("/html/nds/themes/classic/01/images/hmenuarrowhover.gif") no-repeat scroll right center #43779F;*/
-	background:url("/html/nds/themes/classic/01/images/leftmenutitle.png") repeat-x scroll 0 0 transparent;
+	/*background:url("/html/nds/themes/classic/01/images/leftmenutitle.png") repeat-x scroll 0 0 transparent;*/
+	background-color: #d1ed9f;
+background: #d1ed9f;
     clear: both;
     color: #FFFFFF;
     display: block;
@@ -329,8 +331,8 @@ background-color: #C4E1FF !important;
 }
 
 .ui-selected {
-background: #C4E1FF !important;
-background-color: #C4E1FF !important;
+background: #B2FD9A !important;
+background-color: #B2FD9A !important;
 color: black; }
 
 .fa_mu {

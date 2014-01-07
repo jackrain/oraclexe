@@ -1,5 +1,6 @@
 @import url(/html/nds/css/ui.datepicker.css);
 
+body,div,a,li,input,div,span,td{font-family:"微软雅黑"}
 a:hover {
 text-decoration:underline;
 }
@@ -294,28 +295,34 @@ margin:0px;
 }
 input[type="button"]{
 /* background:transparent url(/html/nds/themes/classic/01/images/button_bg.gif) repeat scroll 0%; */
-background:transparent url(/html/nds/themes/classic/01/images/bos-bt.png) repeat scroll 0%;
-border:1px solid #a7a7a7;
+/*background:transparent url(/html/nds/themes/classic/01/images/bos-bt.png) repeat scroll 0%;*/
+background-clolr:#CEEB9F;
+border:1px solid #4aa500;
 padding: 4px 4px;
 +padding:0px;/*IE*/
 }
 .cbutton{height:22px;
-background:transparent url(/html/nds/themes/classic/01/images/bos-bt.png) repeat scroll 0%;
+/*background:transparent url(/html/nds/themes/classic/01/images/bos-bt.png) repeat scroll 0%;*/
 border:1px solid #BFA277;
 /* width:69px; */
 color:#484848;
+background-color:#CEEB9F;
 }
+.cbutton:hover{background-color:#c4e09d;}
 
 .smalltab{
-border:1px solid #ccc;
+border:1px solid #c4e09d;
 background-color:#fbfbfb;
 clear:both;
 margin:5px 0px;
 padding:0px;
+-webkit-box-shadow: #CEEB9F 0 0 .25em;
+-moz-box-shadow: #CEEB9F 0 0 .25em;
+box-shadow: #CEEB9F 0 0 .25em;
 }
 
 .sumfooter{
-background-color:#dae3ea;
+background-color:#d1ed9f;
 color:#ff0000;
 font-weight:bold;
 text-align:right;
