@@ -8,7 +8,8 @@ com.liferay.portal.util.CookieKeys.addSupportCookie(response);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
 <title>burgeon NewBos--伯俊软件</title>
-<link href="/style-portal.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="/style-portal.css"/>
+<link rel="stylesheet" href="/reset.css">
 <SCRIPT type=text/javascript>
 	function selectTag(showContent,selfObj){
 	// 2???
@@ -53,109 +54,181 @@ function submitForm(){
 	document.body.innerHTML=document.getElementById("progress").innerHTML;
 }
 </SCRIPT>
+<style>
+	body{
+		background: url(/images/login-bg.jpg);
+		background-size: 100%;
+	}
+	#login-main{
+		position: absolute; left: 50%; top: 50%;
+		margin: -186px 0 0 -319px;
+		width: 638px; height: 373px;
+	}
+	#logo{
+		float: left;
+		margin-left: 18px;
+	}
+	#tel{
+		float: right;
+		margin: 15px 17px 0 0;
+	}
+	#login-user{
+		height: 315px;
+		margin-top: 13px;
+		background: url(/images/login-box.png);
+	}
+	#login-user table{
+		width: 236px;
+		margin: 0 auto;
+		position: relative; top: 130px;
+		color: #1e5100; font-size: 14px;
+	}
+	#login-user table td{
+		padding-bottom: 9px;
+	}
+	#login-user table input{
+		height: 20px; width: 178px;
+		border:1px solid #2c7700;
+	}
+	#verifyCode{
+		width: 94px!important;
+	}
+	#login-user table img{
+		display: inline-block;
+	}
+	#login-user table input[type="submit"],
+	#login-user table input[type="reset"]{
+		width: 84px; height: 30px;
+		margin-top: 4px;
+		border: none;
+		color: #fff;
+		cursor: pointer;
+		background: url(/images/login-btn.png);
+	}
+	#login-user table input[type="submit"]{
+		margin-right: 8px;
+	}
+	#footer{
+		position: fixed; bottom: 0; left: 0; right: 0;
+		height: 60px;
+		text-align: center; color: #fff;
+		background-color: #318002;
+	}
+	#footer img{
+		display: inline-block;
+		vertical-align: middle;
+	}
+	#footer span{
+		padding: 0 10px;
+	}
+	#ewm{
+		position: relative; top: -5px;
+	}
+</style>
 </head>
 
 <body>
- <div class="title">
-	<h4 class="Logo"><img src="/images/left.gif" alt="伯俊logo"></h4>
-	</div>
-<div id="login-main" class="login">
-	<div id="bottom">
-	<div id="bottom-right"><span class="bottom-logo"></span>&copy;2011-2013上海伯俊软件科技有限公司 版权所有 了解更多产品请点击:<a class="bottom-text" target="_parent" href="http://www.burgeon.com.cn">www.burgeon.com.cn</a></div>
-</div>
-	<div class="bar"></div>
-<div id="login-user">
-     <c:if test="<%=true %>">
-                <c:if test='<%= SessionMessages.contains(request, "user_added") %>'>
-                  <%
+
+<div id="login-main">
+	<header id="header" class="cl">
+		<a href=""><img id="logo" src="/images/logo.png" alt=""></a>
+		<img id="tel" src="/images/tel.png" alt="">
+	</header>
+	<div id="login-user">
+		<c:if test="<%=true %>">
+			<c:if test='<%= SessionMessages.contains(request, "user_added") %>'>
+				<%
 				String emailAddress = (String)SessionMessages.get(request, "user_added");
 				String password = (String)SessionMessages.get(request, "user_added_password");
 				%>
-                  <div class="portlet-msg-success">
-                    <c:choose>
-                      <c:when test="<%= Validator.isNull(password) %>"> <%= LanguageUtil.format(pageContext, "thank-you-for-creating-an-account-your-password-has-been-sent-to-x", emailAddress) %> </c:when>
-                      <c:otherwise> <%= LanguageUtil.format(pageContext, "thank-you-for-creating-an-account-your-password-is-x", new Object[] {password, emailAddress}) %> </c:otherwise>
-                    </c:choose>
-                  </div>
-                  <br />
-                  <%
-				%>
-                </c:if>
-                <c:if test="<%= SessionErrors.contains(request, AuthException.class.getName()) %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
-                  <br />
-                </c:if>
-                <c:if test="<%= SessionErrors.contains(request, "VERIFY_CODE_ERROR") %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-verify-code") %> </div>
-                  <br />
-                </c:if>
-                <c:if test="<%= SessionErrors.contains(request, CookieNotSupportedException.class.getName()) %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "authentication-failed-please-enable-browser-cookies") %> </div>
-                  <br />
-                </c:if>
-                <c:if test="<%= SessionErrors.contains(request, NoSuchUserException.class.getName()) %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
-                  <br />
-                </c:if>
-                <c:if test="<%= SessionErrors.contains(request, PrincipalException.class.getName()) %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "you-have-attempted-to-access-a-section-of-the-site-that-requires-authentication") %> <%= LanguageUtil.get(pageContext, "please-sign-in-to-continue") %> </div>
-                  <br />
-                </c:if>
-                <c:if test='<%= SessionErrors.contains(request, UserEmailAddressException.class.getName()) %>'>
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
-                  <br />
-                </c:if>
-                <c:if test="<%= SessionErrors.contains(request, UserPasswordException.class.getName()) %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
-                  <br />
-                </c:if>
-                 <c:if test="<%= SessionErrors.contains(request, "SLEEP_USER") %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "inactive-user-exception") %> </div>
-                  <br />
-                </c:if> 
-                <c:if test="<%= SessionErrors.contains(request, "INACTIVE_USER") %>">
-                  <div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "inactive-user-exception") %> </div>
-                  <br />
-                </c:if>                
-              </c:if>
-<form action="/c/portal/login" method="post" name="fm1" id="fm1">
-      <input type="hidden" value="already-registered" name="cmd"/>
-       <input type="hidden" value="already-registered" name="tabs1"/>
-	<%
-		  String  login ="";
-		   if(company==null)
-		    {
-           company = com.liferay.portal.service.CompanyLocalServiceUtil.getCompany("liferay.com");
-		    }
-		 login =LoginAction.getLogin(request, "login", company);
-		%>
-<div id="login-U">
-<ul>
-<li>
-<div class="left_text">用户名：</div>
-<div class="right_text"><input id="login" name="login" type="text" class="Warning-130" size="23" value="<%=login %>" /></div>
-</li>
-<div class="clear"></div>
-<li>
-<div class="left_text">密&nbsp;&nbsp;&nbsp;码：</div>
-<div class="right_text"><input id="password1" name="<%= SessionParameters.get(request, "password")%>" type="password" value=""  size="10" class="Warning-130"/></div>
-</li>
-<div class="clear"></div>
-<li>
-<div class="left_text">验证码：</div>
-<div class="right_text"><input id="verifyCode" name="verifyCode" type="text" onKeyPress="onReturn(event)" class="Warning-70"  size="10" />
-<img src="/servlets/vms" width="64" height="16" align="absmiddle" id="chkimg" onclick="javascript:document.getElementById('chkimg').src='/servlets/vms?'+Math.random()" />
+				<div class="portlet-msg-success">
+					<c:choose>
+						<c:when test="<%= Validator.isNull(password) %>"> <%= LanguageUtil.format(pageContext, "thank-you-for-creating-an-account-your-password-has-been-sent-to-x", emailAddress) %> </c:when>
+						<c:otherwise> <%= LanguageUtil.format(pageContext, "thank-you-for-creating-an-account-your-password-is-x", new Object[] {password, emailAddress}) %> </c:otherwise>
+					</c:choose>
+				</div>
+		
+            </c:if>
+			<c:if test="<%= SessionErrors.contains(request, AuthException.class.getName()) %>">
+				<div class="portlet-msg-error"><%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
+			
+			</c:if>
+			<c:if test="<%= SessionErrors.contains(request, "VERIFY_CODE_ERROR") %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-verify-code") %> </div>
+		
+			</c:if>
+			<c:if test="<%= SessionErrors.contains(request, CookieNotSupportedException.class.getName()) %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "authentication-failed-please-enable-browser-cookies") %> </div>
+		
+			</c:if>
+			<c:if test="<%= SessionErrors.contains(request, NoSuchUserException.class.getName()) %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
+		
+			</c:if>
+			<c:if test="<%= SessionErrors.contains(request, PrincipalException.class.getName()) %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "you-have-attempted-to-access-a-section-of-the-site-that-requires-authentication") %> <%= LanguageUtil.get(pageContext, "please-sign-in-to-continue") %> </div>
+	
+			</c:if>
+			<c:if test='<%= SessionErrors.contains(request, UserEmailAddressException.class.getName()) %>'>
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
+
+			</c:if>
+			<c:if test="<%= SessionErrors.contains(request, UserPasswordException.class.getName()) %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "error-username-or-password") %> </div>
+
+			</c:if>
+			<c:if test="<%= SessionErrors.contains(request, "SLEEP_USER") %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "inactive-user-exception") %> </div>
+
+			</c:if> 
+			<c:if test="<%= SessionErrors.contains(request, "INACTIVE_USER") %>">
+				<div class="portlet-msg-error"> <%= LanguageUtil.get(pageContext, "inactive-user-exception") %> </div>
+			</c:if>                
+		</c:if>
+		<form action="/c/portal/login" method="post" name="fm1" id="fm1">
+			<input type="hidden" value="already-registered" name="cmd"/>
+			<input type="hidden" value="already-registered" name="tabs1"/>
+			<%
+			String  login ="";
+			if(company==null)
+			{
+				company = com.liferay.portal.service.CompanyLocalServiceUtil.getCompany("liferay.com");
+			}
+			login =LoginAction.getLogin(request, "login", company);
+			%>
+			<div id="login-U">
+				<table>
+					<tr>
+						<td>用户名：</td>
+						<td><input id="login" name="login" type="text" value="<%=login %>" /></td>
+					</tr>
+					<tr>
+						<td>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+						<td><input id="password1" name="<%= SessionParameters.get(request, "password")%>" type="password" value=""/></td>
+					</tr>
+					<tr>
+						<td>验证码：</td>
+						<td>
+							<input id="verifyCode" name="verifyCode" class="vm" type="text" onKeyPress="onReturn(event)"/>
+							<img src="/servlets/vms" width="64" height="16" align="absmiddle" id="chkimg" onclick="javascript:document.getElementById('chkimg').src='/servlets/vms?'+Math.random()" />
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<input type="submit" onclick="javascript:submitForm()" value="登陆">
+							<input type="reset">
+						</td>
+					</tr>
+				</table>
+			</div>
+		</form>
+	</div>
 </div>
-</li>
-<div class="clear"></div>
-<li>
-<div class="right_text"><a href="#" onclick="javascript:submitForm()"><input type="image" src="/images/button_in.png" width="103" height="36" /></a>
-</div>
-</li>
-</ul>
-</div>
-</form>
-</div>
+<div id="footer">
+	<img src="/images/bos-xe.png" alt="">
+	<span>©2008-2014上海伯俊软件科技有限公司 版权所有 保留所有权      了解更多：www.burgeon.com.c</span>
+	<img id="ewm" src="/images/rwm.png" alt="">
 </div>
 
 <%@ include file="/inc_progress.jsp" %>
