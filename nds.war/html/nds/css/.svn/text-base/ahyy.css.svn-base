@@ -1,9 +1,0 @@
-#pinfo{
-  text-align:center;
-}
-#btn{
-  text-align:center;
-}
-#errmsg{
-  color:red;
-}

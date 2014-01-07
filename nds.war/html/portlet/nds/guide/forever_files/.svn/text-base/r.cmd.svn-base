@@ -1,4 +1,0 @@
-c:\mysql\bin\replace.exe -v "mytable_" "/html/nds/sheet/objects.jsp?table=" -- E:/portal/server/default/deploy/nds.war/html/portlet/nds/guide/forever_files/forever_png_1.htm
-REM c:\mysql\bin\replace.exe -v "mymap_" "javascript:_self.location='../" -- E:/portal/server/default/deploy/nds.war/html/portlet/nds/guide/forever_files/forever_png_1.htm
-c:\mysql\bin\replace.exe -v "mytable_" "/html/nds/sheet/objects.jsp?table=" -- E:/portal/server/default/deploy/nds.war/html/portlet/nds/guide/comment_files/comment_png_1.htm
-c:\mysql\bin\replace.exe -v "mytable_" "/html/nds/sheet/objects.jsp?table=" -- E:/portal/server/default/deploy/nds.war/html/portlet/nds/guide/allocation_files/allocation_png_1.htm
