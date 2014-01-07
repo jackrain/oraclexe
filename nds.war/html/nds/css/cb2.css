@@ -219,7 +219,7 @@ height:20px;
  /*width:expression( document.body.width > 260 ? "260px":(document.body.width-260)+"px" );*/
 }
 .readonly{
- background-color:#cccccc;
+ /*background-color:#cccccc;*/
 }
 #timeoutBox {
 background:#FFFFCC none repeat scroll 0% 0%;
