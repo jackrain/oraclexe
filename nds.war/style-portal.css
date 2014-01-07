@@ -481,14 +481,13 @@ list-style:none;}
     width:100%;
 }
 .portlet-msg-error{
-	
-	position: absolute;
-margin: 0 0 0 -206px;
-		font-size: 16px;
+position: absolute;
+margin: 269px 0 0 200px;
+font-size: 16px;
 color: #B9B9B9;
-font-family: "Î¢ÈíÑÅºÚ";
+font-family: "??????";
 font-weight: bold;
-	
+color: red;
 	}
 
 .width-left{
@@ -554,7 +553,7 @@ height:293px;}
  
 
 
-
+/*
 #login-user{
 position: absolute;
 margin: 10px auto;
@@ -564,7 +563,9 @@ left: 57%;
 top: 63px;
 background: url(images/login-b.jpg) no-repeat center;
 }
+*/
 
+/*
 #login-U{
 position: absolute;
 margin: 10px auto;
@@ -574,6 +575,7 @@ left: 9%;
 top: 24%;
 z-index: 2;
 	}
+	*/
 	
 #login-U ul{
    margin:0;
