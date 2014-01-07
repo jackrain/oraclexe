@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<script language="javascript" src="/html/nds/bpos/jsm.js"></script>
 <div id="TMPpayment_content"> 
 <table width="605" border="0" cellspacing="0" cellpadding="0">
           <tr>
@@ -45,6 +46,10 @@
   <td nowrap="" height="18" align="right"><div class="desc-txt">找零：</div></td>
   <td nowrap="" height="18" align="left"><input id="TMPchange" name="TMPchange" type="text" class="q_input" /></td>
   </tr>
+  <tr>
+  <td nowrap="" height="18" align="right"><div class="desc-txt">收银员：</div></td>
+  <td nowrap="" height="18" align="left"><input id="TMPempname" name="TMPempname" type="text" class="q_input" /></td>
+  </tr>
 <tr>
   <td height="18" colspan="2" align="center" nowrap=""><textarea id="TMPdiscription"  name="TMPdiscription" cols="35" rows="3"></textarea></td>
   </tr>
@@ -73,7 +78,7 @@
               </tr>
               <tr>
                 <td valign="bottom"><div id="TMPqbtns">
-<input type="button" value="提交并打印" onclick="javascript:bpos.save_print()" class="qinput" />
+<input type="button" value="提交并打印" onclick="javascript:bpos.doSubmitPrint()" class="qinput" />
 &nbsp;
 <input type="button" value="提交" onclick="javascript:bpos.save()" class="qinput" />
 &nbsp;

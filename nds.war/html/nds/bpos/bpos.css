@@ -1,6 +1,6 @@
 body{
 	font-size:12px;
-	font-family:Tahoma,Arial;
+	font-family:"微软雅黑"!important;
 	margin:0px;
 	padding:0px;
 	HEIGHT:100%;
@@ -15,7 +15,12 @@ body{
 	width:953px;
 	margin:0px;
 }
-
+.linear-green{
+  font-family:"微软雅黑";
+  font-weight: 600;
+  border-radius: 5px;
+  background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #eff7e3), color-stop(0.5, #d8eabb), color-stop(0.51, #c4e09d), color-stop(1, #dfeec7))!important;
+}
 #from_top{
 	MARGIN-RIGHT: auto;
 	MARGIN-LEFT: auto;
@@ -23,7 +28,7 @@ body{
 	text-align:center;
 	height:45px;
 	width:953px;
-	background: scroll url(images/head_bg.gif) repeat;
+	/*background: scroll url(images/head_bg.gif) repeat;*/
 	}
 
 #from_top_left{
@@ -36,7 +41,7 @@ body{
 	text-align:right;}
 	
 #from_top_right_bg{
-    background:url(images/head_right_bg.gif) no-repeat scroll;
+    /*background:url(images/head_right_bg.gif) no-repeat scroll;*/
     width:192px;
     height:25px;}
 
@@ -44,15 +49,17 @@ body{
     font-family: Arial;
 	font-size: 12px;
 	padding-top:1px;
-	text-align:center;}
+	text-align:center;
+  margin-top: 11px;
+}
 
 .from_top_text{
 	font-family: Arial;
-	font-size: 24px;
+	font-size: 20px;
 	font-weight:bolder;
 	padding-top:10px;
-	padding-left:100px;
-	text-align:center;
+	padding-left:10px;
+	text-align:left;
 }
 
 .center{
@@ -86,9 +93,9 @@ body{
 }
 
 #embed-items{
-    width:871px;
-    MARGIN-RIGHT: auto;
-	MARGIN-LEFT: auto;
+    width:833px;
+    MARGIN-RIGHT: 0px;
+	MARGIN-LEFT: 0px;
     padding:0px;
 }
 
@@ -96,18 +103,20 @@ body{
 #modify_table{
 border-collapse: collapse;
 }
-
+#modify_table{
+  position: relative; top:-17px;
+}
 .modify_table thead,
 #modify_table thead {
 background:	#fff;
 }
-
 .modify_table_tr,
 #modify_table_tr {
-background:url(images/from_top_bg.jpg);
+/*url(images/from_top_bg.jpg)*/
+background:rgb(184,204,228);
 cursor: pointer;
 _cursor:hand;
-height:24px;
+height:20px;
 }
 
 td.desc{
@@ -391,7 +400,8 @@ div.obj div.desc-txt{
 }
 
 #listbody{
-     scroll-y:visible;
+     /*scroll-y:visible;*/
+     /*overflow-y:auto;*/
      width:100px;
 }
 .table{

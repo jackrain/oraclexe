@@ -1,4 +1,5 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<script language="javascript" src="/html/nds/bpos/jsm.js"></script>
 <div id="TMPnum_content">
 <table width="400" border="0" cellspacing="0" cellpadding="0"> 
 <tbody>
@@ -7,7 +8,8 @@
       <table width="350" border="0" align="center" cellpadding="0" cellspacing="0">
         <tr>
           <td width="103" height="30" align="right"><div class="desc-txt">数量：</div></td>
-          <td width="247"><input type="text" id="TMPretail_num" name="TMPretail_num" size="10" value="" onKeyPress="onReturnnum(event);"/>
+          <td width="247">
+          	<input type="text"  id="TMPretail_num" name="TMPretail_num" size="10" value="" onKeyPress="onReturnnum(event);"/>
            	<input type="hidden" id="TMPretail_id" name="TMPretail_id" value="" />
           </td>
         </tr>
