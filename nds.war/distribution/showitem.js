@@ -28,6 +28,7 @@ SHOWITEM.prototype={
         this._executeCommandEvent(evt);
     },
     _onfundQuery:function(e){
+		var style;
         dwr.util.useLoadingMessage(gMessageHolder.LOADING);
         var data=e.getUserData();
         var ret=data.jsonResult.evalJSON();
@@ -42,11 +43,13 @@ SHOWITEM.prototype={
             	funditem[0]=ret.data;
             }
             for(var i=0;i<funditem.length;i++){
+				if(i%2==1){style="style='background-color:#f8f8f8;'"}
+				else{style="style='background-color:white;'"}
             	fundStr+="<div class=\"mingxi-sidebar row\"><div class=\"row-line\">"+
-											 "<div class=\"span-8\">"+(funditem[i].facusitem.NAME||"")+
-											 "</div><div class=\"span-7\">"+(funditem[i].facusitem.TOT_AMT||0)+
-											 "</div><div class=\"span-7\">"+(funditem[i].facusitem.FEEALLOT||0)+
-											 "</div><div class=\"span-9\">"+(funditem[i].facusitem.TOT_QTY||0)+
+											 "<div "+style+" class=\"span-8\">"+(funditem[i].facusitem.NAME||"")+
+											 "</div><div "+style+" class=\"span-7\">"+(funditem[i].facusitem.TOT_AMT||0)+
+											 "</div><div "+style+" class=\"span-7\">"+(funditem[i].facusitem.FEEALLOT||0)+
+											 "</div><div "+style+" class=\"span-9\">"+(funditem[i].facusitem.TOT_QTY||0)+
 											 "</div></div></div>";
             }
         }
@@ -74,6 +77,7 @@ SHOWITEM.prototype={
         this._executeCommandEvent(evt);     	
     },
     _onShowItem:function(e){
+		var style;
         dwr.util.useLoadingMessage(gMessageHolder.LOADING);
         var data=e.getUserData();
         var ret=data.jsonResult.evalJSON();
@@ -90,9 +94,11 @@ SHOWITEM.prototype={
 				}
 				var str="";
 				for(var i=0;i<datas.length;i++){
+					if(i%2==1){style="style='background-color:#f8f8f8;'"}
+					else{style="style='background-color:white;'"}
 					str+="<div class=\"mingxi-sidebar row\">"+
 							 "<div class=\"row-line\">"+
-							 "<div class=\"span-1\">"+datas[i].m_alloitem.PDT+"</div><div class=\"span-1\">"+datas[i].m_alloitem.VALUE1+"</div><div class=\"span-1\">"+datas[i].m_alloitem.VALUE2+"</div><div class=\"span-2\">"+datas[i].m_alloitem.NAME+"</div><div class=\"span-1\">"+datas[i].m_alloitem.QTYREM+"</div><div class=\"span-"+(datas[i].m_alloitem.QTY_ALLOT==0?3:4)+"\">"+(datas[i].m_alloitem.QTY_ALLOT==0?"是":"否")+"</div>"+
+							 "<div "+style+" class=\"span-1\">"+datas[i].m_alloitem.PDT+"</div><div "+style+" class=\"span-1\">"+datas[i].m_alloitem.VALUE1+"</div><div "+style+" class=\"span-1\">"+datas[i].m_alloitem.VALUE2+"</div><div "+style+" class=\"span-2\">"+datas[i].m_alloitem.NAME+"</div><div "+style+" class=\"span-1\">"+datas[i].m_alloitem.QTYREM+"</div><div "+style+" class=\"span-"+(datas[i].m_alloitem.QTY_ALLOT==0?11:4)+"\">"+(datas[i].m_alloitem.QTY_ALLOT==0?"是":"否")+"</div>"+
 							 "</div></div>";
 				}
 				jQuery("#mingxi-main").html(str);
