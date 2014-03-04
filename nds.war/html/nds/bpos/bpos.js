@@ -105,6 +105,7 @@ BPOS.prototype={
 			window.event.cancelBubble = true;
 		}
  },
+
  keepfalse:function(){
      jQuery("#objtb22").bind("keydown",function(event){
      		event.stopPropagation();
@@ -136,7 +137,6 @@ BPOS.prototype={
 				}   	     			
      });
   	},
- 
  
  
  checkposno:function(posno){
@@ -284,7 +284,7 @@ BPOS.prototype={
 		
 		var emper=jQuery("#emp_name").val();
 		this.emp_new_name = emper;
-		var param={"cardno":this.cardno,"c_store_id":this.c_store_id,"billdate":sys_date,"m_retail_productno":m_retail_productno,"m_retail_qty":m_retail_qty,"m_retail_type":m_retail_type,"m_retail_orgdocno":this.tempno,"m_retail_priceactual":priceactual,"m_empid":emper,"isdiscount":this.isdiscount};
+		var param={"cardno":this.cardno,"vipid":this.vip_id,"c_store_id":this.c_store_id,"billdate":sys_date,"m_retail_productno":m_retail_productno,"m_retail_qty":m_retail_qty,"m_retail_type":m_retail_type,"m_retail_orgdocno":this.tempno,"m_retail_priceactual":priceactual,"m_empid":emper,"isdiscount":this.isdiscount};
 		evt.param=Object.toJSON(param);
 		evt.table="m_retail";
 		evt.action="insertline";
@@ -319,10 +319,13 @@ BPOS.prototype={
 		this.emp_name=ret.m_retail_saler;
 		this.m_retail_type=ret.m_retail_type;
 		this.tot_payable_origin=this.tot_payable;
-		  var numb=$("number");
-		  numb.focus();
-		  $("number").value="";
-		 $("price").value="";
+		var product=$("m_retail_idx");
+		product.focus();
+		// var numb=$("number");
+		// numb.focus();
+		$("m_retail_idx").value="";
+		$("number").value="1";  //paco modify 2014-02-27 $("number").value=""
+		$("price").value=ret.m_retail_priceactual;	//paco modify 2014-02-27 $("price").value=""
 	},
 
 	new_order:function(){
@@ -397,24 +400,36 @@ BPOS.prototype={
 	{   
 		var data=e.getUserData(); // data
 		var ret=data.jsonResult.evalJSON()[0];
-	 //   var data="{\"cardno\":\"SJ00025\",\"c_viptype\":\"金卡\",\"vipname\":\"yyy\",\"birthday\":\"1981-04-19\",\"vipename\":\"jeery\",\"sex\":\"男\",\"idno\":\"515151\",\"validdate\":\"2008-10-7\",\"menbdiscount\":0.6}";	    
-	//	 var ret=data.evalJSON();
+		// var data="{\"cardno\":\"SJ00025\",\"c_viptype\":\"金卡\",\"vipname\":\"yyy\",\"birthday\":\"1981-04-19\",\"vipename\":\"jeery\",\"sex\":\"男\",\"idno\":\"515151\",\"validdate\":\"2008-10-7\",\"menbdiscount\":0.6}";	    
+		// var ret=data.evalJSON();
 		this.vip_id =ret.VIP_ID;
 		this.cardno =ret.CARDNO;
 		$("vip").value=this.cardno;
         this.c_viptype=ret.R_VIPTYPE;
         this.menbdiscount=ret.DISCOUNT;
-    $("carno").innerHTML= ret.CARDNO;
-		$("c_viptype").innerHTML=this.c_viptype; 
-		$("vipname").innerHTML=ret.VIPNAME;
-		$("birthday").innerHTML=ret.BIRTHDAY;
-		$("v_phone").innerHTML=ret.MOBIL;	
-		$("sex").innerHTML=ret.SEX;	
-		$("v_c_store_name").innerHTML=ret.MARKNAME;
-		$("v_purchMoney").innerHTML=ret.TOT_AMT_ACTUAL;
-		$("v_useScore").innerHTML=ret.INTEGRAL;
-		//$("idno").innerHTML=ret.IDNO;	
-		$("v_date").innerHTML=ret.VALIDDATE;						
+		// $("carno").innerHTML= ret.CARDNO;
+		// $("c_viptype").innerHTML=this.c_viptype; 
+		// $("vipname").innerHTML=ret.VIPNAME;
+		// $("birthday").innerHTML=ret.BIRTHDAY;
+		// $("v_phone").innerHTML=ret.MOBIL;	
+		// $("sex").innerHTML=ret.SEX;	
+		// $("v_c_store_name").innerHTML=ret.MARKNAME;
+		// $("v_purchMoney").innerHTML=ret.TOT_AMT_ACTUAL;
+		// $("v_useScore").innerHTML=ret.INTEGRAL;
+		// $("idno").innerHTML=ret.IDNO;	
+		// $("v_date").innerHTML=ret.VALIDDATE;
+
+		$("carno").value= ret.CARDNO;
+		$("c_viptype").value=this.c_viptype; 
+		$("vipname").value=ret.VIPNAME;
+		$("birthday").value=ret.BIRTHDAY;
+		$("v_phone").value=ret.MOBIL;	
+		$("sex").value=ret.SEX;	
+		$("v_c_store_name").value=ret.MARKNAME;
+		$("v_purchMoney").value=ret.TOT_AMT_ACTUAL;
+		$("v_useScore").value=ret.INTEGRAL;
+		$("v_date").value=ret.VALIDDATE;
+		$("confirm").focus();
 	},
 	checkvip2:function(){
 		$("vipnum").innerHTML=this.cardno; 
@@ -534,7 +549,7 @@ BPOS.prototype={
 				
 		executeLoadedScript(ele); 
 		*/
-		    var options=$H({id:"art_dlg_vip",width:500,height:400,title:'vip录入',padding:0,resize:false,drag:true,lock:true,skin:'chrome',esc:true});
+		    var options=$H({id:"art_dlg_vip",width:500,height:"auto",title:'vip录入',padding:0,resize:false,drag:true,lock:true,skin:'chrome',esc:true});
 		    options.content=$("dlg_vip").innerHTML.replace(/TMP/g,"");
 		    art.dialog(options);
 		    
@@ -626,40 +641,77 @@ BPOS.prototype={
 	},	
 	   
 	changnumber:function(){
-     var obj,j=0;
-	 obj=document.getElementsByName("m_retail");
-     for(var i=0;i<obj.length;i++){
-      	if(obj[i].checked){
-      		j=j+1;
-     	}
-     }
+		var obj,j=0;
+		obj=document.getElementsByName("m_retail");
+		for(var i=0;i<obj.length;i++){
+			if(obj[i].checked){
+				j=j+1;
+			}
+		}
      	if(j==0){
      		alert("您还没有选中零售单！"); 
      	}else if(j>1){
      		alert("您选了多个选项");
      	}else{	 
-	 for(var i=0;i<obj.length;i++){
-	  	if(obj[i].checked){
-	  		/*
-	  	var ele = Alerts.fireMessageBox(
-				{
+			for(var i=0;i<obj.length;i++){
+				if(obj[i].checked){
+					/*
+					var ele = Alerts.fireMessageBox(
+					{
 					width: 400,
 					modal: true,
 					title: gMessageHolder.EDIT_MEASURE
-				});
-				ele.innerHTML= $("num").innerHTML.replace(/TMP/g,"");
-		executeLoadedScript(ele);
-		*/
-		var options=$H({id:"art_changnumber",width:400,height:'auto',title:'修改数量',padding:0,resize:false,drag:true,lock:true,skin:'chrome',esc:true});
-		options.content=$("num").innerHTML.replace(/TMP/g,"");
-		art.dialog(options);
-		$("retail_num").value=this.line[i].m_retail_qty;
-		$("retail_id").value=i;
-	    var retail_numx=$("retail_num");
-	    dwr.util.selectRange(retail_numx, 0,15);
-	  	}
- 	  }
- 	}
+					});
+					ele.innerHTML= $("num").innerHTML.replace(/TMP/g,"");
+					executeLoadedScript(ele);
+					*/
+					var options=$H({id:"art_changnumber",width:400,height:'auto',title:'修改数量',padding:0,resize:false,drag:true,lock:true,skin:'chrome',esc:true});
+					options.content=$("num").innerHTML.replace(/TMP/g,"");
+					art.dialog(options);
+					$("retail_num").value=this.line[i].m_retail_qty;
+					$("retail_id").value=i;
+					var retail_numx=$("retail_num");
+					dwr.util.selectRange(retail_numx, 0,15);
+				}
+			}
+		}
+	},
+	
+	changeprice:function(){
+		var obj,j=0;
+		obj=document.getElementsByName("m_retail");
+		for(var i=0;i<obj.length;i++){
+			if(obj[i].checked){
+				j=j+1;
+			}
+		}
+     	if(j==0){
+     		alert("您还没有选中零售单！"); 
+     	}else if(j>1){
+     		alert("您选了多个选项");
+     	}else{	 
+			for(var i=0;i<obj.length;i++){
+				if(obj[i].checked){
+					/*
+					var ele = Alerts.fireMessageBox(
+					{
+					width: 400,
+					modal: true,
+					title: gMessageHolder.EDIT_MEASURE
+					});
+					ele.innerHTML= $("num").innerHTML.replace(/TMP/g,"");
+					executeLoadedScript(ele);
+					*/
+					var options=$H({id:"art_changperice",width:400,height:'auto',title:'修改价格',padding:0,resize:false,drag:true,lock:true,skin:'chrome',esc:true});
+					options.content=$("changeprice").innerHTML.replace(/TMP/g,"");
+					art.dialog(options);
+					$("retail_pri").value=this.line[i].m_retail_price;
+					$("retail_ids").value=i;
+					var retail_numx=$("retail_pri");
+					dwr.util.selectRange(retail_numx, 0,15);
+				}
+			}
+		}
 	},
 	
     changnum:function(){
@@ -716,7 +768,57 @@ BPOS.prototype={
 	    var m_retail_idx=$("m_retail_idx");
 	    m_retail_idx.focus();
 	},
-	
+	changepir:function(){
+     	var i=$("retail_ids").value;
+     	var total=$("retail_pri").value;
+		total=Math.round(total*100)/100;
+		var oriTotal=this.line[i].m_retail_price;
+     	var mid=0;
+		var num=this.line[i].m_retail_qty;
+     	var flg;
+     	var m_retail_type = this.line[i].m_retail_type;
+     	if(!isNaN(total)){
+	     	if(m_retail_type=='1'){
+	     		flg = 0;
+	     	} else if(m_retail_type=='2'){
+	     		flg = 1;
+	     	}
+      }else{
+      	  flg = -1;
+      }
+      if(flg == -1){
+      	alert('输入必须为数字类型');
+     		return false;
+      }
+     	/*if(total<=0 || total>oriTotal){
+     		alert('当前修改价格必须在0~'+oriTotal+'之间！');
+     		return false;
+     	}*/ //paco delete 2014-02-28
+     	if(total!=oriTotal){
+			this.line[i].m_retail_price =total;
+			this.tot_payable=Math.round((this.tot_payable+total-oriTotal)*100)/100;
+			this.line[i].m_retail_priceactual=Math.round(total/num*100)/100;
+			this.line[i].m_retail_discount=Math.round(this.line[i].m_retail_priceactual/this.line[i].m_retail_pricelist*100)/100;
+			
+			mid =this.line[i].lineid;
+			$(mid+"_m_retail_discount").innerHTML=this.line[i].m_retail_discount;
+			$(mid+"_m_retail_priceactual").innerHTML=this.line[i].m_retail_priceactual;
+			$(mid+"_m_retail_price").innerHTML=total;	
+			//$("tot_num").innerHTML=this.tot_num; 
+			$("tot_payable").innerHTML=this.tot_payable;
+			//$("tot_amt").innerHTML=this.tot_amt; 
+     	}     	
+        //Alerts.killAlert($("num_content"));	
+        art.dialog.get("art_changperice").close();
+        var m_retail_idx=$("m_retail_idx");
+		    m_retail_idx.focus();
+    },
+	cancelpri:function(){ 
+		//Alerts.killAlert($("num_content"));
+		art.dialog.get("art_changperice").close();
+	    var m_retail_idx=$("m_retail_idx");
+	    m_retail_idx.focus();
+	},
 	changprice :function(){
 	var obj,j=0;
 	var k=0;
@@ -883,7 +985,7 @@ BPOS.prototype={
 	    $("currpay").value =this.tot_payable;
 	    $("unpaidnum").disabled="disabled";
 	    $("change").disabled="disabled";
-	    $("discription").disabled="disabled";
+	    //$("discription").disabled="disabled";
 	    $("empname").value=this.emp_name;
 	    $("empname").disabled="disabled";
 	     for(var i=0;i<this.pids.length;i++){
@@ -953,6 +1055,7 @@ BPOS.prototype={
 	payclose:function(){
 	  // Alerts.killAlert($("payment_content"));	 
 	   art.dialog.get('art_payment').close();
+	   this.payment=[];
 	   var m_retail_idx=$("m_retail_idx");
 	   m_retail_idx.focus(); 
 	},
@@ -1068,7 +1171,8 @@ BPOS.prototype={
 	     		$("currpay").disabled ="disabled";
 	     	}
 	    }	    	
-	   }  
+	   }
+		$("submitandprint").focus();
     }else{
      	this.temppayment =this.temppayment -parseFloat(num);
 		$("paidnum").value=this.tot_payable-this.temppayment;
