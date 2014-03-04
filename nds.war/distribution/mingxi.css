@@ -22,6 +22,7 @@
       width:100%;
       font-size:12px;
       line-height:normal;
+	  margin-bottom:-1px;
       }
 	  
     #mingxi-tabs ul {
@@ -38,18 +39,21 @@
 	  
     #mingxi-tabs a {
       float:left;
-      background:url("images/tableft10.gif") no-repeat left top;
+     
       margin:0;
       padding:0 0 0 4px;
       text-decoration:none;
       }
 	  
-    #mingxi-tabs a span {
+    #mingxi-tabs a span.nor {
       float:left;
       display:block;
-      background:url("images/tabright10.gif") no-repeat right top;
-      padding:5px 15px 4px 6px;
+      /*background:url("images/tabright10-se.gif") no-repeat right top;*/
+      padding:5px 15px 4px 14px;
       color:#FFF;
+	  background-color: #CEEB9F;
+		border-radius: 6px 6px 0 0;
+		/*box-shadow: -1px -1px 3px -1px #CEEB9F, 1px 0px 2px -1px #CEEB9F;*/
       }
 	  
     /* Commented Backslash Hack hides rule from IE5-Mac \*/
@@ -59,17 +63,34 @@
       color:#FFF;
       cursor:pointer;
       }
-	  
+	
+	#mingxi-tabs a span.cho{
+	border: 1px solid #cdec9c;
+	border-bottom: none;
+	border-radius: 6px 6px 0 0;
+	box-shadow: -1px -1px 3px -1px #CEEB9F, 1px 0px 2px -1px #CEEB9F;
+	float:left;
+    display:block;
+	/*background:url("images/tabright10-se.gif") no-repeat right top;*/
+	background-position:0px 0px;
+	padding:5px 15px 4px 14px;
+	color:#000000;
+	background-color: white;
+	}	
     #mingxi-tabs a:hover {
-      background-position:0% -42px;
+	//border:1px solid #000000;
+     // background-position:0% -42px;
       }
 	  
     #mingxi-tabs a:hover span {
-      background-position:100% -42px;
+		color:#000000;
+      background-position:0px 0px;
       }
 
     #mingxi-table{
-	border:1px solid #2763a5;
+	border:1px solid #cdec9c;
+	border-radius: 6px;
+	box-shadow: 0 0 0.25em #CEEB9F;
 	clear:both;
 	padding:20px;}
 	
@@ -91,10 +112,10 @@
 	width:120px;}
 	
 	.mingxi-search-right{
-	float:right;
+	float:left;
 	font:Arial, Helvetica, sans-serif 12px;
 	color:#000;
-	width:700px;
+
 	text-align:right;
 	padding-right:20px;}
 	
@@ -116,9 +137,9 @@
 	clear:both;}
 	
 	.mingxi-head  {
-	background:url(images/tablethbg.gif) repeat scroll 0 0 transparent;
-	border-bottom:1px solid #CCCCCC;
-	border-top:1px solid #FFFFFF;
+	background-color: #cdec9c;
+	
+	border: 1px solid #CFCFCF;
 	color:#000000;
 	font-weight:bold;
 	height:24px;
@@ -128,13 +149,21 @@
 	clear:both;
     }
 	
-	.mingxi-head div.span-1, .mingxi-head div.span-2, .mingxi-head div.span-3, .mingxi-head div.span-4, .mingxi-head div.span-5, .mingxi-head 		div.span-6, .mingxi-head div.span-7, .mingxi-head div.span-8, .mingxi-head div.span-9, .mingxi-head div.span-10, .mingxi-head div.span-11, .mingxi-head div.span-12 {
-	border-left:1px solid #FFFFFF;
+	.mingxi-head div.span-1, .mingxi-head div.span-2, .mingxi-head div.span-3, .mingxi-head div.span-4, .mingxi-head div.span-5, .mingxi-head 		div.span-6, .mingxi-head div.span-7, .mingxi-head div.span-8, .mingxi-head div.span-10, .mingxi-head div.span-11, .mingxi-head div.span-12 {
+	//border-left:1px solid #FFFFFF;
 	border-right:1px solid #DBE2E7;
 	margin:0;
 	padding:0 5px;
 	}
-
+	.ggrey{
+		background-color:#f8f8f8;
+	}
+	.mingxi-head div.span-9,{
+	//border-left:1px solid #FFFFFF;
+	border-right:none;
+	margin:0;
+	padding:0 5px;
+	}
 	div.span-1, div.span-2, div.span-3, div.span-4, div.span-5, div.span-6, div.span-7, div.span-8, div.span-9, div.span-10, div.span-11, div.span-12, div.span-13, div.span-14, div.span-15, div.span-16, div.span-17, div.span-18, div.span-19, div.span-20, div.span-21, div.span-22, div.span-23, div.span-24 {
 	float:left;
 	margin-right:10px;
@@ -151,7 +180,7 @@
 	
 	.span-3 {
 	width:125px;
-	color:#FF0000;
+	
 	}
 	
 	.span-4 {
@@ -194,9 +223,11 @@
 	overflow-x:hidden;
 	overflow-y:auto;
 	clear:both;
+	border: 1px solid #DDDDDD;
 	}
 	#fund-main  {
 	background:none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CFCFCF;
 	overflow-x:hidden;
 	overflow-y:auto;
 	clear:both;
@@ -209,8 +240,8 @@
 	}
 	
 	div.row  {
-	background-color:#F1F5FA;
-	border-bottom:1px solid #FFFFFF;
+	
+	
 	clear:both;
 	line-height:24px;
 	white-space:nowrap;
