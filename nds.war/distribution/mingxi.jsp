@@ -54,11 +54,24 @@ jQuery.noConflict();
 	jQuery(document).ready(function(){si.fundQuery(<%=m_allot_id%>);});
 	jQuery(document).ready(function(){si.showItem(<%=m_allot_id%>);});
 </script>
+<script language="javascript">
+	function onclickbun(choose){
+		var cus=document.getElementById("cus");
+		var pei=document.getElementById("pei");
+		if(choose=='cus'){
+			cus.className="cho";
+			pei.className="nor";
+		}else{
+			cus.className="nor";
+			pei.className="cho";
+		}
+	}
+</script>
 <div id="mingxi-container">
 	<div id="mingxi-tabs">
 	  <ul>
-	    <li><a onclick='jQuery("#custom-fand").show();jQuery("#dist-item").hide();'  title="客户金额"><span>客户金额</span></a></li>
-	    <li><a onclick='jQuery("#dist-item").show();jQuery("#custom-fand").hide();' title="配货明细"><span>配货明细</span></a></li>
+	    <li><a onclick='jQuery("#custom-fand").show();jQuery("#dist-item").hide();onclickbun("cus");'  title="客户金额"><span id="cus" class="cho">客户金额</span></a></li>
+	    <li><a onclick='jQuery("#dist-item").show();jQuery("#custom-fand").hide();onclickbun("nor");' title="配货明细"><span id="pei" class="nor">配货明细</span></a></li>
 	  </ul>
 	</div>
 	
@@ -105,7 +118,7 @@ jQuery.noConflict();
 		<div class="span-1">款号</div><div class="span-1">色号</div><div class="span-1">尺寸</div><div class="span-2">客户</div><div class="span-1">订单未配量</div><div class="span-11">是否未配</div>
 	</div>
 	
-	<div id="mingxi-main" class="main_content" style="height: 232px; width: 860px; visibility: visible; opacity: 1;">
+	<div id="mingxi-main" class="main_content" style="height: 232px; visibility: visible; opacity: 1;">
 	 </div>
 	</div>
 
@@ -116,11 +129,11 @@ jQuery.noConflict();
 -->
 <div id="custom-fand">
 <div class="mingxi-page">
-<div class="mingxi-head">
-<div class="span-8">经销商</div><div class="span-7">总标准金额</div><div class="span-7">总销售金额</div><div class="span-10">总数量</div>
+<div class="mingxi-head" style="width:784px;">
+<div class="span-8">经销商</div><div class="span-7">总标准金额</div><div class="span-7">总销售金额</div><div class="span-9">总数量</div>
 </div>
 
-<div id="fund-main" class="main_content" style="height: 232px; width: 800px; visibility: visible; opacity: 1;">
+<div id="fund-main" class="main_content" style="height: 232px; width: 783px; visibility: visible; opacity: 1;">
 </div>
 </div>
 </div>
