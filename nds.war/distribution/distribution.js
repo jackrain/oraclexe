@@ -251,6 +251,7 @@ DIST.prototype={
         this._executeCommandEvent(evt);
     },
     _onfundQuery:function(e){
+		var style;
         dwr.util.useLoadingMessage(gMessageHolder.LOADING);
         var data=e.getUserData();
         var ret=data.jsonResult.evalJSON();
@@ -270,15 +271,17 @@ DIST.prototype={
             var funditem=ret.data;
             if(this.checkIsArray(funditem)){
                 for(var i=0;i<funditem.length;i++){
+					if(i%2==1){style="style='background-color:#f8f8f8;'"}
+					else{style="style='background-color:white;'"}
                     fundStr+="<tr>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(i+1)+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.NAME||"")+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEEREMAIN||0)+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEECHECKED||0)+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEELTAKE||0)+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEECANTAKE||0)+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEEALLOT||0)+"</div></td>"+
-                             "<td bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEEREM||0)+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(i+1)+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.NAME||"")+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEEREMAIN||0)+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEECHECKED||0)+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEELTAKE||0)+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEECANTAKE||0)+"</div></td>"+
+                             "<td  "+style+"bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEEALLOT||0)+"</div></td>"+
+                             "<td "+style+" bgcolor=\"#8db6d9\" class=\"td-bg\"><div class=\"td-font\">"+(funditem[i].facusitem.FEEREM||0)+"</div></td>"+
                              " </tr>";
                 }
             }
@@ -299,6 +302,8 @@ DIST.prototype={
         $("fund_table1").innerHTML=fundStr;
     },
     showDetail:function(){
+		jQuery('#condition').css({"color":"black"});
+		jQuery('#searchorder').css({"color":"#4aa500"});
         $('Details').style.display='';$('Documents').style.display='none';
         $("tot-can").innerHTML="";
         $("tot-rem").innerHTML="";
@@ -315,6 +320,8 @@ DIST.prototype={
         jQuery("#ph-from-right-table").html("");
     },
     showDocuments:function(){
+		jQuery('#searchorder').css({"color":"black"});
+		jQuery('#condition').css({"color":"#4aa500"});
         $('Details').style.display='none';$('Documents').style.display='';
         $("tot-can").innerHTML="";
         $("tot-rem").innerHTML="";
@@ -355,6 +362,7 @@ DIST.prototype={
             $("commonNotes").value=ret.description||"";
 
             $("orderNotes").value=ret.notes||"";
+			$("column_41520").value=ret.searchord;
             $("column_41520_fd").value=ret.searchord;
         }else{
             $("notes").value=ret.notes||"";
@@ -387,8 +395,8 @@ DIST.prototype={
             this.manuStr+="\n<li><div class=\"txt-on\"  onclick='javascript:$(\"pdt-img\").src = \"/pdt/"+pdt[ii].M_PRODUCT_LIST+"_1_2.jpg\";" +
                           "$(\"ph-pic-img-txt\").innerHTML=\""+pdt[ii].xmlns+"<br/>"+pdt[ii].value+"\";" +
                           "dist.showContent1(\""+pdt[ii].xmlns+"\");" +
-                          "this.style.backgroundColor=\"#8db6d9\"; this.style.color=\"white\";'"+
-                          (ii==0?"  style='background:#8db6d9;color:white'":"")+">"+pdt[ii].xmlns+"</div></li>\n";
+                          "this.style.backgroundColor=\"rgb(209, 238, 156)\"; this.style.color=\"white\";'"+
+                          (ii==0?"  style='background:rgb(209, 238, 156);color:white'":"")+">"+pdt[ii].xmlns+"</div></li>\n";
             var itemColor=pdt[ii].color;
             if(!itemColor){
                 alert("此单据已失效！");
@@ -450,10 +458,10 @@ DIST.prototype={
                             if(con==0){
                                 var v0=0;
                                 this.docNoes.push(colorArr[p].stores[pp].docnos[ppp].no);
-                                item+="<td rowspan=\"4\" valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-bg\""+(ss=='FWD'?" style='color:blue;'":"")+">"+colorArr[p].stores[pp].docnos[ppp].no+"</td>"+
-                                      "<td rowspan=\"4\" valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-bg\""+(ss=='FWD'?" style='color:blue;'":"")+">"+this.forChangeType(colorArr[p].stores[pp].docnos[ppp].type)+"</td>"+
-                                      "<td rowspan=\"4\" valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-bg\""+(ss=='FWD'?" style='color:blue;'":"")+">"+this.forChangeDate(colorArr[p].stores[pp].docnos[ppp].date)+"</td>"+
-                                      "<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txt\""+(ss=='FWD'?" style='color:blue;'":"")+">配货</td>";
+                                item+="<td rowspan=\"4\" valign=\"top\" class=\"td-bg\">"+colorArr[p].stores[pp].docnos[ppp].no+"</td>"+
+                                      "<td rowspan=\"4\" valign=\"top\" class=\"td-bg\">"+this.forChangeType(colorArr[p].stores[pp].docnos[ppp].type)+"</td>"+
+                                      "<td rowspan=\"4\" valign=\"top\" class=\"td-bg\">"+this.forChangeDate(colorArr[p].stores[pp].docnos[ppp].date)+"</td>"+
+                                      "<td valign=\"top\" class=\"td-right-txt\">配货</td>";
                                 for(var w=0;w<colorArr[p].stores[pp].docnos[ppp].tag.size.length;w++){
                                     var itemMetrixTr=colorArr[p].stores[pp].docnos[ppp].tag.can[w];
                                     var barCode=colorArr[p].stores[pp].docnos[ppp].tag.barCode[w];
@@ -466,50 +474,50 @@ DIST.prototype={
                                     qtyRem=isNaN(qtyRem)?0:qtyRem;
                                     v0+=qtyAl;
                                     //edit by Robin 2010.5.7 在配货的input中增加属性：barCode,sty,docNo,store。。。
-                                    item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-bg\""+(itemMetrixTr=='non'?" style=\"background-color:#eeeeee\"":"")+">"+(itemMetrixTr!='non'?"<input id='"+pdt[ii].xmlns+"-"+this.get_cell_x_index(w)+"-"+(style_y_length-1)+"' x-index='"+this.get_cell_x_index(w)+"' y-index='"+(style_y_length-1)+"' qtyCan='"+qtyCan+"' qtyRem='"+qtyRem+"' qtyDest='"+qtyDest+"' title='"+barCode+"' barCode='"+barCode+"' color=\""+colorArr[p].name+"\"  size=\""+colorArr[p].stores[pp].docnos[ppp].tag.size[w]+"\" docNo=\""+docno+"\" store=\""+colorArr[p].stores[pp].name+"\" sty=\""+pdt[ii].xmlns+"\" name=\""+docno+"\" type=\"text\" docType='"+ss+"' class=\"td-txt-input\" value=\""+(qtyAl==0?'':qtyAl)+"\"/>":"")+"</td>";
+                                    item+="<td valign=\"top\" class=\"td-bg\""+(itemMetrixTr=='non'?" style=\"background-color:#ffffff\"":"")+">"+(itemMetrixTr!='non'?"<input id='"+pdt[ii].xmlns+"-"+this.get_cell_x_index(w)+"-"+(style_y_length-1)+"' x-index='"+this.get_cell_x_index(w)+"' y-index='"+(style_y_length-1)+"' qtyCan='"+qtyCan+"' qtyRem='"+qtyRem+"' qtyDest='"+qtyDest+"' title='"+barCode+"' barCode='"+barCode+"' color=\""+colorArr[p].name+"\"  size=\""+colorArr[p].stores[pp].docnos[ppp].tag.size[w]+"\" docNo=\""+docno+"\" store=\""+colorArr[p].stores[pp].name+"\" sty=\""+pdt[ii].xmlns+"\" name=\""+docno+"\" type=\"text\" docType='"+ss+"' class=\"td-txt-input\" value=\""+(qtyAl==0?'':qtyAl)+"\"/>":"")+"</td>";
                                 }
-                                item+="<td id='"+(colorArr[p].name+docno+colorArr[p].stores[pp].name)+"' valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\">"+v0+"</td>";
+                                item+="<td id='"+(colorArr[p].name+docno+colorArr[p].stores[pp].name)+"' valign=\"top\" class=\"td-right-txtW\">"+v0+"</td>";
                             }
                             if(con==1){
                                 var v1=0;
-                                item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txt\""+(ss=='FWD'?" style='color:blue;'":"")+">可用库存</td>";
+                                item+="<td style=\"background-color:#f8f8f8;\" valign=\"top\" class=\"td-right-txt\" bgcolor='#ccc'>可用库存</td>";
                                 for(var w=0;w<colorArr[p].stores[pp].docnos[ppp].tag.size.length;w++){
                                     var itemMetrixTr=colorArr[p].stores[pp].docnos[ppp].tag.can[w];
                                     var barCode=colorArr[p].stores[pp].docnos[ppp].tag.barCode[w];
                                     v1+=isNaN(parseInt(itemMetrixTr,10))?0:parseInt(itemMetrixTr,10);
-                                    item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtK\""+(itemMetrixTr=='non'?" style=\"background-color:#eeeeee\"":" name='"+barCode+"' title='"+itemMetrixTr+"' docType='"+ss+"'")+">"+(itemMetrixTr!='non'?itemMetrixTr:"")+"</td>";
+                                    item+="<td style=\"background-color:#f8f8f8;\" valign=\"top\" bgcolor='#ccc' class=\"td-right-txtK\""+(itemMetrixTr=='non'?" style=\"background-color:#ffffff\"":" name='"+barCode+"' title='"+itemMetrixTr+"' docType='"+ss+"'")+">"+(itemMetrixTr!='non'?itemMetrixTr:"")+"</td>";
                                 }
-                                item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\">"+v1+"</td>";
+                                item+="<td style=\"background-color:#f8f8f8;\" valign=\"top\" bgcolor='#ccc' class=\"td-right-txtW\">"+v1+"</td>";
                             }
                             if(con==2){
                                 var v2=0;
-                                item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txt\""+(ss=='FWD'?" style='color:blue;'":"")+">订单余量</td>";
+                                item+="<td valign=\"top\" class=\"td-right-txt\">订单余量</td>";
                                 for(var w=0;w<colorArr[p].stores[pp].docnos[ppp].tag.size.length;w++){
                                     var itemMetrixTr=colorArr[p].stores[pp].docnos[ppp].tag.rem[w];
                                     var docno=colorArr[p].stores[pp].docnos[ppp].no;
                                     var barCode=colorArr[p].stores[pp].docnos[ppp].tag.barCode[w];
                                     v2+=isNaN(parseInt(itemMetrixTr,10))?0:parseInt(itemMetrixTr,10);
-                                    item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\""+(itemMetrixTr=='non'?" style=\"background-color:#eeeeee\"":" id='"+(docno+barCode)+"-rem' docType='"+ss+"'")+">"+(itemMetrixTr!='non'?itemMetrixTr:"")+"</td>";
+                                    item+="<td valign=\"top\" class=\"td-right-txtW\""+(itemMetrixTr=='non'?" style=\"background-color:#ffffff\"":" id='"+(docno+barCode)+"-rem' docType='"+ss+"'")+">"+(itemMetrixTr!='non'?itemMetrixTr:"")+"</td>";
                                 }
-                                item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\">"+v2+"</td>";
+                                item+="<td valign=\"top\" class=\"td-right-txtW\">"+v2+"</td>";
                             }
                             if(con==3){
                                 var v3=0;
-                                item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txt\""+(ss=='FWD'?" style='color:blue;'":"")+">订单数量</td>";
+                                item+="<td style=\"background-color:#f8f8f8;\" valign=\"top\" bgcolor='#ccc' class=\"td-right-txt\">订单数量</td>";
                                 for(var w=0;w<colorArr[p].stores[pp].docnos[ppp].tag.size.length;w++){
                                     var        	
  itemMetrixTr=colorArr[p].stores[pp].docnos[ppp].tag.dest[w];
                                     v3+=isNaN(parseInt(itemMetrixTr,10))?0:parseInt(itemMetrixTr,10);
-                                    item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtD\""+(itemMetrixTr=='non'?" style=\"background-color:#eeeeee\"":" docType='"+ss+"'")+">"+(itemMetrixTr!='non'?itemMetrixTr:"")+"</td>";
+                                    item+="<td style=\"background-color:#f8f8f8;\" valign=\"top\" bgcolor='#ccc' class=\"td-right-txtD\""+(itemMetrixTr=='non'?" style=\"background-color:#ffffff\"":" docType='"+ss+"'")+">"+(itemMetrixTr!='non'?itemMetrixTr:"")+"</td>";
                                 }
-                                item+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\">"+v3+"</td>";
+                                item+="<td style=\"background-color:#f8f8f8;\" valign=\"top\" bgcolor='#ccc' class=\"td-right-txtW\">"+v3+"</td>";
                             }
                             item+="</tr>";
                         }
                     }
                 }
             }
-            this.itemStr+="<table id='"+pdt[ii].xmlns+ "' x-length='"+style_x_length+"' y-length='"+style_y_length+"' title=\""+ptotCan+":"+ptotRem+"\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\"  bgcolor=\"#8db6d9\""+(ii!=0?" style='display:none;table-layout:fixed'":" style='table-layout:fixed'")+">\n";
+            this.itemStr+="<table id='"+pdt[ii].xmlns+ "' x-length='"+style_x_length+"' y-length='"+style_y_length+"' title=\""+ptotCan+":"+ptotRem+"\" border=\"0\" cellpadding=\"0\" cellspacing=\"1\"  bgcolor=\"#ccc\""+(ii!=0?" style='display:none;table-layout:fixed'":" style='table-layout:fixed'")+">\n";
             this.itemStr+=this.forTableShowStyle(tagLen)+"<tr>"+
                           "<td bgcolor=\"#FFFFFF\" class=\"td-left-title\">色号</td>"+
                           "<td bgcolor=\"#FFFFFF\" class=\"td-left-title\">店仓</td>" +
@@ -521,17 +529,17 @@ DIST.prototype={
             Edit by Robin 2010.5.10 新增列合计及总款合计
             */
             var tot_qty_al_for_col="<tr>"+
-                    "<td bgcolor=\"#FFFFFA\" class=\"td-left-title\" colspan=\"6\">款已配量合计</td>";
+                    "<td bgcolor=\"#FFFFFA\" class=\"td-left-title-se\" colspan=\"6\">款已配量合计</td>";
             var tot_for_style=0;
             for(var e=0;e<sizeArr.length;e++){
-                this.itemStr+="<td width='65' bgcolor=\"#B6D0E7\" class=\"td-right-title\">"+sizeArr[e]+"</td>";
+                this.itemStr+="<td width='65' class=\"td-right-title\">"+sizeArr[e]+"</td>";
                 var col_tot= this.getTotQtyAlCol(sizeArr[e],pdt[ii].xmlns);
-                tot_qty_al_for_col+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\" ID='"+pdt[ii].xmlns+sizeArr[e]+"'>"+col_tot+"</td>";
+                tot_qty_al_for_col+="<td valign=\"top\" class=\"td-right-txtW\" ID='"+pdt[ii].xmlns+sizeArr[e]+"'>"+col_tot+"</td>";
                 tot_for_style+=col_tot;                
             }
-            tot_qty_al_for_col+="<td valign=\"top\" bgcolor=\"#8db6d9\" class=\"td-right-txtW\" ID='style-"+pdt[ii].xmlns+"'>"+tot_for_style+"</td>"+
+            tot_qty_al_for_col+="<td valign=\"top\" class=\"td-right-txtW\" ID='style-"+pdt[ii].xmlns+"'>"+tot_for_style+"</td>"+
                                 "</tr>";
-            this.itemStr+="<td bgcolor=\"#B6D0E7\" class=\"td-right-title\">合计</td>";
+            this.itemStr+="<td class=\"td-right-title\">合计</td>";
             this.itemStr+="</tr>";
             this.itemStr+=item;
             this.itemStr+=tot_qty_al_for_col;
@@ -1505,8 +1513,8 @@ DIST.prototype={
 								manuStr+="\n<li><div class=\"txt-on\"  onclick='javascript:$(\"pdt-img\").src = \"/pdt/"+pdts[j].M_PRODUCT_LIST+"_1_2.jpg\";" +
 			                              "$(\"ph-pic-img-txt\").innerHTML=\""+pdts[j].name+"<br/>"+pdts[j].value+"\";" +
 			                              "dist.showContent1(\""+pdts[j].name+"\");" +
-			                              "this.style.backgroundColor=\"#8db6d9\"; this.style.color=\"white\";'"+
-			                              (j==0?"  style='background:#8db6d9'":"")+">"+pdts[j].name+"</div></li>\n";
+			                              "this.style.backgroundColor=\"#d1ee9c\"; this.style.color=\"white\";'"+
+			                              (j==0?"  style='background:#d1ee9c'":"")+">"+pdts[j].name+"</div></li>\n";
 							}
 							$("category_manu").innerHTML=manuStr;
 					}
