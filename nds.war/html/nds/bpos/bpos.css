@@ -12,7 +12,7 @@ body{
 #objtb22{
 	PADDING: 0px;
 	border:1px #fff solid;
-	width:953px;
+	/*width:953px;*/
 	margin:0px;
 }
 .linear-green{
@@ -20,15 +20,16 @@ body{
   font-weight: 600;
   border-radius: 5px;
   background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #eff7e3), color-stop(0.5, #d8eabb), color-stop(0.51, #c4e09d), color-stop(1, #dfeec7))!important;
-}
+	cursor: pointer;
+  }
 #from_top{
 	MARGIN-RIGHT: auto;
 	MARGIN-LEFT: auto;
 	PADDING: 0px;
 	text-align:center;
 	height:45px;
-	width:953px;
-	/*background: scroll url(images/head_bg.gif) repeat;*/
+	/*width:953px;
+	background: scroll url(images/head_bg.gif) repeat;*/
 	}
 
 #from_top_left{
@@ -93,7 +94,7 @@ body{
 }
 
 #embed-items{
-    width:833px;
+    /*width:833px;*/
     MARGIN-RIGHT: 0px;
 	MARGIN-LEFT: 0px;
     padding:0px;
@@ -213,14 +214,14 @@ div.obj div.desc-txt{
 }
 .ui-tabs-nav li {
     float: left;
-    margin: 0 0 0 1px;
+    margin: 0 0 0 20px;
     min-width: 100px; /* be nice to Opera */
 }
 .ui-tabs-nav a, .ui-tabs-nav a span {
     display: block;
     padding: 0 10px;
-    background: url(images/tab.png) no-repeat;
-    background: url(images/tab.gif) no-repeat;
+    background: url(images/tab1.png) no-repeat;
+    /*background: url(images/tab.gif) no-repeat;*/
 }
 .ui-tabs-nav a {
     margin: 1px 0 0; /* position: relative makes opacity fail for disabled tab in IE */
@@ -247,7 +248,7 @@ div.obj div.desc-txt{
     min-width: 100px;
     height: 18px; /* IE 6 treats height as min-height */
     min-height: 0px;
-    padding-top: 6px;
+    padding-top: 5px;
     padding-right: 0;
 }
 *>.ui-tabs-nav a span { /* hide from IE 6 */
@@ -364,10 +365,13 @@ div.obj div.desc-txt{
 .qinput{
 	 border:1px solid #476388;
 	 color:#333;
-	 background: #e0e0e0 url(images/button_bg.gif) repeat;
+	 /*background: #e0e0e0 url(images/button_bg.gif) repeat;*/
 	 height: 22px;
+	 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eff7e3), color-stop(0.5, #d8eabb), color-stop(0.51, #c4e09d), color-stop(1, #dfeec7))!important;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight:600;
 }
-
 #treatment_td{
 
     height:40px;
@@ -415,4 +419,20 @@ color:#ff0000;
 }
 td.desc{
 	background-color:;
+}
+#pay td {
+	padding-bottom: 3px;
+}
+#discription {
+	width: 251px;
+	height: 45px;
+	margin-top: 17px;
+	border: 1px solid #ccc;
+	margin-left: 6px;
+}
+#paybuttons tr,#vipmessage tr{
+vertical-align: top;
+}
+#vipmessage td{
+	font-size:13px;
 }
