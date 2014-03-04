@@ -36,8 +36,61 @@ if(eid == null || eid.equals("null")){
 <script language="javascript" src="/html/nds/bpos/bxl.js"></script>
 <script language="javascript" src="/html/nds/bpos/jsm.js"></script>
 <script language="javascript" src="/html/nds/bpos/strategy.js"></script>
+<link href="reset.css" rel="stylesheet" type="text/css" />
 <link href="bpos.css" rel="stylesheet" type="text/css" />
-<script>     
+
+<script>
+function getFocus(o){
+	if(o&&o.value){
+		jQuery(o).select();
+		dwr.util.selectRange(o, 0,o.value.length);
+		$("FOCUS").value=o.value.length;
+	}
+}
+document.onkeydown = function(){
+	//f6
+	if(window.event && window.event.keyCode == 117) { 
+		event.stopPropagation();
+		bpos.changeprice();
+		return false;
+	}
+	//f7
+	else if(window.event && window.event.keyCode == 118) { 
+		event.stopPropagation();
+		bpos.repeatPrint();
+		return false;
+	}
+	//f8
+	else if(window.event && window.event.keyCode == 119) { 
+		event.stopPropagation();
+		bpos.deleteline();
+		return false;
+	}
+	//f9
+	else if(window.event && window.event.keyCode == 120) { 
+		event.stopPropagation();
+		bpos.changeretailtype();
+		return false;
+	}
+	//f10
+	else if(window.event && window.event.keyCode == 121) { 
+		event.stopPropagation();
+		bpos.changnumber();
+		return false;
+	}
+ 	//f11
+	else if(window.event && window.event.keyCode == 122) { 
+		event.stopPropagation();
+		bpos.new_order();
+		return false;
+	}
+	//f12
+	else if(window.event && window.event.keyCode == 123) { 
+		event.stopPropagation();
+		bpos.discount();
+		return false;
+	}
+}
 	function check1(){	
 			if(document.getElementById("vip").value==""){ 
 				alert("请输入vip卡号！");
@@ -146,6 +199,14 @@ function onReturnnum(event){
   }
 }
 
+function onReturnprice(event){
+  if (!event) event = window.event;
+  if (event && event.keyCode && event.keyCode == 13)
+  {
+  	 bpos.changepir();
+  }
+}
+
 function onReturnretailprice1(event){
   if (!event) event = window.event;
   if (event && event.keyCode && event.keyCode == 13)
@@ -212,6 +273,97 @@ function getFullYear(d){//d is a date object
  }
 
   </script>
+<style>
+	#container{
+		margin-left: 15px; margin-right: 8px;
+		padding-bottom: 15px;
+	}
+	#header{
+		padding: 12px 0;
+	}
+	#header .title{
+		color: #232323; font-size: 18px; line-height: 18px;
+	}
+	#header .timer b{
+		padding-left: 12px;
+		color: #4aa500;
+	}
+	#side{
+		width: 80px;
+		margin: 0 10px 0 0;
+	}
+	.button{
+		height: 70px; line-height: 70px;
+		margin-bottom: 13px;
+		color: #34581d; font-weight: 600; text-align: center;
+		border-radius: 4px;
+		border: 1px solid #a1bd7c;
+		background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, rgb(239, 247, 227)), color-stop(0.5, rgb(216, 234, 187)), color-stop(0.51, rgb(196, 224, 157)), color-stop(1, rgb(223, 238, 199)));
+	}
+	.button.active{
+		border-color: #f90;
+	}
+	#wrap{
+	}
+	#wrap .detail{ 
+		/*height: 100px;*/
+		font-weight: 600;
+		background-color: #f3f3f3;
+	}
+	#wrap .detail .left{
+		margin: 0 0 0 22px;
+	}
+	#wrap .detail td{
+		padding-top: 10px;
+	}
+	#wrap .detail tr:first-child td{
+		padding-bottom: 5px; padding-top: 0;
+	}
+	#wrap .detail .right{
+		font-size: 36px; line-height: 79px; text-align: center;
+	}
+	#wrap .detail .right b{
+		color: #ff5a00; font-size: 48px;
+	}
+	#list{
+		/*border: 1px solid #bebebe;*/
+		border-radius: 4px;
+	}
+	#list tr{
+		height: 24px;
+	}
+	#list thead tr:first-child{
+		background-color: #d1ed9f;
+	}
+	#list tbody tr:nth-child(even){
+		background-color: #f5f4f4;
+	}
+	#input_item{
+		height: 36px;line-height: 36px;
+		margin-top: 20px;
+		/*font-weight: 600;*/
+		background-color: #f3f3f3;
+	}
+	#input_item input{
+		width: 104px;
+		border: 1px solid #ccc;
+	}
+	.flex {
+	display: flex;
+	}
+	.mb10, .mtb10 {
+	margin-bottom: 10px;
+	}
+	.tc {
+	text-align: center;
+	}
+	.w100p, .wh100p {
+	width: 100%;
+	}
+	#q_search_condition .left table td {
+	padding-bottom: 3px;
+}
+</style>
 </head>
 <body id="obj-body" style="">
 <iframe id="print_iframe" name="print_iframe" width="1" height="1" src="/html/common/null.html"></iframe>
@@ -265,7 +417,7 @@ function getFullYear(d)
 
   document.write("<table align=\"center\">");
 
-  document.write("<TR><TD style=font-weight:600; font-size:14px;>"+getFullYear(today)+"年"+isnMonths[today.getMonth()]+""+today.getDate()+"日 "+isnDays[today.getDay()]+"</TD></TR>");
+  document.write("<TR><TD style=font-weight:600; font-size:14px;>"+getFullYear(today)+"年"+isnMonths[today.getMonth()]+""+today.getDate()+"日 <b style='color: #62b205;'>"+isnDays[today.getDay()]+"</b></TD></TR>");
 
 document.write("</table>");
 
@@ -273,69 +425,57 @@ document.write("</table>");
 </SCRIPT></div></div></div>
 </div>
 
-		 <div>
-		 	<table align="left" width="100px;" border="0" cellpadding="5" cellspacing="5" style="height:540px; background:#fff">
-		 		<tr><td><input class="linear-green" id="paybutton" name="Submit24" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="付款F12"  onclick="javascript:bpos.discount();"/></td></tr>
+	<div>
+		<table id="paybuttons" align="left" width="100px;" border="0" cellpadding="5" cellspacing="5" style="height:540px; background:#fff">
+		 	<tr><td><input class="linear-green" id="paybutton" name="Submit24" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="付款F12"  onclick="javascript:bpos.discount();"/></td></tr>
 	    	<tr><td><input class="linear-green" id="addnewbutton" name="Submit2" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="开新单F11" onclick="javascript:bpos.new_order();"/></td></tr>
 	    	<tr><td><input class="linear-green" id="modinumbutton" name="Submit26" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="改数量F10" onclick="javascript:bpos.changnumber();"/></td></tr>
 	    	<tr><td><input class="linear-green" id="modistatebutton" name="Submit23" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="改状态F9" onclick="javascript:bpos.changeretailtype();"/></td></tr>
 	    	<tr><td><input class="linear-green" id="deletebutton" name="Submit212" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="删除F8"  onclick="javascript:bpos.deleteline();"/></td></tr>
-	   	  <tr><td><input class="linear-green" id="reprintbutton" name="Submit25" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="重复打印F7" onclick="javascript:bpos.repeatPrint();"/></td></tr>
+			<tr><td><input class="linear-green" id="reprintbutton" name="Submit25" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="重复打印F7" onclick="javascript:bpos.repeatPrint();"/></td></tr>
+				   	  <tr><td><input class="linear-green" id="reprintbutton" name="Submit25" type="button" style="background:rgb(218, 227, 234);width:80px;height:70px;" value="修改价格F6" onclick="javascript:bpos.changeprice();"/></td></tr>
      	</table>
    	</div>
-   	
-   	<div style="background:#eee; width:933px;">
-   	<div style="float:left;margin-left:10px;width:40%;height:120px;">
-     <div style="font-size:40px;height:76%;float:left; padding-top:8px">应收:</div>
-     <div style="font-size:40px;height:74%;font-weight:bold; color:#d05013; padding-top:8px" id="tot_payable">0.00</div>
-     <div>
-     	 <div class="desc-txt" style="float:left;font-size:15px;">VIP号:</div>
-       <span id="vipnum" class="value" style="width:120px;float:left;font-weight:600; font-size:14px; color:#6b9e52">&nbsp;</span>
-       <div class="desc-txt" style="margin: 0px 0px 7px 33px;
-text-align: right;float:left;font-size:15px;">卡类型: 
-<!-- <select name="" style="height:24px;">
-		<option value="123"></option>
-	</select> -->	</div>
-       <span id="viptype1" class="value" style="width:120px;float:left;font-weight:600; font-size:14px; color:#6b9e52">&nbsp;</span>
-     </div>
-     
-    </div> 
-		 <div style="margin-left:55%;height:120px;">
-		 		<div style="padding-top:8px">
-		 			<div style="width:50%;float:left;font-size:18px">
-		 			   单据日期：<span id="sys_date" style="width:60px;font-size:18px"></span>
-          </div>
-		 			<span><div style="float:left;font-size:18px">POS机号：</div><div style="width:100px;float:left;font-size:18px"><%=posno%></div></span>
-		 		</div>
-		 		<br/>
-		 		<div style="margin-top:20px;">
-		 			<div style="float:left;font-size:18px">小票编号：</div><div id="ticketNo" style="float:left;font-size:18px"></div>
-		 		</div>
-		 		<br/>
-		 		<br/>
-		 		<div style="margin-top:20px;">
-		 			<div style="float:left;width:60%;text-align:right;font-size:18px">当日成交笔数:</div>
-		 			<div id="dealNum" style="float:left;text-align:center;font-size:18px"></div>
-			 	</div>
-     </div>
-   </div>
-   
-    <div style="margin-top:10px;margin-left:110px;border:1px solid #666);height:360px;overflow-y:auto;">
-		 	
-		 <div id="embed-items" class="listbody" style="height:100%;"><%@ include file="/html/nds/bpos/inc_list.jsp" %></div></div><div id="input_item" style="margin-top:10px;margin-left:110px;background:#d1ed9f;height:30px;padding-top:4px"> 
-		 	<span style="width:17%;"><div style="float:left;padding: 0 3px 0 20px;font-size:14px;">状态:</div>
-		 		<div class="desc-txt" style="float:left;">
-        	<select name="select" id="m_retailtype" name="m_retailtype">
-      <option value="1" selected="selected">正常</option>
-      <option value="2">退货</option>
-    </select></div>
-    	</span>
-		 	<span style="width:8%;"><font color="#000" style="font-size:15px;">收银员:</font></span><span><input id="emp_name" value="<%=empid%>" style="width:10%;border:1px solid #666;" disabled /></span>
-		 	<span style="width:6%;"><font color="#000" style="font-size:15px;">商品:</font></span><span><input id="m_retail_idx" style="width:15%;border:1px solid #666;"/></span>
-		 	<span style="width:6%;"><font color="#000" style="font-size:15px;">数量:</font></span><span><input id="number" style="width:10%;border:1px solid #666;"/></span>
-		 	<span style="width:6%;"><font color="#000" style="font-size:15px;">价格:</font></span><span><input id="price" style="width:15%;border:1px solid #ccc;"/></span>
-		 </div>
-	
+   	<div id="wrap" class="flex flex1 flex-column">
+		<div class="flex detail mb10">
+			<div class="left self-cen">
+				<table id="vipmessage">
+					<tr>
+						<td width="234" style="font-weight: 600;">VIP号：<span id="vipnum" style="color: #62b205;font-size: 15;"></span></td>
+						<td>卡类型：
+							<span id="viptype1">&nbsp;</span>
+						</td>
+					</tr>
+					<tr>
+						<td>单据日期：<span id="sys_date"></span></td>
+						<td>POS机号：<span><%=posno%></span></td>
+					</tr>
+					<tr>
+						<td>小票编号：<span id="ticketNo" ></span></td>
+						<td>当日成交笔数：<span id="dealNum"></span></td>
+					</tr>
+				</table>
+			</div>
+			<div class="right flex1">
+				应收：<b id="tot_payable"></b> 元
+			</div>
+		</div>
+	   
+		<div id="list">
+			<div id="embed-items" class="listbody" style="overflow-y: auto;max-height: 360px;min-height:360px;"><%@ include file="/html/nds/bpos/inc_list.jsp" %></div>
+		</div>
+		<div id="input_item"> 
+			<span style="width:17%;font-size:13px;">状态:</span>
+			<select name="select" id="m_retailtype" name="m_retailtype" style="height: 21px;">
+				<option value="1" selected="selected">正常</option>
+				<option value="2">退货</option>
+			</select>
+			<span style="width:8%;"><font color="#000" style="font-size:13px;">收银员:</font></span><span><input id="emp_name" value="<%=empid%>" style="width:10%;border:1px solid #666;height: 21px;" disabled /></span>
+			<span style="width:6%;"><font color="#000" style="font-size:13px;">商品:</font></span><span><input id="m_retail_idx" style="width:15%;border:1px solid #666;height: 21px;"/></span>
+			<span style="width:6%;"><font color="#000" style="font-size:13px;">数量:</font></span><span><input id="number" style="width:10%;border:1px solid #666;height: 21px;" value="1"/></span>
+			<span style="width:6%;display:none;"><font color="#000" style="font-size:13px;">价格:</font></span><span style="display:none;"><input id="price" style="width:15%;border:1px solid #ccc;height: 21px;" value="1"/></span>
+		</div>
+	</div>
    
 </div>
 </form>
@@ -348,7 +488,10 @@ text-align: right;float:left;font-size:15px;">卡类型:
 </div>
 <div id="num" style="display:none">
 	<%@ include file="/html/nds/bpos/inc_num.jsp" %>
-</div>	
+</div>
+<div id="changeprice" style="display:none;">
+	<%@ include file="/html/nds/bpos/inc_price.jsp" %>
+</div>
 <div id="dlg_vip" style="display:none">
 	<%@ include file="/html/nds/bpos/vip_new.jsp" %>
 </div>	
@@ -363,8 +506,8 @@ text-align: right;float:left;font-size:15px;">卡类型:
 </div>
 </body>
 <script>
-jQuery(document).ready(function(){
- document.getElementById('number').focus();
-});
+// jQuery(document).ready(function(){
+	// document.getElementById('number').focus();
+// });
 </script>
 </html>
