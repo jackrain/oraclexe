@@ -172,9 +172,9 @@ boolean quickSave=Tools.getYesNo(userWeb.getUserOption("QUICKSAVE","Y"),true);
 %>
 	<td align="left">
 		<input type="checkbox" id="quick_save" name="quick_save" <%=(quickSave?"checked":"")%>><%=PortletUtils.getMessage(pageContext, "quick-save",null)%> &nbsp;&nbsp;
-		<input class="cbutton" type="button" accesskey="L" value="<%=PortletUtils.getMessage(pageContext, "command.ok",null)%>(L)"  onclick="javascript:doSaveLine()">
+		<input class="cbutton" type="button" accesskey="L" value="<%=PortletUtils.getMessage(pageContext, "command.ok",null)%>"  onclick="javascript:doSaveLine()">
 	<%if(table.isActionEnabled(Table.DELETE)){%>
-	&nbsp;&nbsp;&nbsp;<%=commandFactory.newButtonInstance("DeleteLine", PortletUtils.getMessage(pageContext, "command.deleteline",null),"doDeleteLine()", "E").toHTML()%>
+	&nbsp;&nbsp;&nbsp;<%=commandFactory.newButtonInstance("DeleteLine", PortletUtils.getMessage(pageContext, "command.deleteline",null),"doDeleteLine()").toHTML()%>
 	<%}%>
 	 <%/*<input type="hidden" id="c_store_product_id" name="c_store_product_id" value="">
 	 <input type="hidden" id="c_store_product_data" name="c_store_product_data" value="">
