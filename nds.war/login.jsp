@@ -1,5 +1,6 @@
 <%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
 <%@ include file="/html/portal/init.jsp" %>
+
 <%
 com.liferay.portal.util.CookieKeys.addSupportCookie(response);
 %>
