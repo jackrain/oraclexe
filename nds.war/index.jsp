@@ -2,6 +2,7 @@
 <%@ include file="/html/nds/common/init.jsp" %> 
 <%@ include file="/html/portal/init.jsp" %>
 <%
+
   Configurations conf= (Configurations)WebUtils.getServletContextManager().getActor(nds.util.WebKeys.CONFIGURATIONS);
    String defaultClientWebDomain=conf.getProperty("webclient.default.webdomain");
    int defaultClientID= Tools.getInt(conf.getProperty("webclient.default.clientid"), 37);
